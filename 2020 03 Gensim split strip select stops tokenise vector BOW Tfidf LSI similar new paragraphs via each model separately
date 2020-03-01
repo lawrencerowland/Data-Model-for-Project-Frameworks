@@ -1,0 +1,772 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 71
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 605,
+     "status": "ok",
+     "timestamp": 1568656508400,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "xSF_UbEI948R",
+    "outputId": "7d427677-28a3-4fcf-910d-51c0bbffb3c6"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " HAROLD MARCH, the rising reviewer and social critic, was walking vigorously across a great tableland of moors and commons, the horizon of which was fringed with the far-off woods of the famous estate of Torwood Park. \n",
+      " A special program at the planetarium on the campus of nearby Butler University was the Barnetts’ turning point. A rapt Jake stunned the audience with an astute question about Mars’ moons, and on the drive home, couldn’t stop talking about the solar system. Jake “hadn’t been missing after all,” she realized, just because he was unreachable. Unhindered, he had been busy working: His repetitive behavior, much as some autism researchers have speculated, reflected detail-oriented \n"
+     ]
+    }
+   ],
+   "source": [
+    "file=open(\"2019_08_Marvin1_without_labels_or_heading_orwidgets.txt\")\n",
+    "dataset=file.read()\n",
+    "print (dataset[0:700])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "colab": {},
+    "colab_type": "code",
+    "id": "Mhd0ihUkB8_v"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ultimately, feelings can annoy us or delight us, but that is not what they are for. Feelings are for life regulation, providers \n",
+      "1041\n"
+     ]
+    }
+   ],
+   "source": [
+    "documents=dataset.split('\\n') #have been trying \\t  with less success\n",
+    "print (documents[10])\n",
+    "print(len(documents))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The ideas behind Peircean pragmatism are how to think about signs and representations (semiosis); logically reason and handle new knowledge (abduction) and probabilities (induction); make economic research choices (pragmatic maxim\n"
+     ]
+    }
+   ],
+   "source": [
+    "#i can use this to test a particular strip on 1 paragraph before applying it to all\n",
+    "documents[1000].strip('\\n')\n",
+    "print (documents[1000])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "colab": {},
+    "colab_type": "code",
+    "id": "Ex3boSa0VlpR"
+   },
+   "outputs": [],
+   "source": [
+    "#my first ever bit of for and iffing in python, built incrementally using print!\n",
+    "#dont think I need this if I am looking at my kindle\n",
+    "for doc in documents:\n",
+    "  if len(doc)<20000:\n",
+    "    documents.remove(doc)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 51
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 507,
+     "status": "ok",
+     "timestamp": 1568893667467,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "tSlIoFmbCGh1",
+    "outputId": "9360195e-7f1f-4001-d214-b0b6dd221f02"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "130\n",
+      "I have applied to the writing of these Memoirs a really paternal predilection; I would wish to be able to rise at the ghostly hour to correct the proofs: the dead go fast \n"
+     ]
+    }
+   ],
+   "source": [
+    "print(len(documents))\n",
+    "print (documents[100])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "colab": {},
+    "colab_type": "code",
+    "id": "qXGEMZBTC-By"
+   },
+   "outputs": [],
+   "source": [
+    "#from Tutorial 1: Corpora and Vector Spaces¶\n",
+    "from gensim import corpora, models, similarities"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 1000
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 17602,
+     "status": "ok",
+     "timestamp": 1568893752264,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "xFx1X320DGZz",
+    "outputId": "e93f9d4c-be2f-46f0-a342-9be2b077c1a9"
+   },
+   "outputs": [],
+   "source": [
+    "# remove common words and tokenize\n",
+    "stoplist = set('for a of the and to in'.split())\n",
+    "texts = [[word for word in document.lower().split() if word not in stoplist]\n",
+    "         for document in documents]\n",
+    "\n",
+    "# remove words that appear only once\n",
+    "from collections import defaultdict\n",
+    "frequency = defaultdict(int)\n",
+    "for text in texts:\n",
+    "    for token in text:\n",
+    "        frequency[token] += 1\n",
+    "\n",
+    "texts = [[token for token in text if frequency[token] > 1] for text in texts]\n",
+    "\n",
+    "from pprint import pprint  # pretty-printer\n",
+    "pprint(texts)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 71
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 890,
+     "status": "ok",
+     "timestamp": 1568893773485,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "LIIBcrdFDxBC",
+    "outputId": "fdf94472-55d0-412d-f361-a10b4bb0b359",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "#create dictionary, then map from ids to dictionary\n",
+    "dictionary = corpora.Dictionary(texts)\n",
+    "print(dictionary)\n",
+    "print(dictionary.token2id)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 34
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 486,
+     "status": "ok",
+     "timestamp": 1568893811313,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "edkkp06LEStX",
+    "outputId": "acfb29f8-f287-46cd-ab7a-2eefaf314c02"
+   },
+   "outputs": [],
+   "source": [
+    "#convert tokenized documents to vector\n",
+    "new_doc = \"KBpedia is a comprehensive knowledge structure for promoting data interoperability and knowledge-based artificial intelligence, or KBAI. The KBpedia knowledge structure combines seven ‘core’ public knowledge bases \"\n",
+    "new_vec = dictionary.doc2bow(new_doc.lower().split())\n",
+    "print(new_vec)  # only those words that match up are given a dimension"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 1000
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 5461,
+     "status": "ok",
+     "timestamp": 1568893828502,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "v7hAlNSTFQ0h",
+    "outputId": "614e6d50-d5f4-4f82-9a29-19d3ce68652d",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "corpus = [dictionary.doc2bow(text) for text in texts]\n",
+    "for c in corpus:\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "colab_type": "text",
+    "id": "QOC349GyGI8h"
+   },
+   "source": [
+    "From Quick start tutorial. \n",
+    "Now that we have vectorized our corpus we can begin to transform it using models. We use model as an abstract term referring to a transformation from one document representation to another. In gensim documents are represented as vectors so a model can be thought of as a transformation between two vector spaces. The details of this transformation are learned from the training corpus.\n",
+    "One simple example of a model is tf-idf. The tf-idf model transforms vectors from the bag-of-words representation to a vector space where the frequency counts are weighted according to the relative rarity of each word in the corpus.\n",
+    "Let's initialize the tf-idf model, training it on our corpus and transforming the string \"system minors\":"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 136
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 441,
+     "status": "ok",
+     "timestamp": 1568893900736,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "JvArResvGbB-",
+    "outputId": "db8bdb60-bfa9-459c-8066-f1c757da65cd"
+   },
+   "outputs": [],
+   "source": [
+    "from gensim import models\n",
+    "# train the model\n",
+    "tfidf = models.TfidfModel(corpus)\n",
+    "# transform the \"The first thing to do,' said Psmith, 'is to ascertain that such a place as Clapham Common really exists.\" string\n",
+    "tfidf[dictionary.doc2bow(\"I cannot believe something that does not understand system feedback\".lower().split())]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 1000,
+     "output_embedded_package_id": "1oASxSF2EQ18_v_ONIMpSflcjvtDsEaOf"
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 8003,
+     "status": "ok",
+     "timestamp": 1568893912781,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "aBdFWHpGHp3R",
+    "outputId": "1fecd70c-8451-437f-c1ea-0b9ed770b93e",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "#now movwed onto Topic and Transformations tutorial\n",
+    "#apply tfidf to the trained corpus\n",
+    "corpus_tfidf = tfidf[corpus]\n",
+    "for doc in corpus_tfidf:\n",
+    "    print(doc)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {},
+    "colab_type": "code",
+    "id": "3n30_BCFJo0z"
+   },
+   "outputs": [],
+   "source": [
+    "#OPTIONAL\n",
+    "#this model can now be applied to another corpus other than the training one, not just individaul documents\n",
+    "#i have not pulled in a second corpus but this is how you would do it\n",
+    "corpus2nd_tfidf = tfidf[corpus2nd]\n",
+    "for doc in corpus2nd_tfidf:\n",
+    "    print(doc)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {
+    "colab": {},
+    "colab_type": "code",
+    "id": "HiLSWeUzIRme"
+   },
+   "outputs": [],
+   "source": [
+    "#now applying an LSI to the first corpus, by working on top of its representation as a TFIDF\n",
+    "# here we have created a two dim LSI space, like Deerwesters 1990 example\n",
+    "lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=50) # initialize an LSI transformation\n",
+    "corpus_lsi = lsi[corpus_tfidf] # create a double wrapper over the original corpus: bow->tfidf->fold-in-lsi\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 1000
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 482,
+     "status": "ok",
+     "timestamp": 1568893989675,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "LRbZaYnVKKWH",
+    "outputId": "faeef654-2c62-49e8-f2ef-f440b68339fc"
+   },
+   "outputs": [],
+   "source": [
+    "#inspect the topics\n",
+    "lsi.print_topics(50)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 1000,
+     "output_embedded_package_id": "1gB4rwLek-iv1oF-2dyM4UGbFYFpB5Y0m"
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 11870,
+     "status": "ok",
+     "timestamp": 1568894027098,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "d0p_ubMfK0Ac",
+    "outputId": "2cbc86eb-c2c2-495a-fdf3-ed625464e909",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "#higher number per topic indicates more close to that topic\n",
+    "for doc in corpus_lsi: # both bow->tfidf and tfidf->lsi transformations are actually executed here, on the fly\n",
+    "    print(doc)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "colab_type": "text",
+    "id": "qN0SdoCTLuGW"
+   },
+   "source": [
+    "moved onto Similarity search tutorial.\n",
+    "Now suppose a user typed in the query “Human computer interaction”. We would like to sort our corpus documents in decreasing order of relevance to this query. Unlike modern search engines, here we only concentrate on a single aspect of possible similarities—on apparent semantic relatedness of their texts (words). No hyperlinks, no random-walk static ranks, just a semantic extension over the boolean keyword match:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 54
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 504,
+     "status": "ok",
+     "timestamp": 1568894054700,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "8eyzpIWYMKNV",
+    "outputId": "ae9d2c9f-400d-4fc5-d11a-3b83230eea92"
+   },
+   "outputs": [],
+   "source": [
+    "doc = \"I cannot believe something that does not understand system feedback\"\n",
+    "vec_bow = dictionary.doc2bow(doc.lower().split())\n",
+    "vec_lsi = lsi[vec_bow] # convert the query to LSI space\n",
+    "print(vec_lsi)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "colab_type": "text",
+    "id": "x_KtmBfDMbKu"
+   },
+   "source": [
+    "In addition, we will be considering cosine similarity to determine the similarity of two vectors. Cosine similarity is a standard measure in Vector Space Modeling, but wherever the vectors represent probability distributions, different similarity measures may be more appropriate.\n",
+    "\n",
+    "\n",
+    "To prepare for similarity queries, we need to enter all documents which we want to compare against subsequent queries. In our case, they are the same nine documents used for training LSI, converted to 2-D LSA space. But that’s only incidental, we might also be indexing a different corpus altogether."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 71
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 2882,
+     "status": "ok",
+     "timestamp": 1568894061417,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "FxRfV8olMcV1",
+    "outputId": "3d312cb4-ef58-4d8f-f048-b1882e1ba6e5"
+   },
+   "outputs": [],
+   "source": [
+    "index = similarities.MatrixSimilarity(lsi[corpus]) # transform corpus to LSI space and index it"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 54
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 783,
+     "status": "ok",
+     "timestamp": 1568894064599,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "gOzX_canQo8R",
+    "outputId": "c0c195ba-b6a2-4836-f168-338d9f8bad37",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "sims = index[vec_lsi] # perform a similarity query against the corpus\n",
+    "print(list(enumerate(sims))) # print (document_number, document_similarity) 2-tuples"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "colab_type": "text",
+    "id": "uEIh_zFzQ22O"
+   },
+   "source": [
+    "Cosine measure returns similarities in the range <-1, 1> (the greater, the more similar), so that the first document has a score of 0.99809301 etc.\n",
+    "\n",
+    "With some standard Python magic we sort these similarities into descending order, and obtain the final answer to the query “Human computer interaction”:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 54
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 787,
+     "status": "ok",
+     "timestamp": 1568894069240,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "Gn7TuJEzQ59q",
+    "outputId": "d128741c-74e6-4138-9b6d-6ab38584827e",
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "sims = sorted(enumerate(sims), key=lambda item: -item[1])\n",
+    "print(sims) # print sorted (document number, similarity score) 2-tuples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 34
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 476,
+     "status": "ok",
+     "timestamp": 1568894121536,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "o0Lwpdq3RRse",
+    "outputId": "00e6ff71-3a33-4e65-e8d9-d92e65b6d7bb"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Are you starying here on the off-chance of another row? There will be none till the Southern Soudan is reoccupied by our troops. Mark that.\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (documents[10]) #putting in the number from the top of the list above"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 139
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 5007,
+     "status": "ok",
+     "timestamp": 1568894131148,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "oe0hAqZ4WPxE",
+    "outputId": "29066ce4-8226-4f12-c49f-70aaa4db9851",
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[(0, -0.28670505), (1, -0.11364706), (2, 0.18208382), (3, -0.026342653), (4, 0.0), (5, -0.113511264), (6, 0.0016789734), (7, -0.020899296), (8, 0.047693133), (9, 0.00026297205), (10, 0.07622522), (11, 0.0), (12, -0.05266291), (13, -0.018896377), (14, 0.0047806744), (15, -0.11393608), (16, 0.037752964), (17, 0.008575946), (18, -0.105849504), (19, -0.058788367), (20, 0.0), (21, -0.055237595), (22, 0.0), (23, -0.0025837943), (24, -0.022241551), (25, 0.0011724434), (26, 0.008334677), (27, 0.07443505), (28, -0.026223354), (29, 0.0), (30, -0.035312925), (31, 0.069166005), (32, -0.028262423), (33, -0.047730926), (34, 0.02637633), (35, 0.055644646), (36, 0.020075727), (37, -0.081954084), (38, 0.0040368787), (39, -0.11119308), (40, 0.033288468), (41, 0.026674578), (42, -0.06816816), (43, -0.054938383), (44, -0.10582238), (45, -0.020957656), (46, -0.21955796), (47, 0.0), (48, -0.039441206), (49, 0.0), (50, 0.0), (51, 0.018376706), (52, 0.005001612), (53, 0.050661176), (54, 0.022845889), (55, -0.080248445), (56, 0.0), (57, 0.012821291), (58, -0.17475197), (59, -0.032205317), (60, -0.106458224), (61, 0.0), (62, -0.101892255), (63, 0.0), (64, 0.0), (65, 0.0), (66, 0.0), (67, -0.046048447), (68, -0.041295793), (69, -0.037910294), (70, 0.032800123), (71, -0.080318436), (72, -0.051935513), (73, -0.010329867), (74, 0.040023312), (75, -0.12584141), (76, 0.04867542), (77, -0.009962263), (78, -0.038232192), (79, -0.009949832), (80, -0.057057127), (81, 0.0), (82, -0.07710494), (83, -0.11369777), (84, 0.08079454), (85, 0.06792342), (86, -0.07699588), (87, -0.060118437), (88, -0.0024311678), (89, 0.0), (90, -0.03618397), (91, 0.0), (92, -0.2259117), (93, 0.0), (94, -0.020133207), (95, -0.07535009), (96, -0.09847814), (97, 0.0), (98, 0.01437587), (99, 0.0), (100, -0.008815356), (101, 0.0085163545), (102, -0.03812271), (103, -0.019442633), (104, 0.068655334), (105, 0.0), (106, 0.0), (107, 0.0), (108, 0.0), (109, -0.025634738), (110, 0.0), (111, -0.032495096), (112, 0.011323962), (113, -0.03623402), (114, -0.005108483), (115, 0.00962391), (116, -0.024871562), (117, 0.022609707), (118, 0.012161078), (119, -0.011465874), (120, 0.014929483), (121, 0.07325944), (122, -0.0339794), (123, 0.0), (124, 0.0), (125, 0.016060837), (126, 0.0), (127, 0.0), (128, -0.02713944), (129, 0.0)]\n",
+      "\n",
+      "\n",
+      "[(2, 0.18208382), (84, 0.08079454), (10, 0.07622522), (27, 0.07443505), (121, 0.07325944), (31, 0.069166005), (104, 0.068655334), (85, 0.06792342), (35, 0.055644646), (53, 0.050661176), (76, 0.04867542), (8, 0.047693133), (74, 0.040023312), (16, 0.037752964), (40, 0.033288468), (70, 0.032800123), (41, 0.026674578), (34, 0.02637633), (54, 0.022845889), (117, 0.022609707), (36, 0.020075727), (51, 0.018376706), (125, 0.016060837), (120, 0.014929483), (98, 0.01437587), (57, 0.012821291), (118, 0.012161078), (112, 0.011323962), (115, 0.00962391), (17, 0.008575946), (101, 0.0085163545), (26, 0.008334677), (52, 0.005001612), (14, 0.0047806744), (38, 0.0040368787), (6, 0.0016789734), (25, 0.0011724434), (9, 0.00026297205), (4, 0.0), (11, 0.0), (20, 0.0), (22, 0.0), (29, 0.0), (47, 0.0), (49, 0.0), (50, 0.0), (56, 0.0), (61, 0.0), (63, 0.0), (64, 0.0), (65, 0.0), (66, 0.0), (81, 0.0), (89, 0.0), (91, 0.0), (93, 0.0), (97, 0.0), (99, 0.0), (105, 0.0), (106, 0.0), (107, 0.0), (108, 0.0), (110, 0.0), (123, 0.0), (124, 0.0), (126, 0.0), (127, 0.0), (129, 0.0), (88, -0.0024311678), (23, -0.0025837943), (114, -0.005108483), (100, -0.008815356), (79, -0.009949832), (77, -0.009962263), (73, -0.010329867), (119, -0.011465874), (13, -0.018896377), (103, -0.019442633), (94, -0.020133207), (7, -0.020899296), (45, -0.020957656), (24, -0.022241551), (116, -0.024871562), (109, -0.025634738), (28, -0.026223354), (3, -0.026342653), (128, -0.02713944), (32, -0.028262423), (59, -0.032205317), (111, -0.032495096), (122, -0.0339794), (30, -0.035312925), (90, -0.03618397), (113, -0.03623402), (69, -0.037910294), (102, -0.03812271), (78, -0.038232192), (48, -0.039441206), (68, -0.041295793), (67, -0.046048447), (33, -0.047730926), (72, -0.051935513), (12, -0.05266291), (43, -0.054938383), (21, -0.055237595), (80, -0.057057127), (19, -0.058788367), (87, -0.060118437), (42, -0.06816816), (95, -0.07535009), (86, -0.07699588), (82, -0.07710494), (55, -0.080248445), (71, -0.080318436), (37, -0.081954084), (96, -0.09847814), (62, -0.101892255), (44, -0.10582238), (18, -0.105849504), (60, -0.106458224), (39, -0.11119308), (5, -0.113511264), (1, -0.11364706), (83, -0.11369777), (15, -0.11393608), (75, -0.12584141), (58, -0.17475197), (46, -0.21955796), (92, -0.2259117), (0, -0.28670505)]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#now trying the same thing with tfidf only. Not sure if I have created index properly\n",
+    "index = similarities.MatrixSimilarity(corpus_tfidf)\n",
+    "sims = index[vec_lsi] \n",
+    "print(list(enumerate(sims)))\n",
+    "sims = sorted(enumerate(sims), key=lambda item: -item[1])\n",
+    "print (\"\\n\")\n",
+    "print (sims)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 34
+    },
+    "colab_type": "code",
+    "executionInfo": {
+     "elapsed": 508,
+     "status": "ok",
+     "timestamp": 1568894151125,
+     "user": {
+      "displayName": "L Rowla",
+      "photoUrl": "",
+      "userId": "15048649825657049484"
+     },
+     "user_tz": -60
+    },
+    "id": "A2ugexjeWqEV",
+    "outputId": "fe54397a-f73e-4379-9370-cff0ee830397"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "‘If I’ve seen anything, God knows I couldn’t have seen it but for you, and I know that I couldn’t have said it except to you. You seemed to make everything clear for a minute; but I don’t practice what I preach. You would help me.... There are only us two in the world for all purposes, and—and you like to have me with you?’\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (documents[23])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "colab": {
+   "collapsed_sections": [],
+   "name": "2019_09_Gensim_similarity.ipynb",
+   "provenance": []
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
