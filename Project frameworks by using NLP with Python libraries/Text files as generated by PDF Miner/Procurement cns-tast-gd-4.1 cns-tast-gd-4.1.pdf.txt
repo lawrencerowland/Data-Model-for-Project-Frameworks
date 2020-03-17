@@ -1,0 +1,1369 @@
+cns-tast-gd-4.1.pdf
+ Title of document 
+ 
+ 
+ 
+ 
+ 
+ 
+
+OFFICIAL 
+
+ONR GUIDE 
+
+PROCUREMENT AND INTELLIGENT CUSTOMER CAPABILITY 
+
+Document Type: 
+
+Nuclear Security Technical Assessment Guide 
+
+Unique Document ID and 
+Revision No: 
+
+CNS-TAST-GD-4.1 Revision 0 
+
+Date Issued: 
+
+March 2017 
+
+Review Date: 
+
+March 2020 
+
+Approved by: 
+
+David Pascoe 
+
+Professional Lead 
+
+Record Reference: 
+
+TRIM Folder 4.4.2.19074. (2017/104195) 
+
+Revision commentary: 
+
+New document issued 
+
+TABLE OF CONTENTS 
+
+INTRODUCTION ................................................................................................................. 2 
+
+2.  PURPOSE AND SCOPE ..................................................................................................... 2 
+
+3.  RELATIONSHIP TO RELEVANT LEGISLATION ................................................................ 2 
+
+4.  RELATIONSHIP TO IAEA DOCUMENTATION AND GUIDANCE ...................................... 2 
+
+5.  RELATIONSHIP TO NATIONAL POLICY DOCUMENTS ................................................... 3 
+
+6.  ADVICE TO INSPECTORS ................................................................................................. 3 
+
+7.  PRINCIPLES AND EXPECTATIONS .................................................................................. 4 
+
+8.  ESTABLISH AN EFFECTIVE COMMERCIAL AND SUPPLY CHAIN STRATEGY TO 
+
+ENABLE DELIVERY OF SUCCESSFUL REQUIREMENTS ............................................... 5 
+
+9.  EFFECTIVE PROCUREMENT CYCLE – SECURITY SPECIFICATION ............................ 6 
+
+10. EFFECTIVE PROCUREMENT CYCLE – DEVIATIONS FROM SPECIFIED 
+
+REQUIREMENTS ................................................................................................................ 8 
+
+11. EFFECTIVE PROCUREMENT CYCLE – COUNTERFEIT FRAUDULENT AND  SUSPECT 
+ITEMS (CFSI) ...................................................................................................................... 9 
+
+12. EFFECTIVE PROCUREMENT CYCLE – SUPPLY CHAIN OPERATIONAL   
+
+EXPERIENCE (OPEX) ...................................................................................................... 11 
+
+13. MAINTAINING AN INTELLIGENT CUSTOMER CAPABILITY .......................................... 12 
+
+14. REFERENCES .................................................................................................................. 14 
+
+15. GLOSSARY AND ABBREVIATIONS ................................................................................ 15 
+
+ 
+
+ 
+1. 
+
+ 
+ 
+ 
+ 
+ 
+
+© Office for Nuclear Regulation, 2017 
+If you wish to reuse this information visit www.onr.org.uk/copyright for details.  
+Published 03/17 
+
+OFFICIAL 
+
+ 
+
+ 
+
+Template Ref: ONR-DOC-TEMP-002 Revision 3 
+
+Page 1 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+1. 
+
+INTRODUCTION 
+
+OFFICIAL  
+
+ 
+ 
+
+1.1 
+
+1.2 
+
+2.1 
+
+3.1 
+
+3.2 
+
+The Office for Nuclear Regulation (ONR) has established a set of Security Assessment 
+Principles (SyAPs) (Reference 1). This document contains Fundamental Security 
+Principles (FSyPs) that dutyholders must demonstrate have been fully taken into 
+account in developing their security arrangements to meet relevant legal obligations. 
+The security regime for meeting these principles is described in security plans 
+prepared by the dutyholders, which are approved by ONR under the Nuclear Industries 
+Security Regulations (NISR) 2003 (Reference 2). 
+
+The term ‘security plan’ is used to cover all dutyholder submissions such as nuclear 
+site security plans, temporary security plans and transport security statements. NISR 
+Regulation 22 dutyholders may also use the SyAPs as the basis for Cyber Security 
+and Information Assurance (CS&IA) documentation that helps them demonstrate 
+ongoing legal compliance for the protection of Sensitive Nuclear Information (SNI). The 
+SyAPs are supported by a suite of guides to assist ONR inspectors in their 
+assessment and inspection work, and in making regulatory judgements and decisions.  
+This Technical Assessment Guidance (TAG) is such a guide. 
+
+2. 
+
+PURPOSE AND SCOPE 
+
+This TAG contains guidance to advise and inform ONR inspectors in exercising their 
+regulatory judgment during assessment activities relating to a dutyholder’s supply 
+chain management arrangements.  It aims to provide general advice and guidance to 
+ONR inspectors on how this aspect of security should be assessed. It does not set out 
+how ONR regulates the dutyholder’s arrangements.  It does not prescribe the detail, 
+targets or methodologies for dutyholders to follow in demonstrating they have 
+addressed the SyAPs. It is the dutyholder’s responsibility to determine and describe 
+this detail and for ONR to assess whether the arrangements are adequate.  
+
+3. 
+
+RELATIONSHIP TO RELEVANT LEGISLATION 
+
+The term ‘dutyholder’ mentioned throughout this guide is used to define ‘responsible 
+persons’ on civil nuclear licensed sites and other nuclear premises subject to security 
+regulation, a ‘developer’ carrying out work on a nuclear construction site and approved 
+carriers, as defined in NISR. It is also used to refer to those holding SNI. 
+
+NISR defines a ‘nuclear premises’ and requires ‘the responsible person’ as defined to 
+have an approved security plan in accordance with Regulation 4. It further defines 
+approved carriers and requires them to have an approved Transport Security 
+Statement in accordance with Regulation 16. Persons to whom Regulation 22 applies 
+are required to protect SNI. ONR considers supply chain management to be an 
+important component of a dutyholder’s arrangements in demonstrating compliance 
+with relevant legislation. 
+
+4. 
+
+RELATIONSHIP TO IAEA DOCUMENTATION AND GUIDANCE 
+
+4.1 
+
+The essential elements of a national nuclear security regime are set out in the 
+Convention on the Physical Protection of Nuclear Material (CPPNM) (Reference 3) and 
+the IAEA Nuclear Security Fundamentals (Reference 4). Further guidance is available 
+within IAEA Technical Guidance and Implementing Guides. 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 2 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+4.3 
+
+5.1 
+
+5.2 
+
+4.2 
+
+Fundamental Principle J of the CPPNM refers to quality assurance and states that ‘a 
+quality assurance policy and quality assurance programmes should be established and 
+implemented with a view to providing confidence that specified requirements for all 
+activities important to physical protection are satisfied’. The importance of issues 
+relating to assurance activities are also recognised in the Nuclear Security 
+Fundamentals, specifically: 
+
+ 
+
+Essential Element 12: Sustaining a Nuclear Security Regime – 3.12  
+
+h) Routinely performing assurance activities to identify and address issues 
+and factors that may affect the capacity to provide adequate nuclear 
+security including cyber security at all times. 
+
+A more detailed description of the elements is provided in Recommendations level 
+guidance, specifically Nuclear Security Series (NSS) 13, Recommendations on 
+Physical Protection of Nuclear Material and Nuclear Facilities (INFCIRC/225/Revision 
+5) (Reference 5). 
+
+5. 
+
+RELATIONSHIP TO NATIONAL POLICY DOCUMENTS 
+
+The SyAPs provide ONR inspectors with a framework for making consistent regulatory 
+judgements on the effectiveness of a dutyholder’s security arrangements.  This TAG 
+provides guidance to ONR inspectors when assessing a dutyholder’s submission 
+demonstrating they have effective processes in place to achieve SyDP 4.1 – 
+Procurement and Intelligent Customer Capability, in support of FSyP 4 – Nuclear 
+Supply Chain Management.  The TAG is consistent with other TAGs and associated 
+guidance and policy documentation. 
+
+The HMG Security Policy Framework (SPF) (Reference 6) describes the Cabinet 
+Secretary’s expectations of how HMG organisations and third parties handling HMG 
+information and other assets will apply protective security to ensure HMG can function 
+effectively, efficiently and securely. The security outcomes and requirements detailed 
+in the SPF have been incorporated within the SyAPs. This ensures that dutyholders 
+are presented with a coherent set of expectations for the protection of nuclear 
+premises, SNI and the employment of appropriate personnel security controls both on 
+and off nuclear premises.  
+
+5.3 
+
+The Classification Policy (Reference 7) indicates those categories of SNI, which 
+require protection and the level of security classification to be applied. 
+
+6. 
+
+ADVICE TO INSPECTORS 
+
+6.1 
+
+This TAG informs regulatory assessment of Supply Chain Management (SCM) 
+arrangements and procurement activities for nuclear security related items or services. 
+It establishes ONR’s expectations of the purchaser, as the organisation at the top of 
+the Supply Chain. It considers the procurement of items or services in support of 
+construction, manufacture, repair, replacement, modification of plant and equipment. 
+
+6.2 
+
+The level of ONR scrutiny is dependent on the security significance of the items or 
+services being procured. This scrutiny might include confirmation of the adequacy of 
+the supplier’s quality management arrangements and/or be part of the manufacturing 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 3 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+or construction inspection activities identified via the supplier’s quality planning 
+arrangements. 
+
+Regulatory Expectations 
+
+6.3 
+
+The regulatory expectation is that dutyholders will describe in the security plan how 
+they achieve effective procurement for items or services for nuclear security and 
+maintain an intelligent customer capability to support nuclear supply chain 
+management arrangements. 
+
+FSyP 4 - Nuclear Supply 
+Chain Management 
+
+Procurement and Intelligent 
+Customer Capability 
+
+SyDP 4.1 
+
+Dutyholders should maintain an ‘Intelligent Customer’ capability for all work carried 
+out on their behalf by suppliers that may impact upon nuclear security. 
+
+ 
+In delivering this principle, dutyholders should: 
+
+6.4 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+maintain the capability to recognise work of nuclear security significance to 
+ensure  it is subject to the appropriate procurement procedures 
+
+utilise an effective procurement cycle for work with nuclear security 
+significance 
+
+establish an effective commercial strategy to enable the delivery of security 
+plan requirements 
+
+maintain an intelligent customer capability, which is applied to all work 
+carried out on its behalf by suppliers that may impact upon nuclear security  
+
+develop appropriate specifications, with appropriate stakeholder input, to 
+support the procurement of items or services (including those relating to 
+cyber security or information assurance) of nuclear security significance 
+
+ensure appropriate arrangements are in place for all contracts involving 
+security classified information or equipment including that considered SNI in 
+accordance with FSyP 7 and its associated delivery principles  
+
+PRINCIPLES AND EXPECTATIONS 
+
+ONR’s expectations for the principles to be applied to the procurement of goods and 
+services with nuclear security significance is summarised in Diagram 1 below. 
+
+ 
+7. 
+
+7.1 
+
+ 
+
+Diagram 1 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 4 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+7.2 
+
+8. 
+
+8.1 
+
+8.2 
+
+The dutyholder should also ensure that suppliers protect all tender documentation, 
+specifications and operational requirements in accordance with their security 
+classification.   
+
+ESTABLISH AN EFFECTIVE COMMERCIAL AND SUPPLY CHAIN STRATEGY TO 
+ENABLE DELIVERY OF SUCCESSFUL REQUIREMENTS 
+
+The purchaser’s commercial and/or Supply Chain strategy will influence all 
+arrangements associated with the procurement of nuclear security related items or 
+services. An effective strategy, deployed through the organisation’s business planning 
+process should enable delivery of security plan requirements  
+
+The purchaser should plan to ensure their commercial and/or Supply Chain strategy 
+addresses current and future security plan requirements over the lifetime of the facility 
+including the decommissioning phase. The arrangements should be subject to routine 
+review as they could be impacted by multiple influences, for example:  
+
+ 
+
+ 
+
+ 
+
+ 
+
+parent body organisation ownership; aggregation of contracts across 
+multiple dutyholders or organisations under parent group ownership, 
+performance issues 
+
+changes in the Supply Chain; mergers, acquisitions, insolvency, capability 
+and performance issues 
+
+security of supply; business continuity issues, strategic/critical suppliers, 
+globalisation of Supply Chains 
+
+make/buy policy; outsourcing and in-house capability or supply  
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 5 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+ 
+
+drive to improve efficiency and competitiveness while enhancing quality and 
+security performance 
+
+8.3 
+
+The purchaser’s commercial and/or Supply Chain strategy, policy and arrangements 
+should be appropriately resourced and include measures to mitigate the risks of 
+Supply Chain issues adversely impacting on the security plan. The arrangements 
+should be subject to routine review as part of the organisation’s business planning 
+processes to ensure they remain effective and are proportionate to mitigating the 
+identified risks.  
+
+Inspectors should consider: 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Has the purchaser developed a commercial and/or Supply Chain strategy to 
+address current and future security plan requirements? 
+
+Does the purchaser have effective arrangements to manage their Supply 
+Chain including a clear strategy and/or policy, and is organised to deliver 
+with roles and responsibilities clearly defined?  
+
+Does the purchaser have the organisational capabilities to manage supply 
+chain delivery? 
+
+Are the purchaser’s SCM arrangements subject to routine review to ensure 
+they remain effective in addressing security plan requirements? 
+
+Has the Supply Chain strategy been developed cognisant of the learning 
+available from within the organisation, Supply Chain, nuclear and wider 
+industry? 
+
+Does the strategy encourage collaborative working with the Supply Chain, 
+sharing common security aims, objectives and success criteria? 
+
+Do the purchaser’s make/buy (i.e. outsourcing and in-house provision) 
+arrangements effectively consider current and future security plan 
+requirements as part of the decision making criteria? 
+
+9. 
+
+EFFECTIVE PROCUREMENT CYCLE – SECURITY SPECIFICATION 
+
+9.1 
+
+9.2 
+
+The purchaser should issue security specifications which adequately describe the 
+items or services, meet the security plan/operational requirements and identify the 
+associated level of quality assurance. 
+
+Establishing an effective security specification is of key importance in the procurement 
+cycle. An ineffective specification will mean that any contractor in the Supply Chain will 
+find it difficult to deliver the purchaser’s requirements right first time, regardless of their 
+own capabilities and processes.  The dutyholder should also have in place a process 
+to ensure that the supplier is reliable and can provide the equipment or service in an 
+acceptable timeframe.  
+
+9.3 
+
+Given the importance of the security specification, it is essential that those writing them 
+are Suitably Qualified and Experienced (SQEP) to perform the task and their work is 
+subject to the appropriate levels of verification, validation and approval commensurate 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 6 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+9.4 
+
+9.5 
+
+9.8 
+
+9.9 
+
+with the security significance of the item or service being procured. At the pre-contract 
+stage, the purchaser should ensure that prospective suppliers fully understand that the 
+items or services being procured are a principal means of ensuring and maintaining 
+nuclear security.  
+
+The specification should detail any applicable design codes and standards that fully 
+describe the items or services to be procured together with other generic contractual 
+requirements. This combination of requirements should identify appropriate levels of 
+quality assurance requirements to be applied. These should include, where applicable, 
+assessment, audit, quality planning, quality control, inspection, surveillance, testing, 
+and release or handover of items and should fully detail the records package required 
+to be supplied with the item or service.  
+
+For items or services which are the principal means of ensuring nuclear security, 
+additional assurance and inspection arrangements may be required, which go beyond 
+basic compliance with established design codes and standards. ONR may wish to 
+assess the technical specification used as the basis for procurement prior to the 
+procurement action, taking into account any additional requirements.  
+
+9.6 
+
+Throughout the design process, appropriate assurance activities should be undertaken 
+to ensure that the design meets the requirements of the purchaser and applicable 
+codes or standards in addition to any regulatory expectations.  
+
+9.7  Where technical specifications are prepared for nuclear security significant items or 
+
+services by contractors on behalf of the purchaser, these should be reviewed by staff 
+from the purchaser’s organisation who are competent to confirm that the specifications 
+properly reflect the design intent, meet any design codes and standards and as such 
+meet security plan requirements. This review should be carried out before contract 
+placement.  
+
+On receipt of the purchase order, the supplier should carry out a review of the contract 
+documentation to ensure it can fulfil all the technical, procedural and commercial 
+requirements of the contract. For complex and high capital value security equipment, 
+discussions between the supplier (and sub-suppliers) and purchaser should normally 
+have covered these aspects prior to contract placement. The supplier should advise 
+the purchaser of any changes to its (or its sub-suppliers) ability to fulfil the contract as 
+such changes arise.  
+
+The purchaser should operate a change control process to ensure that any changes to 
+specification, design or contract are properly controlled and authorised, and the 
+implications for nuclear security and the manufacturing/delivery processes, including 
+changes to documentation (particularly process quality related, e.g. quality plans), are 
+fully considered prior to the implementation of the change. Where these changes 
+impact on the security plan, it may require further assessment by ONR. 
+
+ 
+
+Inspectors should consider: 
+
+ 
+
+Do specifications reflect the design intent, design codes and standards, and 
+meet security plan requirements?  
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 7 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Are specifications prepared by contractors reviewed by competent staff from 
+the purchaser’s organisation?  
+
+Are appropriate levels of quality assurance applied to the procurement of 
+items or services significant to nuclear security?  
+
+Do the purchaser’s specification and assurance arrangements address any 
+specific regulatory requirements?  
+
+Do suppliers fully understand that the items or services being procured are a 
+means of ensuring and maintaining nuclear security, and their significance? 
+
+Are variations to specification, design or contract properly conceived, 
+communicated, implemented and assessed for nuclear security implications 
+and authorised by SQEP staff? 
+
+Do suppliers notify the purchaser of any proposed changes and that they are 
+properly assessed and authorised by the purchaser? 
+
+Are supplier documents (e.g. quality plans and manufacturing instructions) 
+re-approved before a change is implemented?  
+
+10. 
+
+EFFECTIVE PROCUREMENT CYCLE – DEVIATIONS FROM SPECIFIED 
+REQUIREMENTS 
+
+10.1  The purchaser should ensure that suppliers identify and categorise any deviations from  
+
+specified requirements, referring to the dutyholder’s Design Authority (DA – as defined 
+in Security TAG 1.2) for assessment.  Where any deviations are made the purchaser 
+should ensure that these do not affect the proposed security outcome. 
+
+10.2  Non-conformances are unplanned deviations from the purchaser’s requirements and 
+can be identified in a number of ways including inspection, audit or surveillance. They 
+can occur at any level within the Supply Chain. Deviations can be associated with an 
+item or service or be the result of the inadequate implementation of the approved 
+process.  
+
+10.3  The identification, reporting and resolution of deviations should not be seen as 
+
+negative, but as an indication that the achievement of the purchaser’s requirements is 
+of prime importance. The control of any deviation from the technical specification is 
+fundamental to the achievement of quality and therefore the integrity of the item.  
+
+10.4  All organisations within the Supply Chain should, as part of their quality management 
+arrangements, operate consistent arrangements, overseen by the purchaser, for the 
+categorisation and disposition of deviations.  
+
+10.5  Purchasers at each level of the Supply Chain should ensure their suppliers have 
+adequate arrangements for the identification, categorisation and management of 
+deviations for items or services. These should include obtaining the approval of the 
+purchaser, or dutyholder’s DA, for the deviation in the form of a concession or 
+procedure for re-work. They should inform the ultimate purchaser and potentially ONR 
+(via the purchaser at the head of the Supply Chain) for deviations that are significant to 
+nuclear security.  
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 8 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+10.6  Technical Queries (TQs) are slightly different to a non-conformance. For the former, 
+
+the supplier is asking a question for approval prior to doing the work and for the latter, 
+the work has started and is found to be either outside the acceptance criteria for the 
+product, or the process has not been implemented as approved. TQs are raised during 
+the work planning stage and help inform or clarify the contract requirements. Once the 
+purchaser agrees to a TQ that requires a change in the design or other process, then 
+the purchaser should track the modification to completion with contract changes 
+through formal change control being communicated to the supplier if applicable. The 
+purchaser’s arrangements should ensure that both types of deviation from the 
+originally specified requirements are appropriately controlled and documented.  
+
+10.7  There should be an audit trail in work control documents for all approved deviations as 
+
+well as systematic overarching deviation tracking logs that show the status of each 
+deviation. Approved deviations should be used to update drawings to reflect ‘as built’ 
+status to aid configuration control for future modifications.  
+
+Inspectors should consider: 
+
+ 
+
+ 
+
+ 
+
+Are deviations identified, characterised and formally sanctioned by 
+competent persons with the appropriate delegated authority? 
+
+Do suppliers bring all deviations of nuclear security significance to the 
+attention of the purchaser, dutyholder’s DA and ONR if appropriate, via the 
+purchaser at the head of the Supply Chain? 
+
+Is there a demonstrable audit trail for all approved deviations from the work 
+control document to logs showing the status of each deviation raised, 
+approved, rejected or reworked with links to required document changes? 
+
+11. 
+
+EFFECTIVE PROCUREMENT CYCLE – COUNTERFEIT FRAUDULENT AND 
+SUSPECT ITEMS (CFSI) 
+
+11.1  The purchaser should have arrangements to mitigate the risks of Counterfeit, 
+
+Fraudulent and Suspect Items (CFSI) entering their Supply Chain.  
+
+11.2  There should be recognition throughout all levels of the Supply Chain that there are 
+
+parties who might wish to substitute CFSI for genuine items or services for commercial 
+gain or with malicious intent. All purchasers should be aware of the risks and hazards 
+of CFSI entering the nuclear industry Supply Chain and understand their role in 
+mitigating this risk.  
+
+11.3  The purchaser or supplier should deploy appropriate mitigating measures to prevent 
+
+CFSI impacting on their Supply Chain depending on the scale, complexity, any 
+international involvement in and/or nuclear security application of their items or 
+services.  
+
+11.4  The following non-exhaustive list presents appropriate mitigation that should be 
+
+deployed as part of a purchaser/supplier’s management system, to defend against 
+CFSIs for high risk items or services:  
+
+ 
+
+robust SCM and procurement process arrangements including effective 
+Supply Chain oversight and assurance, including inspection and testing  
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 9 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+competent staff involved in the acquisition processes from specification of 
+requirement through to inspection and receipt of items and services and 
+review of associated records 
+
+material or component traceability back to source supplier, including 
+verification testing by third party specialist organisations for high risk items  
+
+use of positive material identification and destructive testing methods during 
+product inspection, testing and receipt and as part of assurance sampling of 
+high risk proprietary items  
+
+product samples of known precision and authenticity available for 
+comparison with purchased items   
+
+training and awareness within purchasing organisation SCM teams (i.e. 
+Engineering, Procurement, Audit & Inspection), partners and suppliers. Staff 
+should be aware of the risks of CFSI and be trained in mitigation and 
+detection methods as appropriate  
+
+processes and procedures to identify, investigate, record incidences of CFSI 
+and share lessons learnt  
+
+benchmarking with other purchasers  
+
+liaison with Trading Standards and security agencies 
+
+requirements clearly defined in contract terms and conditions  
+
+the effective management of non-conforming items to prevent their re-entry 
+into the Supply Chain as genuine items  
+
+11.5  The purchaser should have arrangements in place to quarantine a suspect item or 
+
+service. Further investigation will be required by the purchaser or supplier to confirm 
+the item as conforming, non-conforming, counterfeit or fraudulent.  
+
+11.6  Examples of counterfeit or fraudulent items or services should be shared within the 
+purchaser and/or the dutyholder organisation, Supply Chain and wider industry as 
+appropriate to support learning, prevent use and encourage remedial measures in 
+other impacted facilities, but only when the purchaser has conducted sufficient 
+investigation to confirm if the item is CFSI or not.  ONR should be informed of all 
+examples of counterfeit or fraudulent items or services confirmed within the 
+purchaser’s Supply Chain that impact on high risk items or services or relate to 
+shortfalls in the purchaser’s SCM or procurement arrangements. 
+
+ 
+
+Inspectors should consider: 
+
+ 
+
+Does the purchaser have effective processes in place to prevent against 
+CFSI entering their Supply Chain at any level? 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 10 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Is the purchaser employing positive material identification and effective 
+testing methods during its assurance arrangements, including sample testing 
+of proprietary high risk items?  
+
+Are staff that are involved in the purchaser’s acquisition processes 
+competent to perform their role, aware of the risks of CFSI and understand 
+and comply with the organisation’s mitigation methods?  
+
+Does the purchaser have appropriate arrangements in place to quarantine, 
+investigate and disposition suspect items as conforming, non-conforming, 
+counterfeit or fraudulent?  
+
+Has the purchaser established arrangements to raise awareness of CFSI 
+within their Supply Chain and is encouraging the open reporting of CFSI 
+examples to maximise learning and mitigate risks?  
+
+Can the purchaser provide examples of where they have identified CFSI and 
+taken appropriate remedial measures including notification to the ONR and 
+the sharing of learning through their Operational Experience (OPEX) 
+arrangements?  
+
+12. 
+
+EFFECTIVE PROCUREMENT CYCLE – SUPPLY CHAIN OPERATIONAL 
+EXPERIENCE (OPEX) 
+
+12.1  The purchaser should have arrangements to capture and act on OPEX feedback from 
+
+its Supply Chain and SCM activities, sharing learning as appropriate within the 
+organisation, its Supply Chain and wider industry.  
+
+12.2  The purchaser should have effective OPEX processes that capture and act upon cross 
+
+discipline (e.g. engineering, commercial, quality, inspection and test, safety & security 
+etc.) SCM issues associated with the sub-standard procurement of high-risk items or 
+services from specification of requirements, sourcing of suppliers, oversight of delivery, 
+inspection, test and installation or use.  
+
+12.3  The purchaser should ensure relevant learning is captured and acted upon from their 
+
+Supply Chain, related to the provision of high risk items and services. This could 
+include incidences of CFSI in their Supply Chain tiers, sub-standard Supply Chain 
+performance issues that could impact the purchaser at the top of the Supply Chain and 
+factors that might influence future commercial and/or Supply Chain strategy. 
+
+12.4  The purchaser should recognise that key suppliers (such as those providing niche 
+products or construction contractors) in the nuclear industry could provide items or 
+services to multiple dutyholders and as such, sub-standard performance from a key 
+industry supplier could have an impact on the nuclear security related activities of 
+multiple dutyholders. 
+
+12.5  The purchaser’s OPEX processes should enable the wider sharing of relevant Supply 
+Chain and SCM experience with other dutyholders and wider industry as appropriate. 
+Arrangements should be in place to evaluate OPEX shared by other dutyholders, and 
+wider related industry, for implications within the purchaser’s organisation and 
+management system arrangements. 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 11 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+12.6  ONR should be informed of confirmed instances of sub-standard Supply Chain 
+
+performance in the provision of high-risk items or services, particularly where the 
+supplier is likely to form part of the Supply Chains of other dutyholders or future 
+dutyholders.  
+
+Inspectors should consider 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Is the purchaser’s OPEX process established, capturing and acting upon 
+sub-standard performance issues associated with their SCM arrangements?  
+
+Is the purchaser’s OPEX process capturing and acting upon issues 
+occurring within their different Supply Chain tiers?  
+
+Are OPEX arrangements generating improvements in the purchaser’s SCM 
+arrangements and influencing commercial and/or Supply Chain strategy?  
+
+Does the purchaser evaluate relevant learning from other dutyholders, 
+purchasers and supplier organisations, nationally and internationally as 
+appropriate?  
+
+Does the purchaser share learning with its Supply Chain and wider industry 
+as appropriate?  
+
+13.  MAINTAINING AN INTELLIGENT CUSTOMER CAPABILITY 
+
+13.1  The concept of intelligent customer (IC) for safety is defined by the IAEA as follows: 
+
+‘As an intelligent customer, in the context of nuclear safety, the management of 
+the facility should know what is required, should fully understand the need for a 
+contractor's services, should specify requirements, should supervise the work 
+and should technically review the output before, during and after implementation. 
+The concept of intelligent customer relates to the attributes of an organisation 
+rather than the capabilities of individual post holders’. 
+
+  
+
+This equally applies to nuclear security and a dutyholder’s intelligent customer 
+capability for security will be a subset of its core capability. 
+
+13.2  The primary responsibility for the security of a nuclear premises rests with the 
+
+dutyholder. The dutyholder should be able to demonstrate sufficient knowledge of the 
+plant design and security plan for all plant and operations on the site. The dutyholder 
+must be in control of activities on its site, understand the hazards associated with its 
+activities and how to control them, and have sufficient competent resource within its 
+organisation to act as an ‘Intelligent Customer’ for any work it commissions externally.  
+
+13.3 
+
+In the context of effective SCM the dutyholder should maintain an ‘Intelligent 
+Customer’ capability to know what is needed, to fully understand the need for a 
+contractor’s services, at any level of the Supply Chain, specify requirements, supervise 
+work and technically review the output before, during and after implementation.  
+
+13.4  ONR’s regulatory expectations of a dutyholder’s arrangements for the use of 
+
+contractors, for retaining control of nuclear security and for discharging its other duties 
+are summarised as follows. The dutyholder should:  
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 12 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+have sufficient  SQEP in-house staff to ensure effective control and 
+management for nuclear security 
+
+retain overall responsibility for, and control and oversight of, nuclear security 
+and security of all of its business, including work carried out on its behalf by 
+contractors 
+
+ensure choices between sourcing work in-house or from contractors is 
+informed by a company policy that takes into account the nuclear security 
+implications of the selection 
+
+maintain an Intelligent Customer capability for all work carried out on its 
+behalf by contractors that may impact upon nuclear security;  
+
+ensure that it only lets contracts for work with nuclear security significance to 
+contractors with suitable competence, security standards, management 
+systems, culture and resources  
+
+ensure that all contractor staff are familiar with the nuclear security 
+implications of their work and interact in a well-coordinated manner with its 
+own staff 
+
+ensure that contractors’ work is carried out to the necessary level of security 
+and quality in practice 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Inspectors should consider: 
+
+Does the dutyholder retain and maintain the core capability to understand, 
+specify, oversee and accept nuclear security related work undertaken on its 
+behalf by contractors at any level of the Supply Chain?  
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 13 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+14. 
+
+REFERENCES 
+
+Security Assessment Principles  
+
+1.  
+ 
+2. 
+ 
+3. 
+
+ 
+4. 
+
+ 
+5.  
+
+ 
+6. 
+
+Nuclear Industries Security Regulations 2003.  Statutory Instrument 2003 No. 403 
+
+Convention on the Physical Protection of Nuclear Material (CPPNM) 
+https://ola.iaea.org/ola/treaties/documents/FullText.pdf 
+
+IAEA Nuclear Security Series No. 20.  Objective and Essential Elements of a State’s 
+Nuclear Security Regime. http://www-
+pub.iaea.org/MTCD/Publications/PDF/Pub1590_web.pdf 
+
+IAEA Nuclear Security Series No. 13.  Nuclear Security Recommendations on 
+Physical Protection of Nuclear Material and Nuclear Facilities (INFCIRC/225/Revision 
+5).  January 2011.  www-pub.iaea.org/MTCD/Publications/PDF/Pub1481_web.pdf 
+
+HMG Security Policy Framework. Cabinet Office.  
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/316182/
+Security_Policy_Framework_-_web_-_April_2014.pdf 
+
+NISR 2003 Classification Policy – Trim Ref. 2012/243357. 
+
+ 
+7. 
+ 
+ 
+Note: ONR staff should access the above internal ONR references via the How2 Business Management 
+System. 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 14 of 15 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL  
+
+ 
+ 
+
+15. 
+
+GLOSSARY AND ABBREVIATIONS 
+
+Counterfeit, Fraudulent and Suspect Items 
+
+Convention on the Physical Protection of Nuclear Material 
+
+Cyber Security and Information Assurance 
+
+Fundamental Security Principle 
+
+International Atomic Energy Agency 
+
+Intelligent Customer 
+
+Nuclear Industries Security Regulations
+
+Nuclear Security Series 
+
+Office for Nuclear Regulation 
+
+Operational Experience 
+
+Operational Requirement 
+
+Supply Chain 
+
+Supply Chain Management 
+
+Sensitive Nuclear Information 
+
+Security Policy Framework 
+
+Suitably Qualified and Experienced 
+
+Security Assessment Principles 
+
+Security Delivery Principle
+
+Technical Assessment Guide 
+
+Technical Query 
+
+CFSI 
+
+CPPNM 
+
+CS&IA 
+
+FSyP 
+
+IAEA 
+
+IC 
+
+NISR 
+
+NSS 
+
+ONR 
+
+OPEX 
+
+OR 
+
+SC 
+
+SCM 
+
+SNI 
+
+SPF 
+
+SQEP 
+
+SyAPs 
+
+SyDP 
+
+TAG 
+
+TQ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+OFFICIAL  
+
+Report CNS-TAST-GD-4.1 
+TRIM Ref: 2017/104195 
+
+Page 15 of 15 
+
+
