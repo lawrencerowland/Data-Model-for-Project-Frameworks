@@ -2,10 +2,8 @@
 
 One Paragraph of project description goes here
 
-<img src="https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project%20frameworks%20by%20using%20NLP%20in%20Orange%20Datamining/Screenshot%202020-03-01%20at%2018.26.00.png" title="Topic modelling a particular business domain" alt="FVCproductions"></a>
 
-https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46
-https://www.makeareadme.com
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -35,16 +33,15 @@ And repeat
 ```
 until finished
 ```
+### Example: Setting up a project management framework in a nuclear context
+...
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+<img src="https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project%20frameworks%20by%20using%20NLP%20in%20Orange%20Datamining/Screenshot%202020-03-01%20at%2018.26.00.png" title="Topic modelling a particular business domain" alt="FVCproductions"></a>
 
 ## Built With
 
-* [ORANGE](//https://orange.biolab.si/) - Free No-code Machine learning
+* [ORANGE](//https://orange.biolab.si/) - Orange Data Mining. Fruitful and fun
+* [GENSIM](https://radimrehurek.com/gensim/) - Topic modelling for humans
 
 ## Contributing
 
@@ -60,3 +57,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * The spirit of the thing is well captured at https://doriantaylor.com/skeleton-organs-circulation-sinew-skin
+
+
