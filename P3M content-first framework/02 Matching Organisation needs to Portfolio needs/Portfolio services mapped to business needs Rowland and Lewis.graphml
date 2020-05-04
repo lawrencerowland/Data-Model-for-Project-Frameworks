@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.19.1.1-->
+  <key for="port" id="d0" yfiles.type="portgraphics"/>
+  <key for="port" id="d1" yfiles.type="portgeometry"/>
+  <key for="port" id="d2" yfiles.type="portuserdata"/>
+  <key attr.name="Node" attr.type="string" for="node" id="d3"/>
+  <key attr.name="Label" attr.type="string" for="node" id="d4"/>
+  <key attr.name="Group" attr.type="string" for="node" id="d5"/>
+  <key attr.name="url" attr.type="string" for="node" id="d6"/>
+  <key attr.name="description" attr.type="string" for="node" id="d7"/>
+  <key for="node" id="d8" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d9" yfiles.type="resources"/>
+  <key attr.name="Label" attr.type="string" for="edge" id="d10"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d11"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d12"/>
+  <key for="edge" id="d13" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[Trigger event]]></data>
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d8">
+        <y:GroupNode>
+          <y:Geometry height="939.1662698412699" width="304.01171875" x="-21.6015625" y="-1231.66626984127"/>
+          <y:Fill color="#F5F5F5" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="304.01171875" x="0.0" xml:space="preserve" y="0.0">Trigger event</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+          <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="2.5421626992283564E-4"/>
+        </y:GroupNode>
+      </data>
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0">
+          <data key="d3" xml:space="preserve"><![CDATA[Annual or longer term planning ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Annual or longer term planning ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="181.4375" x="39.685546875" y="-517.5"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="191.576171875" x="-5.0693359375" xml:space="preserve" y="5.93359375">Annual or longer term planning <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n1">
+          <data key="d3" xml:space="preserve"><![CDATA[Audit or assurance ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Audit or assurance ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="117.388671875" x="71.7099609375" y="-1195.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.033203125" x="0.177734375" xml:space="preserve" y="5.93359375">Audit or assurance <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n2">
+          <data key="d3" xml:space="preserve"><![CDATA[Discovery meeting or diagnostic process]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Discovery meeting or diagnostic process]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="229.42578125" x="15.69140625" y="-915.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.16796875" x="-5.37109375" xml:space="preserve" y="5.93359375">Discovery meeting or diagnostic process<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n3">
+          <data key="d3" xml:space="preserve"><![CDATA[Funding squeeze or new money ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Funding squeeze or new money ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="188.10546875" x="36.3515625" y="-1075.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="192.953125" x="-2.423828125" xml:space="preserve" y="5.93359375">Funding squeeze or new money <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n4">
+          <data key="d3" xml:space="preserve"><![CDATA[Merger, disposal, acquisition]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Merger, disposal, acquisition]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="166.07421875" x="47.3671875" y="-457.5"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="172.076171875" x="-3.0009765625" xml:space="preserve" y="5.93359375">Merger, disposal, acquisition<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n5">
+          <data key="d3" xml:space="preserve"><![CDATA[New CxO or lead of a ‘change domain’]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[New CxO or lead of a ‘change domain’]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="219.44140625" x="20.68359375" y="-705.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="228.484375" x="-4.521484375" xml:space="preserve" y="5.93359375">New CxO or lead of a ‘change domain’<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n6">
+          <data key="d3" xml:space="preserve"><![CDATA[New or revised or unclear strategic goals]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[New or revised or unclear strategic goals]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="231.4296875" x="14.689453125" y="-795.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="241.984375" x="-5.27734375" xml:space="preserve" y="5.93359375">New or revised or unclear strategic goals<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n7">
+          <data key="d3" xml:space="preserve"><![CDATA[New product, line or customer]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[New product, line or customer]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="173.3984375" x="43.705078125" y="-397.5"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="180.970703125" x="-3.7861328125" xml:space="preserve" y="5.93359375">New product, line or customer<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n8">
+          <data key="d3" xml:space="preserve"><![CDATA[Political change]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Political change]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="98.052734375" x="81.3779296875" y="-615.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.7734375" x="1.6396484375" xml:space="preserve" y="5.93359375">Political change<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n9">
+          <data key="d3" xml:space="preserve"><![CDATA[Regulatory change]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Regulatory change]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="114.734375" x="73.037109375" y="-1005.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.970703125" x="1.3818359375" xml:space="preserve" y="5.93359375">Regulatory change<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n10">
+          <data key="d3" xml:space="preserve"><![CDATA[Sector/segment business environment change]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Sector/segment business environment change]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="260.80859375" x="0.0" y="-337.5"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="274.01171875" x="-6.6015625" xml:space="preserve" y="5.93359375">Sector/segment business environment change<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n11">
+          <data key="d3" xml:space="preserve"><![CDATA[Stakeholder scrutiny ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Stakeholder scrutiny ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Trigger event]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="126.0546875" x="67.376953125" y="-1135.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.6015625" x="-0.2734375" xml:space="preserve" y="5.93359375">Stakeholder scrutiny <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[Client need]]></data>
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d8">
+        <y:GroupNode>
+          <y:Geometry height="1581.66626984127" width="419.083984375" x="425.41015625" y="-1581.66626984127"/>
+          <y:Fill color="#F5F5F5" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="419.083984375" x="0.0" xml:space="preserve" y="0.0">Business need</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+          <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="2.5421626992283564E-4"/>
+        </y:GroupNode>
+      </data>
+      <graph edgedefault="directed" id="n1:">
+        <node id="n1::n0">
+          <data key="d3" xml:space="preserve"><![CDATA[What programmes do I  need to achieve my objectives? ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[What programmes do I  need to achieve my objectives? ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="313.478515625" x="478.212890625" y="-465.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="327.654296875" x="-7.087890625" xml:space="preserve" y="5.93359375">What programmes do I  need to achieve my objectives? <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n1">
+          <data key="d3" xml:space="preserve"><![CDATA[How does my E2E PfM compare ?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How does my E2E PfM compare ?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="197.404296875" x="536.25" y="-525.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="194.951171875" x="1.2265625" xml:space="preserve" y="5.93359375">How does my E2E PfM compare ?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n2">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I sustain the choice of programmes over time? ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I sustain the choice of programmes over time? ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="307.466796875" x="481.21875" y="-1545.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="325.31640625" x="-8.9248046875" xml:space="preserve" y="5.93359375">How do I sustain the choice of programmes over time? <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n3">
+          <data key="d3" xml:space="preserve"><![CDATA[I need a new or improved capability to manage E2E PfM]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[I need a new or improved capability to manage E2E PfM]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="313.49609375" x="478.2041015625" y="-1485.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="326.6171875" x="-6.560546875" xml:space="preserve" y="5.93359375">I need a new or improved capability to manage E2E PfM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n4">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I make best use of shared/scarce resource? ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I make best use of shared/scarce resource? ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="294.8046875" x="487.5498046875" y="-945.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="307.99609375" x="-6.595703125" xml:space="preserve" y="5.93359375">How do I make best use of shared/scarce resource? <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n5">
+          <data key="d3" xml:space="preserve"><![CDATA[I need a new or improved capability for many or all aspects of PfM]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[I need a new or improved capability for many or all aspects of PfM]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="364.830078125" x="452.537109375" y="-885.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="389.083984375" x="-12.126953125" xml:space="preserve" y="5.93359375">I need a new or improved capability for many or all aspects of PfM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n6">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I balance all the aspects of the portfolio? ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I balance all the aspects of the portfolio? ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="276.16015625" x="496.8720703125" y="-1185.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="292.140625" x="-7.990234375" xml:space="preserve" y="5.93359375">How do I balance all the aspects of the portfolio? <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n7">
+          <data key="d3" xml:space="preserve"><![CDATA[How can I plan and manage portfolio spend?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How can I plan and manage portfolio spend?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="252.16015625" x="508.8720703125" y="-1125.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.318359375" x="-5.5791015625" xml:space="preserve" y="5.93359375">How can I plan and manage portfolio spend?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n8">
+          <data key="d3" xml:space="preserve"><![CDATA[I need a new or improved capability to manage portfolio delivery]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[I need a new or improved capability to manage portfolio delivery]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="353.521484375" x="458.19140625" y="-1065.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="380.306640625" x="-13.392578125" xml:space="preserve" y="5.93359375">I need a new or improved capability to manage portfolio delivery<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n9">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I model and control risks/certainty of delivery?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I model and control risks/certainty of delivery?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="301.4609375" x="484.2216796875" y="-405.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="323.8515625" x="-11.1953125" xml:space="preserve" y="5.93359375">How do I model and control risks/certainty of delivery?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n10">
+          <data key="d3" xml:space="preserve"><![CDATA[How should I govern my portfolio of change?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How should I govern my portfolio of change?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="251.46875" x="509.2177734375" y="-705.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="265.55078125" x="-7.041015625" xml:space="preserve" y="5.93359375">How should I govern my portfolio of change?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n11">
+          <data key="d3" xml:space="preserve"><![CDATA[What is my roadmap and plan to my strategic objectives?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[What is my roadmap and plan to my strategic objectives?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="318.13671875" x="475.8837890625" y="-825.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="335.810546875" x="-8.8369140625" xml:space="preserve" y="5.93359375">What is my roadmap and plan to my strategic objectives?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n12">
+          <data key="d3" xml:space="preserve"><![CDATA[How can I consistently model benefits and costs?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How can I consistently model benefits and costs?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="276.13671875" x="496.8837890625" y="-765.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="289.275390625" x="-6.5693359375" xml:space="preserve" y="5.93359375">How can I consistently model benefits and costs?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n13">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I capture great ideas and execute them? ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I capture great ideas and execute them? ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="276.16015625" x="496.8720703125" y="-165.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.501953125" x="-6.1708984375" xml:space="preserve" y="5.93359375">How do I capture great ideas and execute them? <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n14">
+          <data key="d3" xml:space="preserve"><![CDATA[How does my innovation approach compare?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How does my innovation approach compare?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="254.802734375" x="507.55078125" y="-225.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="264.759765625" x="-4.978515625" xml:space="preserve" y="5.93359375">How does my innovation approach compare?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n15">
+          <data key="d3" xml:space="preserve"><![CDATA[ I need a new or improved innovation/ideation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[ I need a new or improved innovation/ideation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="309.517578125" x="480.193359375" y="-285.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="333.865234375" x="-12.173828125" xml:space="preserve" y="5.93359375"> I need a new or improved innovation/ideation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n16">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I build benefits assessment capability?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I build benefits assessment capability?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="262.80078125" x="503.5517578125" y="-345.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="275.283203125" x="-6.2412109375" xml:space="preserve" y="5.93359375">How do I build benefits assessment capability?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n17">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I understand and manage dependencies?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I understand and manage dependencies?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="279.529296875" x="495.1875" y="-645.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="289.662109375" x="-5.06640625" xml:space="preserve" y="5.93359375">How do I understand and manage dependencies?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n18">
+          <data key="d3" xml:space="preserve"><![CDATA[How can I best manage stakeholders in the portfolio?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How can I best manage stakeholders in the portfolio?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="296.83203125" x="486.5361328125" y="-585.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="313.90234375" x="-8.53515625" xml:space="preserve" y="5.93359375">How can I best manage stakeholders in the portfolio?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n19">
+          <data key="d3" xml:space="preserve"><![CDATA[How do I change rapidly, safely and in control?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How do I change rapidly, safely and in control?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="262.8125" x="503.5458984375" y="-1005.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="276.0625" x="-6.625" xml:space="preserve" y="5.93359375">How do I change rapidly, safely and in control?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n20">
+          <data key="d3" xml:space="preserve"><![CDATA[Which programmes need which approach, Agile,  Traditional?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Which programmes need which approach, Agile,  Traditional?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="341.498046875" x="464.203125" y="-45.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="360.8359375" x="-9.6689453125" xml:space="preserve" y="5.93359375">Which programmes need which approach, Agile,  Traditional?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n21">
+          <data key="d3" xml:space="preserve"><![CDATA[I need a new or improved pipeline/optimisation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[I need a new or improved pipeline/optimisation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="314.837890625" x="477.533203125" y="-105.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="341.013671875" x="-13.087890625" xml:space="preserve" y="5.93359375">I need a new or improved pipeline/optimisation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n22">
+          <data key="d3" xml:space="preserve"><![CDATA[Which programmes should I stop, start or continue ?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Which programmes should I stop, start or continue ?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="292.126953125" x="488.888671875" y="-1305.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="309.876953125" x="-8.875" xml:space="preserve" y="5.93359375">Which programmes should I stop, start or continue ?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n23">
+          <data key="d3" xml:space="preserve"><![CDATA[How does my pipeline approach compare?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How does my pipeline approach compare?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="241.4609375" x="514.2216796875" y="-1425.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="249.7421875" x="-4.140625" xml:space="preserve" y="5.93359375">How does my pipeline approach compare?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n24">
+          <data key="d3" xml:space="preserve"><![CDATA[How does my portfolio delivery approach compare?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How does my portfolio delivery approach compare?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="287.46875" x="491.2177734375" y="-1365.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="302.875" x="-7.703125" xml:space="preserve" y="5.93359375">How does my portfolio delivery approach compare?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n25">
+          <data key="d3" xml:space="preserve"><![CDATA[How can I assure benefits achievement?]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[How can I assure benefits achievement?]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Client need]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="230.1171875" x="519.8935546875" y="-1245.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="235.017578125" x="-2.4501953125" xml:space="preserve" y="5.93359375">How can I assure benefits achievement?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n2" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[Solution]]></data>
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d8">
+        <y:GroupNode>
+          <y:Geometry height="1521.66626984127" width="444.5078125" x="907.494140625" y="-1521.66626984127"/>
+          <y:Fill color="#F5F5F5" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="444.5078125" x="0.0" xml:space="preserve" y="0.0">Portfolio solution</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+          <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="2.5421626992283564E-4"/>
+        </y:GroupNode>
+      </data>
+      <graph edgedefault="directed" id="n2:">
+        <node id="n2::n0">
+          <data key="d3" xml:space="preserve"><![CDATA[Initiate programme candidates]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Initiate programme candidates]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="175.419921875" x="1042.0380859375" y="-465.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.3828125" x="-3.4814453125" xml:space="preserve" y="5.93359375">Initiate programme candidates<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n1">
+          <data key="d3" xml:space="preserve"><![CDATA[Assess maturity, plan E2E PfM improvement ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Assess maturity, plan E2E PfM improvement ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="254.75" x="1002.373046875" y="-525.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.212890625" x="-4.2314453125" xml:space="preserve" y="5.93359375">Assess maturity, plan E2E PfM improvement <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n2">
+          <data key="d3" xml:space="preserve"><![CDATA[Maintain programme selection]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Maintain programme selection]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="174.740234375" x="1042.3779296875" y="-1485.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="181.328125" x="-3.2939453125" xml:space="preserve" y="5.93359375">Maintain programme selection<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n3">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for E2E]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for E2E]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="288.16015625" x="985.66796875" y="-1425.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="308.611328125" x="-10.2255859375" xml:space="preserve" y="5.93359375">Design/ build manual or automated solution for E2E<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n4">
+          <data key="d3" xml:space="preserve"><![CDATA[Manage Resources]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Manage Resources]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="118.056640625" x="1070.7197265625" y="-945.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.0703125" x="2.9931640625" xml:space="preserve" y="5.93359375">Manage Resources<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n5">
+          <data key="d3" xml:space="preserve"><![CDATA[Create strategic delivery unit]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Create strategic delivery unit]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="166.068359375" x="1046.7138671875" y="-885.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="171.607421875" x="-2.76953125" xml:space="preserve" y="5.93359375">Create strategic delivery unit<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n6">
+          <data key="d3" xml:space="preserve"><![CDATA[Balance the portfolio for all factors]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Balance the portfolio for all factors]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="195.4296875" x="1032.033203125" y="-1185.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="206.25390625" x="-5.412109375" xml:space="preserve" y="5.93359375">Balance the portfolio for all factors<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n7">
+          <data key="d3" xml:space="preserve"><![CDATA[Manage Finances ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Manage Finances ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="112.724609375" x="1073.3857421875" y="-1125.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.171875" x="2.7763671875" xml:space="preserve" y="5.93359375">Manage Finances <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n8">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for Delivery]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for Delivery]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="308.8203125" x="975.337890625" y="-1065.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="334.703125" x="-12.94140625" xml:space="preserve" y="5.93359375">Design/ build manual or automated solution for Delivery<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n9">
+          <data key="d3" xml:space="preserve"><![CDATA[Model and control risks/certainty of delivery]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Model and control risks/certainty of delivery]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="244.09765625" x="1007.69921875" y="-405.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="262.71484375" x="-9.30859375" xml:space="preserve" y="5.93359375">Model and control risks/certainty of delivery<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n10">
+          <data key="d3" xml:space="preserve"><![CDATA[Govern]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Govern]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="53.3515625" x="1103.072265625" y="-705.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.296875" x="4.02734375" xml:space="preserve" y="5.93359375">Govern<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n11">
+          <data key="d3" xml:space="preserve"><![CDATA[Plan achievement of strategic objectives]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Plan achievement of strategic objectives]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="228.11328125" x="1015.69140625" y="-825.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="237.033203125" x="-4.4599609375" xml:space="preserve" y="5.93359375">Plan achievement of strategic objectives<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n12">
+          <data key="d3" xml:space="preserve"><![CDATA[Model benefits and costs]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Model benefits and costs]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="146.744140625" x="1056.3759765625" y="-765.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.529296875" x="-1.392578125" xml:space="preserve" y="5.93359375">Model benefits and costs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n13">
+          <data key="d3" xml:space="preserve"><![CDATA[Innovate]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Innovate]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="60.037109375" x="1099.7294921875" y="-165.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.734375" x="3.1513671875" xml:space="preserve" y="5.93359375">Innovate<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n14">
+          <data key="d3" xml:space="preserve"><![CDATA[Assess maturity, plan innovation improvement ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Assess maturity, plan innovation improvement ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="262.109375" x="998.693359375" y="-225.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="278.787109375" x="-8.3388671875" xml:space="preserve" y="5.93359375">Assess maturity, plan innovation improvement <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n15">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build manual or automated innovation solution for innovation]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build manual or automated innovation solution for innovation]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="378.23046875" x="940.6328125" y="-285.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="414.5078125" x="-18.138671875" xml:space="preserve" y="5.93359375">Design/ build manual or automated innovation solution for innovation<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n16">
+          <data key="d3" xml:space="preserve"><![CDATA[Create benefits assessment approach]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Create benefits assessment approach]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="216.11328125" x="1021.69140625" y="-345.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.787109375" x="-2.8369140625" xml:space="preserve" y="5.93359375">Create benefits assessment approach<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n17">
+          <data key="d3" xml:space="preserve"><![CDATA[Understand and manage dependencies]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Understand and manage dependencies]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="224.158203125" x="1017.6689453125" y="-645.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="230.259765625" x="-3.05078125" xml:space="preserve" y="5.93359375">Understand and manage dependencies<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n18">
+          <data key="d3" xml:space="preserve"><![CDATA[Manage Stakeholders]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Manage Stakeholders]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="130.7421875" x="1064.376953125" y="-585.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="127.83203125" x="1.455078125" xml:space="preserve" y="5.93359375">Manage Stakeholders<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n19">
+          <data key="d3" xml:space="preserve"><![CDATA[Control Change]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Control Change]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="98.052734375" x="1080.7216796875" y="-1005.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="95.1484375" x="1.4521484375" xml:space="preserve" y="5.93359375">Control Change<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n20">
+          <data key="d3" xml:space="preserve"><![CDATA[Determine Agile/Bimodal delivery profile ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Determine Agile/Bimodal delivery profile ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="230.09375" x="1014.701171875" y="-45.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="245.142578125" x="-7.5244140625" xml:space="preserve" y="5.93359375">Determine Agile/Bimodal delivery profile <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n21">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for Pipeline]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build manual or automated solution for Pipeline]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="308.17578125" x="975.66015625" y="-105.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="333.42578125" x="-12.625" xml:space="preserve" y="5.93359375">Design/ build manual or automated solution for Pipeline<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n22">
+          <data key="d3" xml:space="preserve"><![CDATA[Choose programmes]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Choose programmes]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="126.048828125" x="1066.7236328125" y="-1305.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="125.154296875" x="0.447265625" xml:space="preserve" y="5.93359375">Choose programmes<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n23">
+          <data key="d3" xml:space="preserve"><![CDATA[Assess maturity, plan pipeline improvement ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Assess maturity, plan pipeline improvement ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="248.767578125" x="1005.3642578125" y="-1365.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.76953125" x="-7.5009765625" xml:space="preserve" y="5.93359375">Assess maturity, plan pipeline improvement <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n24">
+          <data key="d3" xml:space="preserve"><![CDATA[Assure benefits delivery]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Assure benefits delivery]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Solution]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="141.39453125" x="1059.05078125" y="-1245.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="143.259765625" x="-0.9326171875" xml:space="preserve" y="5.93359375">Assure benefits delivery<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n3" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[Marketed service]]></data>
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d8">
+        <y:GroupNode>
+          <y:Geometry height="1041.66626984127" width="373.357421875" x="1559.001953125" y="-1221.66626984127"/>
+          <y:Fill color="#F5F5F5" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="373.357421875" x="0.0" xml:space="preserve" y="0.0">Portfolio Service Line</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+          <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="2.5421626992283564E-4"/>
+        </y:GroupNode>
+      </data>
+      <graph edgedefault="directed" id="n3:">
+        <node id="n3::n0">
+          <data key="d3" xml:space="preserve"><![CDATA[Review state of output of Innovation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review state of output of Innovation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="258.1484375" x="1616.6064453125" y="-285.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="274.439453125" x="-8.1455078125" xml:space="preserve" y="5.93359375">Review state of output of Innovation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n1">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of Innovation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of Innovation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="318.828125" x="1586.2666015625" y="-345.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="335.98046875" x="-8.576171875" xml:space="preserve" y="5.93359375">Review and assess current status of Innovation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n2">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate Innovation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate Innovation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="246.1484375" x="1622.6064453125" y="-225.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.576171875" x="-10.2138671875" xml:space="preserve" y="5.93359375">Design/ build / operate Innovation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n3">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate Pipeline capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate Pipeline capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="233.46875" x="1628.9462890625" y="-1125.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="250.650390625" x="-8.5908203125" xml:space="preserve" y="5.93359375">Design/ build / operate Pipeline capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n4">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate Optimisation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate Optimisation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="257.462890625" x="1616.94921875" y="-765.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="280.263671875" x="-11.400390625" xml:space="preserve" y="5.93359375">Design/ build / operate Optimisation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n5">
+          <data key="d3" xml:space="preserve"><![CDATA[Review state of output of Optimisation capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review state of output of Optimisation capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="269.462890625" x="1610.94921875" y="-1065.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.126953125" x="-9.33203125" xml:space="preserve" y="5.93359375">Review state of output of Optimisation capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n6">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of Pipeline capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of Pipeline capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="306.1484375" x="1592.6064453125" y="-1185.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="320.0546875" x="-6.953125" xml:space="preserve" y="5.93359375">Review and assess current status of Pipeline capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n7">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of Delivery capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of Delivery capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="306.79296875" x="1592.2841796875" y="-705.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="321.33203125" x="-7.26953125" xml:space="preserve" y="5.93359375">Review and assess current status of Delivery capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n8">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate Delivery capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate Delivery capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="234.11328125" x="1628.6240234375" y="-885.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="251.927734375" x="-8.9072265625" xml:space="preserve" y="5.93359375">Design/ build / operate Delivery capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n9">
+          <data key="d3" xml:space="preserve"><![CDATA[Review state of output of Delivery capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review state of output of Delivery capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="246.11328125" x="1622.6240234375" y="-945.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="259.791015625" x="-6.8388671875" xml:space="preserve" y="5.93359375">Review state of output of Delivery capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n10">
+          <data key="d3" xml:space="preserve"><![CDATA[Review state of output of Delivery Finance capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review state of output of Delivery Finance capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="292.138671875" x="1599.611328125" y="-1005.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="307.84375" x="-7.8525390625" xml:space="preserve" y="5.93359375">Review state of output of Delivery Finance capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n11">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate E2E capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate E2E capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="213.453125" x="1638.9541015625" y="-825.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="225.8359375" x="-6.19140625" xml:space="preserve" y="5.93359375">Design/ build / operate E2E capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n12">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of E2E capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of E2E capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="286.1328125" x="1602.6142578125" y="-525.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="295.240234375" x="-4.5537109375" xml:space="preserve" y="5.93359375">Review and assess current status of E2E capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n13">
+          <data key="d3" xml:space="preserve"><![CDATA[Design/ build / operate Benefits capability ]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Design/ build / operate Benefits capability ]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="237.46484375" x="1626.9482421875" y="-405.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="255.244140625" x="-8.8896484375" xml:space="preserve" y="5.93359375">Design/ build / operate Benefits capability <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n14">
+          <data key="d3" xml:space="preserve"><![CDATA[Review state of output of Benefits capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review state of output of Benefits capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="246.130859375" x="1622.615234375" y="-645.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="259.310546875" x="-6.58984375" xml:space="preserve" y="5.93359375">Review state of output of Benefits capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n15">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of Risks capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of Risks capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="292.783203125" x="1599.2890625" y="-465.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="304.94921875" x="-6.0830078125" xml:space="preserve" y="5.93359375">Review and assess current status of Risks capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n3::n16">
+          <data key="d3" xml:space="preserve"><![CDATA[Review and assess current status of Stakeholder capability]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Review and assess current status of Stakeholder capability]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Marketed service]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="327.494140625" x="1581.93359375" y="-585.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="343.357421875" x="-7.931640625" xml:space="preserve" y="5.93359375">Review and assess current status of Stakeholder capability<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n4" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d8">
+        <y:GroupNode>
+          <y:Geometry height="321.6662698412698" width="156.33203125" x="2075.359375" y="-849.6662698412697"/>
+          <y:Fill color="#F5F5F5" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="168.49462890625" x="-6.081298828125" xml:space="preserve" y="0.0">Broad portfolio service</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+          <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+          <y:BorderInsets bottom="0" bottomF="1.1368683772161603E-13" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="2.5421626969546196E-4"/>
+        </y:GroupNode>
+      </data>
+      <graph edgedefault="directed" id="n4:">
+        <node id="n4::n0">
+          <data key="d3" xml:space="preserve"><![CDATA[Innovation / ideation]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Innovation / ideation]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="121.4140625" x="2092.818359375" y="-573.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.33203125" x="-2.458984375" xml:space="preserve" y="5.93359375">Innovation / ideation<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n4::n1">
+          <data key="d3" xml:space="preserve"><![CDATA[Pipeline/ optimise]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Pipeline/ optimise]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="108.048828125" x="2099.5009765625" y="-813.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="109.85546875" x="-0.9033203125" xml:space="preserve" y="5.93359375">Pipeline/ optimise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n4::n2">
+          <data key="d3" xml:space="preserve"><![CDATA[Deliver]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Deliver]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="51.341796875" x="2127.8544921875" y="-753.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="44.41796875" x="3.4619140625" xml:space="preserve" y="5.93359375">Deliver<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n4::n3">
+          <data key="d3" xml:space="preserve"><![CDATA[E2E PfM]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[E2E PfM]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="61.349609375" x="2122.8505859375" y="-693.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="49.7734375" x="5.7880859375" xml:space="preserve" y="5.93359375">E2E PfM<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n4::n4">
+          <data key="d3" xml:space="preserve"><![CDATA[Foundation]]></data>
+          <data key="d4" xml:space="preserve"><![CDATA[Foundation]]></data>
+          <data key="d5" xml:space="preserve"><![CDATA[Broader service offering]]></data>
+          <data key="d8">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="74.046875" x="2116.501953125" y="-633.0"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.654296875" x="2.1962890625" xml:space="preserve" y="5.93359375">Foundation<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle3d"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n5">
+      <data key="d3"/>
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:SVGNode>
+          <y:Geometry height="47.612998962402344" width="39.25" x="1602.2610103626944" y="-1539.8583129527037"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="19.17578125" x="10.037109375" xml:space="preserve" y="51.612998962402344">91<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0::n0" target="n1::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="90.71875" sy="7.5" tx="-156.7392578125" ty="-0.0">
+            <y:Point x="409.91015625" y="-495.0"/>
+            <y:Point x="409.91015625" y="-450.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0::n0" target="n1::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="90.71875" sy="-7.5" tx="-98.7021484375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n0::n1" target="n1::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="58.6943359375" sy="-7.5" tx="-153.7333984375" ty="-0.0">
+            <y:Point x="297.91015625" y="-1187.5"/>
+            <y:Point x="297.91015625" y="-1530.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n0::n1" target="n1::n3">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="58.6943359375" sy="7.5" tx="-156.748046875" ty="-0.0">
+            <y:Point x="313.91015625" y="-1172.5"/>
+            <y:Point x="313.91015625" y="-1470.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n0::n2" target="n1::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="114.712890625" sy="-7.5" tx="-147.40234375" ty="-0.0">
+            <y:Point x="297.91015625" y="-907.5"/>
+            <y:Point x="297.91015625" y="-930.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n0::n2" target="n1::n5">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="114.712890625" sy="7.5" tx="-182.4150390625" ty="-0.0">
+            <y:Point x="297.91015625" y="-892.5"/>
+            <y:Point x="297.91015625" y="-870.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n0::n3" target="n1::n6">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="94.052734375" sy="-10.0" tx="-138.080078125" ty="-0.0">
+            <y:Point x="393.91015625" y="-1070.0"/>
+            <y:Point x="393.91015625" y="-1170.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n0::n3" target="n1::n7">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="94.052734375" sy="-0.0" tx="-126.080078125" ty="-0.0">
+            <y:Point x="409.91015625" y="-1060.0"/>
+            <y:Point x="409.91015625" y="-1110.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n0::n3" target="n1::n8">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="94.052734375" sy="10.0" tx="-176.7607421875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n0::n4" target="n1::n9">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="83.037109375" sy="-0.0" tx="-150.73046875" ty="-0.0">
+            <y:Point x="393.91015625" y="-442.5"/>
+            <y:Point x="393.91015625" y="-390.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n0::n5" target="n1::n10">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="109.720703125" sy="-0.0" tx="-125.734375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n0::n6" target="n1::n11">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="115.71484375" sy="-7.5" tx="-159.068359375" ty="-0.0">
+            <y:Point x="297.91015625" y="-787.5"/>
+            <y:Point x="297.91015625" y="-810.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n0::n6" target="n1::n12">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="115.71484375" sy="7.5" tx="-138.068359375" ty="-0.0">
+            <y:Point x="297.91015625" y="-772.5"/>
+            <y:Point x="297.91015625" y="-750.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n0::n7" target="n1::n13">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="86.69921875" sy="11.25" tx="-138.080078125" ty="-0.0">
+            <y:Point x="329.91015625" y="-371.25"/>
+            <y:Point x="329.91015625" y="-150.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n0::n7" target="n1::n14">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="86.69921875" sy="3.75" tx="-127.4013671875" ty="-0.0">
+            <y:Point x="345.91015625" y="-378.75"/>
+            <y:Point x="345.91015625" y="-210.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n0::n7" target="n1::n15">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="86.69921875" sy="-3.75" tx="-154.7587890625" ty="-0.0">
+            <y:Point x="361.91015625" y="-386.25"/>
+            <y:Point x="361.91015625" y="-270.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n0::n7" target="n1::n16">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="86.69921875" sy="-11.25" tx="-131.400390625" ty="-0.0">
+            <y:Point x="377.91015625" y="-393.75"/>
+            <y:Point x="377.91015625" y="-330.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n0::n8" target="n1::n17">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="49.0263671875" sy="-7.5" tx="-139.7646484375" ty="-0.0">
+            <y:Point x="297.91015625" y="-607.5"/>
+            <y:Point x="297.91015625" y="-630.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n0::n8" target="n1::n18">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="49.0263671875" sy="7.5" tx="-148.416015625" ty="-0.0">
+            <y:Point x="297.91015625" y="-592.5"/>
+            <y:Point x="297.91015625" y="-570.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n0::n9" target="n1::n19">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="57.3671875" sy="-0.0" tx="-131.40625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n0::n10" target="n1::n20">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="130.404296875" sy="7.5" tx="-170.7490234375" ty="-0.0">
+            <y:Point x="297.91015625" y="-315.0"/>
+            <y:Point x="297.91015625" y="-30.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n0::n10" target="n1::n21">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="130.404296875" sy="-7.5" tx="-157.4189453125" ty="-0.0">
+            <y:Point x="313.91015625" y="-330.0"/>
+            <y:Point x="313.91015625" y="-90.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n0::n11" target="n1::n22">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="63.02734375" sy="3.75" tx="-146.0634765625" ty="-0.0">
+            <y:Point x="361.91015625" y="-1116.25"/>
+            <y:Point x="361.91015625" y="-1290.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n0::n11" target="n1::n23">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="63.02734375" sy="-11.25" tx="-120.73046875" ty="-0.0">
+            <y:Point x="329.91015625" y="-1131.25"/>
+            <y:Point x="329.91015625" y="-1410.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n0::n11" target="n1::n24">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="63.02734375" sy="-3.75" tx="-143.734375" ty="-0.0">
+            <y:Point x="345.91015625" y="-1123.75"/>
+            <y:Point x="345.91015625" y="-1350.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n0::n11" target="n1::n25">
+      <data key="d10" xml:space="preserve"><![CDATA[trigger to need]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="63.02734375" sy="11.25" tx="-115.05859375" ty="-0.0">
+            <y:Point x="377.91015625" y="-1108.75"/>
+            <y:Point x="377.91015625" y="-1230.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n1::n0" target="n2::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="156.7392578125" sy="-0.0" tx="-87.7099609375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n1::n1" target="n2::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="98.7021484375" sy="-0.0" tx="-127.375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n1::n2" target="n2::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="153.7333984375" sy="-0.0" tx="-87.3701171875" ty="-0.0">
+            <y:Point x="891.994140625" y="-1530.0"/>
+            <y:Point x="891.994140625" y="-1470.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n1::n3" target="n2::n3">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="156.748046875" sy="-0.0" tx="-144.080078125" ty="-0.0">
+            <y:Point x="875.994140625" y="-1470.0"/>
+            <y:Point x="875.994140625" y="-1410.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n1::n4" target="n2::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="147.40234375" sy="-0.0" tx="-59.0283203125" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n1::n5" target="n2::n5">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="182.4150390625" sy="-0.0" tx="-83.0341796875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n1::n6" target="n2::n6">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="138.080078125" sy="-0.0" tx="-97.71484375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e33" source="n1::n7" target="n2::n7">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="126.080078125" sy="-0.0" tx="-56.3623046875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n1::n8" target="n2::n8">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="176.7607421875" sy="-0.0" tx="-154.41015625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n1::n9" target="n2::n9">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="150.73046875" sy="-0.0" tx="-122.048828125" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n1::n10" target="n2::n10">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="125.734375" sy="-0.0" tx="-26.67578125" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n1::n11" target="n2::n11">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="159.068359375" sy="-0.0" tx="-114.056640625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n1::n12" target="n2::n12">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="138.068359375" sy="-0.0" tx="-73.3720703125" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e39" source="n1::n13" target="n2::n13">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="138.080078125" sy="-0.0" tx="-30.0185546875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e40" source="n1::n14" target="n2::n14">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="127.4013671875" sy="-0.0" tx="-131.0546875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e41" source="n1::n15" target="n2::n15">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="154.7587890625" sy="-0.0" tx="-189.115234375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n1::n16" target="n2::n16">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="131.400390625" sy="-0.0" tx="-108.056640625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n1::n17" target="n2::n17">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="139.7646484375" sy="-0.0" tx="-112.0791015625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e44" source="n1::n18" target="n2::n18">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="148.416015625" sy="-0.0" tx="-65.37109375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e45" source="n1::n19" target="n2::n19">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="131.40625" sy="-0.0" tx="-49.0263671875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e46" source="n1::n20" target="n2::n20">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="170.7490234375" sy="-0.0" tx="-115.046875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e47" source="n1::n21" target="n2::n21">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="157.4189453125" sy="-0.0" tx="-154.087890625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e48" source="n1::n22" target="n2::n22">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="146.0634765625" sy="-0.0" tx="-63.0244140625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n1::n23" target="n2::n23">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="120.73046875" sy="-0.0" tx="-124.3837890625" ty="-0.0">
+            <y:Point x="859.994140625" y="-1410.0"/>
+            <y:Point x="859.994140625" y="-1350.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e50" source="n1::n25" target="n2::n24">
+      <data key="d10" xml:space="preserve"><![CDATA[need to solution]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="115.05859375" sy="-0.0" tx="-70.697265625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n2::n13" target="n3::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="30.0185546875" sy="-0.0" tx="-129.07421875" ty="-0.0">
+            <y:Point x="1431.501953125" y="-150.0"/>
+            <y:Point x="1431.501953125" y="-270.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n2::n0" target="n3::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="87.7099609375" sy="-0.0" tx="-159.4140625" ty="-7.5">
+            <y:Point x="1367.501953125" y="-450.0"/>
+            <y:Point x="1367.501953125" y="-337.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n2::n20" target="n3::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="115.046875" sy="-0.0" tx="-123.07421875" ty="-0.0">
+            <y:Point x="1543.501953125" y="-30.0"/>
+            <y:Point x="1543.501953125" y="-210.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n2::n22" target="n3::n3">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="63.0244140625" sy="-0.0" tx="-116.734375" ty="-0.0">
+            <y:Point x="1527.501953125" y="-1290.0"/>
+            <y:Point x="1527.501953125" y="-1110.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e55" source="n2::n11" target="n3::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="114.056640625" sy="-0.0" tx="-128.7314453125" ty="-0.0">
+            <y:Point x="1415.501953125" y="-810.0"/>
+            <y:Point x="1415.501953125" y="-750.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e56" source="n2::n6" target="n3::n5">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="97.71484375" sy="-0.0" tx="-134.7314453125" ty="-0.0">
+            <y:Point x="1511.501953125" y="-1170.0"/>
+            <y:Point x="1511.501953125" y="-1050.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n2::n2" target="n3::n6">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="87.3701171875" sy="-0.0" tx="-153.07421875" ty="-0.0">
+            <y:Point x="1543.501953125" y="-1470.0"/>
+            <y:Point x="1543.501953125" y="-1170.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n2::n10" target="n3::n7">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="26.67578125" sy="-0.0" tx="-153.396484375" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n2::n4" target="n3::n8">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="59.0283203125" sy="-0.0" tx="-117.056640625" ty="7.5">
+            <y:Point x="1447.501953125" y="-930.0"/>
+            <y:Point x="1447.501953125" y="-862.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e60" source="n2::n19" target="n3::n9">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="49.0263671875" sy="-0.0" tx="-123.056640625" ty="-0.0">
+            <y:Point x="1463.501953125" y="-990.0"/>
+            <y:Point x="1463.501953125" y="-930.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e61" source="n2::n7" target="n3::n10">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="56.3623046875" sy="-0.0" tx="-146.0693359375" ty="-0.0">
+            <y:Point x="1495.501953125" y="-1110.0"/>
+            <y:Point x="1495.501953125" y="-990.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e62" source="n2::n5" target="n3::n11">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="83.0341796875" sy="-0.0" tx="-106.7265625" ty="-0.0">
+            <y:Point x="1431.501953125" y="-870.0"/>
+            <y:Point x="1431.501953125" y="-810.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e63" source="n2::n14" target="n3::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="131.0546875" sy="-0.0" tx="-159.4140625" ty="7.5">
+            <y:Point x="1415.501953125" y="-210.0"/>
+            <y:Point x="1415.501953125" y="-322.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e64" source="n2::n1" target="n3::n12">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="127.375" sy="-0.0" tx="-143.06640625" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e65" source="n2::n8" target="n3::n8">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="154.41015625" sy="-0.0" tx="-117.056640625" ty="-7.5">
+            <y:Point x="1479.501953125" y="-1050.0"/>
+            <y:Point x="1479.501953125" y="-877.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e66" source="n2::n12" target="n3::n13">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="73.3720703125" sy="-0.0" tx="-118.732421875" ty="-7.5">
+            <y:Point x="1399.501953125" y="-750.0"/>
+            <y:Point x="1399.501953125" y="-397.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e67" source="n2::n17" target="n3::n14">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="112.0791015625" sy="-0.0" tx="-123.0654296875" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e68" source="n2::n9" target="n3::n15">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="122.048828125" sy="-0.0" tx="-146.3916015625" ty="-0.0">
+            <y:Point x="1383.501953125" y="-390.0"/>
+            <y:Point x="1383.501953125" y="-450.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e69" source="n2::n16" target="n3::n13">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="108.056640625" sy="-0.0" tx="-118.732421875" ty="7.5">
+            <y:Point x="1399.501953125" y="-330.0"/>
+            <y:Point x="1399.501953125" y="-382.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e70" source="n2::n18" target="n3::n16">
+      <data key="d10" xml:space="preserve"><![CDATA[solution to marketed service]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="65.37109375" sy="-0.0" tx="-163.7470703125" ty="-0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e71" source="n3::n0" target="n4::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="129.07421875" sy="-0.0" tx="-60.70703125" ty="-0.0">
+            <y:Point x="2043.859375" y="-270.0"/>
+            <y:Point x="2043.859375" y="-558.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e72" source="n3::n1" target="n4::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="159.4140625" sy="-0.0" tx="-60.70703125" ty="-10.0">
+            <y:Point x="2027.859375" y="-330.0"/>
+            <y:Point x="2027.859375" y="-568.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n3::n2" target="n4::n0">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="123.07421875" sy="-0.0" tx="-60.70703125" ty="10.0">
+            <y:Point x="2059.859375" y="-210.0"/>
+            <y:Point x="2059.859375" y="-548.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e74" source="n3::n3" target="n4::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="116.734375" sy="-0.0" tx="-54.0244140625" ty="-3.75">
+            <y:Point x="2043.859375" y="-1110.0"/>
+            <y:Point x="2043.859375" y="-801.75"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e75" source="n3::n4" target="n4::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="128.7314453125" sy="-0.0" tx="-54.0244140625" ty="11.25">
+            <y:Point x="1947.859375" y="-750.0"/>
+            <y:Point x="1947.859375" y="-786.75"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e76" source="n3::n5" target="n4::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="134.7314453125" sy="-0.0" tx="-54.0244140625" ty="3.75">
+            <y:Point x="2027.859375" y="-1050.0"/>
+            <y:Point x="2027.859375" y="-794.25"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e77" source="n3::n6" target="n4::n1">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="153.07421875" sy="-0.0" tx="-54.0244140625" ty="-11.25">
+            <y:Point x="2059.859375" y="-1170.0"/>
+            <y:Point x="2059.859375" y="-809.25"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e78" source="n3::n7" target="n4::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="153.396484375" sy="-0.0" tx="-25.6708984375" ty="11.25">
+            <y:Point x="1947.859375" y="-690.0"/>
+            <y:Point x="1947.859375" y="-726.75"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e79" source="n3::n8" target="n4::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="117.056640625" sy="-0.0" tx="-25.6708984375" ty="3.75">
+            <y:Point x="1979.859375" y="-870.0"/>
+            <y:Point x="1979.859375" y="-734.25"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e80" source="n3::n9" target="n4::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="123.056640625" sy="-0.0" tx="-25.6708984375" ty="-3.75">
+            <y:Point x="1995.859375" y="-930.0"/>
+            <y:Point x="1995.859375" y="-741.75"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e81" source="n3::n10" target="n4::n2">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="146.0693359375" sy="-0.0" tx="-25.6708984375" ty="-11.25">
+            <y:Point x="2011.859375" y="-990.0"/>
+            <y:Point x="2011.859375" y="-749.25"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e82" source="n3::n11" target="n4::n3">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="106.7265625" sy="-0.0" tx="-30.6748046875" ty="-7.5">
+            <y:Point x="1963.859375" y="-810.0"/>
+            <y:Point x="1963.859375" y="-685.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e83" source="n3::n12" target="n4::n3">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="143.06640625" sy="-0.0" tx="-30.6748046875" ty="7.5">
+            <y:Point x="1963.859375" y="-510.0"/>
+            <y:Point x="1963.859375" y="-670.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e84" source="n3::n13" target="n4::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="118.732421875" sy="7.5" tx="-37.0234375" ty="12.0">
+            <y:Point x="2011.859375" y="-382.5"/>
+            <y:Point x="2011.859375" y="-606.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e85" source="n3::n14" target="n4::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="123.0654296875" sy="-0.0" tx="-37.0234375" ty="-12.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e86" source="n3::n15" target="n4::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="146.3916015625" sy="-0.0" tx="-37.0234375" ty="-0.0">
+            <y:Point x="1979.859375" y="-450.0"/>
+            <y:Point x="1979.859375" y="-618.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e87" source="n3::n13" target="n4::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="118.732421875" sy="-7.5" tx="-37.0234375" ty="6.0">
+            <y:Point x="1995.859375" y="-397.5"/>
+            <y:Point x="1995.859375" y="-612.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e88" source="n3::n16" target="n4::n4">
+      <data key="d10" xml:space="preserve"><![CDATA[marketed service to broader service offering]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="163.7470703125" sy="-0.0" tx="-37.0234375" ty="-6.0">
+            <y:Point x="1947.859375" y="-570.0"/>
+            <y:Point x="1947.859375" y="-624.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d9">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="40px" height="48px" viewBox="0 0 40 48" enable-background="new 0 0 40 48" xml:space="preserve"&gt;
+&lt;defs&gt;
+&lt;/defs&gt;
+&lt;linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="655.0938" x2="409.4502" y2="655.0938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.0558" style="stop-color:#5F5F5F"/&gt;
+	&lt;stop  offset="0.2103" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.3479" style="stop-color:#AEAEAE"/&gt;
+	&lt;stop  offset="0.4623" style="stop-color:#C2C2C2"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="0.6247" style="stop-color:#C5C5C5"/&gt;
+	&lt;stop  offset="0.7072" style="stop-color:#BABABA"/&gt;
+	&lt;stop  offset="0.7885" style="stop-color:#A6A6A6"/&gt;
+	&lt;stop  offset="0.869" style="stop-color:#8B8B8B"/&gt;
+	&lt;stop  offset="0.9484" style="stop-color:#686868"/&gt;
+	&lt;stop  offset="1" style="stop-color:#4D4D4D"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_1_)" d="M19.625,37.613C8.787,37.613,0,35.738,0,33.425v10c0,2.313,8.787,4.188,19.625,4.188
+	c10.839,0,19.625-1.875,19.625-4.188v-10C39.25,35.738,30.464,37.613,19.625,37.613z"/&gt;
+&lt;linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="649.0938" x2="409.4502" y2="649.0938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#B3B3B3"/&gt;
+	&lt;stop  offset="0.0171" style="stop-color:#B6B6B6"/&gt;
+	&lt;stop  offset="0.235" style="stop-color:#D7D7D7"/&gt;
+	&lt;stop  offset="0.4168" style="stop-color:#EBEBEB"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="0.6579" style="stop-color:#EEEEEE"/&gt;
+	&lt;stop  offset="0.7724" style="stop-color:#E3E3E3"/&gt;
+	&lt;stop  offset="0.8853" style="stop-color:#CFCFCF"/&gt;
+	&lt;stop  offset="0.9965" style="stop-color:#B4B4B4"/&gt;
+	&lt;stop  offset="1" style="stop-color:#B3B3B3"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_2_)" d="M19.625,37.613c10.839,0,19.625-1.875,19.625-4.188l-1.229-2c0,2.168-8.235,3.927-18.396,3.927
+	c-9.481,0-17.396-1.959-18.396-3.927l-1.229,2C0,35.738,8.787,37.613,19.625,37.613z"/&gt;
+&lt;linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="371.4297" y1="646" x2="408.2217" y2="646" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="1" style="stop-color:#808080"/&gt;
+&lt;/linearGradient&gt;
+&lt;ellipse fill="url(#SVGID_3_)" cx="19.625" cy="31.425" rx="18.396" ry="3.926"/&gt;
+&lt;linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="641.0938" x2="409.4502" y2="641.0938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.0558" style="stop-color:#5F5F5F"/&gt;
+	&lt;stop  offset="0.2103" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.3479" style="stop-color:#AEAEAE"/&gt;
+	&lt;stop  offset="0.4623" style="stop-color:#C2C2C2"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="0.6247" style="stop-color:#C5C5C5"/&gt;
+	&lt;stop  offset="0.7072" style="stop-color:#BABABA"/&gt;
+	&lt;stop  offset="0.7885" style="stop-color:#A6A6A6"/&gt;
+	&lt;stop  offset="0.869" style="stop-color:#8B8B8B"/&gt;
+	&lt;stop  offset="0.9484" style="stop-color:#686868"/&gt;
+	&lt;stop  offset="1" style="stop-color:#4D4D4D"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_4_)" d="M19.625,23.613C8.787,23.613,0,21.738,0,19.425v10c0,2.313,8.787,4.188,19.625,4.188
+	c10.839,0,19.625-1.875,19.625-4.188v-10C39.25,21.738,30.464,23.613,19.625,23.613z"/&gt;
+&lt;linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="635.0938" x2="409.4502" y2="635.0938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#B3B3B3"/&gt;
+	&lt;stop  offset="0.0171" style="stop-color:#B6B6B6"/&gt;
+	&lt;stop  offset="0.235" style="stop-color:#D7D7D7"/&gt;
+	&lt;stop  offset="0.4168" style="stop-color:#EBEBEB"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="0.6579" style="stop-color:#EEEEEE"/&gt;
+	&lt;stop  offset="0.7724" style="stop-color:#E3E3E3"/&gt;
+	&lt;stop  offset="0.8853" style="stop-color:#CFCFCF"/&gt;
+	&lt;stop  offset="0.9965" style="stop-color:#B4B4B4"/&gt;
+	&lt;stop  offset="1" style="stop-color:#B3B3B3"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_5_)" d="M19.625,23.613c10.839,0,19.625-1.875,19.625-4.188l-1.229-2c0,2.168-8.235,3.926-18.396,3.926
+	c-9.481,0-17.396-1.959-18.396-3.926l-1.229,2C0,21.738,8.787,23.613,19.625,23.613z"/&gt;
+&lt;linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="371.4297" y1="632" x2="408.2217" y2="632" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="1" style="stop-color:#808080"/&gt;
+&lt;/linearGradient&gt;
+&lt;ellipse fill="url(#SVGID_6_)" cx="19.625" cy="17.426" rx="18.396" ry="3.926"/&gt;
+&lt;linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="627.5938" x2="409.4502" y2="627.5938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.0558" style="stop-color:#5F5F5F"/&gt;
+	&lt;stop  offset="0.2103" style="stop-color:#8D8D8D"/&gt;
+	&lt;stop  offset="0.3479" style="stop-color:#AEAEAE"/&gt;
+	&lt;stop  offset="0.4623" style="stop-color:#C2C2C2"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="0.6247" style="stop-color:#C5C5C5"/&gt;
+	&lt;stop  offset="0.7072" style="stop-color:#BABABA"/&gt;
+	&lt;stop  offset="0.7885" style="stop-color:#A6A6A6"/&gt;
+	&lt;stop  offset="0.869" style="stop-color:#8B8B8B"/&gt;
+	&lt;stop  offset="0.9484" style="stop-color:#686868"/&gt;
+	&lt;stop  offset="1" style="stop-color:#4D4D4D"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_7_)" d="M19.625,10.113C8.787,10.113,0,8.238,0,5.925v10c0,2.313,8.787,4.188,19.625,4.188
+	c10.839,0,19.625-1.875,19.625-4.188v-10C39.25,8.238,30.464,10.113,19.625,10.113z"/&gt;
+&lt;linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="370.2002" y1="621.5938" x2="409.4502" y2="621.5938" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#B3B3B3"/&gt;
+	&lt;stop  offset="0.0171" style="stop-color:#B6B6B6"/&gt;
+	&lt;stop  offset="0.235" style="stop-color:#D7D7D7"/&gt;
+	&lt;stop  offset="0.4168" style="stop-color:#EBEBEB"/&gt;
+	&lt;stop  offset="0.5394" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="0.6579" style="stop-color:#EEEEEE"/&gt;
+	&lt;stop  offset="0.7724" style="stop-color:#E3E3E3"/&gt;
+	&lt;stop  offset="0.8853" style="stop-color:#CFCFCF"/&gt;
+	&lt;stop  offset="0.9965" style="stop-color:#B4B4B4"/&gt;
+	&lt;stop  offset="1" style="stop-color:#B3B3B3"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_8_)" d="M19.625,10.113c10.839,0,19.625-1.875,19.625-4.188l-1.229-2c0,2.168-8.235,3.926-18.396,3.926
+	c-9.481,0-17.396-1.959-18.396-3.926L0,5.925C0,8.238,8.787,10.113,19.625,10.113z"/&gt;
+&lt;linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="371.4297" y1="618.5" x2="408.2217" y2="618.5" gradientTransform="matrix(1 0 0 1 -370.2002 -614.5742)"&gt;
+	&lt;stop  offset="0" style="stop-color:#C9C9C9"/&gt;
+	&lt;stop  offset="1" style="stop-color:#808080"/&gt;
+&lt;/linearGradient&gt;
+&lt;ellipse fill="url(#SVGID_9_)" cx="19.625" cy="3.926" rx="18.396" ry="3.926"/&gt;
+&lt;path opacity="0.24" fill="#FFFFFF" enable-background="new    " d="M31.291,46.792c0,0-4.313,0.578-7.249,0.694
+	C20.917,47.613,15,47.613,15,47.613l-2.443-10.279l-0.119-2.283l-1.231-1.842L9.789,23.024l-0.082-0.119L9.3,20.715l-1.45-1.44
+	L5.329,8.793c0,0,5.296,0.882,7.234,1.07s8.375,0.25,8.375,0.25l3,9.875l-0.25,1.313l1.063,2.168l2.312,9.644l-0.375,1.875
+	l1.627,2.193L31.291,46.792z"/&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
