@@ -1,23 +1,23 @@
-**OBJECTIVE:
+**OBJECTIVE:**
 
 Have a body of Portfolio services that everyone can understand and use
 
-**REASON FOR HAVING A SIMPLE DEPLOYABLE PORTFOLIO MANAGEMENT FRAMEWORK
+**REASON FOR HAVING A SIMPLE DEPLOYABLE PORTFOLIO MANAGEMENT FRAMEWORK**
 
-***Typical internal pain points
+***Typical internal pain points***
 
 Content is hard to find, patchy, and out of date
 Portfolio schemes are set up either from scratch or copy and paste. 
 Portfolio framework does not improve from year to year
 There is no standard way of delivering a portfolio service
 
-***What success looks like internally
+***What success looks like internally***
 
 1. Portfolio framework is complete and straightforward to access 
 2. Portfolio management tasks can be planned and estimated in a consistent way
 3. Each portfolio tasks starts from an inherited service descriptions, task plan, and tool or template.
 
-***Artefacts
+***Artefacts***
 
 Portfolio Service modules	within a Catalogue
 Each portfolio instance will be a variant /fork of the relevant modules. 
