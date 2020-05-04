@@ -17,6 +17,11 @@ There is no standard way of delivering a portfolio service
 2. Portfolio management tasks can be planned and estimated in a consistent way
 3. Each portfolio tasks starts from an inherited service descriptions, task plan, and tool or template.
 
+***Artefacts
+
+Portfolio Service modules	within a Catalogue
+Each portfolio instance will be a variant /fork of the relevant modules. 
+
 **AND SIMILARLY FOR THOSE COMPETING TO PROVIDE PORTFOLIO SERVICES
 
 ***OBJECTIVE:
@@ -31,4 +36,7 @@ Engagements are only more or less related to service as specified during sales.
 
 ***What success looks like:
 
-Proposals & pricing will be shown to be fit for purpose, by being clearly linked to the services we have identified we will deliver
+***Optional extra Artefacts
+
+Motivation / Use case for each module
+Itemised proposal structured around costs per module. 
