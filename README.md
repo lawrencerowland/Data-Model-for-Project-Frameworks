@@ -1,12 +1,33 @@
-# PMO-Centre-of-Excellence-project-frameworks
+# OBJECTIVE
+The purpose of this repository is to provide:
 
-One Paragraph of project description goes here
+1. a starting point for a usable portfolio framework with deployable working practices
+2. the knowledge tools to adapt any portfolio framework for a particular business area.
 
+## MOTIVATION
+It is helpful to have a practice framework for project portfolio management that meets the needs of the organisation. This sets out how the portfolio is managed. There are several excellent standard frameworks to begin from (Praxis, Axelos MoP etc) but they are often quite general. It is recommended that your preferred framework is adapted to:
+
+1. reflect how the portfolio is currently managed in reality
+2. goes into more detail on working practices
+3. is tailored to suit the particular business domain
+4. is regularly updated as lessons are learned.
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository is structured as a series of independent frameworks and tool options, by folder. 
+
+0. Nuclear project data is our example of documents from a specific project domain. You will be able to replace them with your own company documents
+
+1. P3M Content first framework is a Project, Programme and Portfolio Framework that I prefer to use for standard portfolios, based upon building portfolios in various sectors. 
+
+1. Orange NLP folder allows the construction of topic models for your business domain, based upon your own documents, working in No Code environment. 
+
+2. Python NLP folder does the same, but does it by providing a low code environment using Jupyter notebooks
+
+3. 'Project Frameworks from Example' folder shows how to take a Portfolio best practice structure, in this case from hundreds of Wikipedia project pages, and generate an initial portfolio framework hierarchy. This is useful if you have a favourite portfolio management text and you wish to use that to create a portfolio practice framework from it
+
+4. 'Related work from others' is useful publically available material on portfolio frameworks from other people /organisations, which may be useful for reference. 
 
 ## Usage
 
