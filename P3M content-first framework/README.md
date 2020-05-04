@@ -1,8 +1,6 @@
-OBJECTIVE:
-Have a body of Portfolio services that everyone can understand and use
+**OBJECTIVE:
 
-Additional objective for those providing Portfolio Services:
-Have a body of Portfolio services that is consistent between Sales and Delivery
+Have a body of Portfolio services that everyone can understand and use
 
 **REASON FOR HAVING A SIMPLE DEPLOYABLE PORTFOLIO MANAGEMENT FRAMEWORK
 
@@ -10,10 +8,27 @@ Have a body of Portfolio services that is consistent between Sales and Delivery
 
 Content is hard to find, patchy, and out of date
 Portfolio schemes are set up either from scratch or copy and paste. 
-There is no standard way of delivering a service
+Portfolio framework does not improve from year to year
+There is no standard way of delivering a portfolio service
 
-**Typical external pain points for those competing to provide Portfolio services
+***What success looks like internally
 
-Portfolio framework does not change from year to year
-Inconsistent Bidding on a suite of services means we are only ever guessing at the best price, and will lose out
-Engagements are only more or less related to services we have defined, and we risk Client discontent or action. 
+1. Portfolio framework is complete and straightforward to access 
+2. Portfolio management tasks can be planned and estimated in a consistent way
+3. Each portfolio tasks starts from an inherited service descriptions, task plan, and tool or template.
+
+**AND SIMILARLY FOR THOSE COMPETING TO PROVIDE PORTFOLIO SERVICES
+
+***OBJECTIVE:
+
+Have a body of Portfolio services that is consistent between Sales and Delivery
+
+***External pain points 
+
+Inconsistent Bidding on a suite of services
+Resourcing and pricing is not standardised
+Engagements are only more or less related to service as specified during sales.
+
+***What success looks like:
+
+Proposals & pricing will be shown to be fit for purpose, by being clearly linked to the services we have identified we will deliver
