@@ -1,30 +1,16 @@
-***Managing Risk on a large construction project***
+ **1 The first three activities in a risk management plan.**
+When taking over an existing project:
+1.  To undertake immediate assessment and proactively drive mitigation activities for any high-rated risks
 
-§ ***1 The first three activities in our risk management plan.***
+2.  To test, review and refresh the current risk baseline
 
-***the risk team must proactively focus on 3 parallel activities:***
-
-1.  ***To undertake immediate assessment and proactively drive mitigation activities for any high-rated risks***
-
-2.  ***To test, review and refresh the current risk baseline***
-
-3.  ***To understand the project’s sensitivity to key threats***
-
-***1. Immediate assessment and proactive mitigation must be carried out if the programme is to stay on track. We suggest two likely areas of risk which will require immediate review (a) risk to demand, (b) risk from adjacent transport projects***
-
-1)  ***demand risk:new surveys must be commissioned immediately. We recommend that these should focus on two areas: actual flows in the area, and stated preference surveys of travellers in the area.***
-
-2)  ***Risk from adjacent transport projects: The dependencies between projects are complex within a city travel matrix, and we would need to understand how much work has been done to map out exactly when and where other transport projects will open new routes, or temporarily close existing routes, in the area of the proposed project. Passenger demand behaves elastically to faster times in the urban environment, and if an adjacent transport scheme is planned, which will add or subtract even ten minutes from a typical journey around the area of the proposed new project, then the anticipated benefits may well not materialise at all. The immediate action is to review the risk identification and project dependency tracking which has been carried out so far, and if this work is not well developed, to draw up an outline time-chainage/location graph of current and future schemes, as a precursor to establishing a plan to manage these dependencies, and identify any immediate negotiations required.***
-
-***In this instance then, We would recommend two specific risk mitigations: to commission new travel surveys, and to draw up a time-chainage/location of all adjacent projects.***
-
-***2. Prepare a risk baseline. It is important when coming into a project to check and refresh the overall assessment of risk exposure. In the case of this project, it is additionally important for confirming that no extra approvals need to be sought. This is because the project is currently valued at £20m, which is close to the £25m cap on what the Finance MD can approve alone.This £5m gap is not a large one: it would be easy for the costs to increase as feasibility and design continues, and for the project to newly require higher level sign off. A reclassification of the project approval levels would be likely to delay the schedule. Therefore, checking the risks to scope and cost by preparing a baseline will be valuable in checking the level of confidence we have in the £20m figure.***
+3.  To understand the project’s sensitivity to key threats
 
   - ***The risk identification will be checked for coverage (is it biased into certain areas?), for currency (how recently it has been reviewed/ updated?), and for balance (are opportunities identified as well as risks?).***
 
   - ***Levels of risk analysis will be checked, to ensure that risk estimation has been carried out upon consistent principles, and that the results look sensible and proportional to the scheme.***
 
-***This task will be done in conjunction with a review of Benefit/Cost ratios and value for money, as risks are ultimately a risk to the final balance of benefits achieved against costs. The benefit cost ratio here is tight, and reliant as it is on a cyclist’s value of time, the ratio would be very sensitive to any changes in demand.***
+***This task will be done in conjunction with a review of Benefit/Cost ratios and value for money, as risks are ultimately a risk to the final balance of benefits achieved against costs.***
 
 ***Once a baseline is assured, it will be kept under close and regular review, as per the emerging risk plan. (Note that the baseline will commence immediately, even as a full risk management strategy and risk management plan are prepared in parallel).***
 
@@ -36,27 +22,26 @@
 
 ![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image1.png)
 
-§ ***2. Responding to conflict in objectives with a City area, with risk implications***
 
-***There are several different types of conflict that could have arisen regarding the objectives of this project. Understanding the context in which any conflict has arisen is essential, in order to act without risk of worsening the situation. The conflict could:***
+**Types of high-level stakeholder conflict over objectives of this project.**
 
-  - ***Be a straightforward delay in agreeing the objectives which causes a schedule impact to setting the terms of the architecture competition***
+1. Be a straightforward delay in agreeing the objectives which causes a schedule impact to setting the terms of the architecture competition
 
-  - ***Reflect the intrinsic complexity of the stakeholder picture, such that the negotiation of a final set of objectives involves unavoidable difficulties. In this event, resolving the immediate dispute is not enough. There would also be a need to unpick the complex matrix of stakeholder interests, and be careful not to further complicate a future design by agreeing incoherent modified objectives in haste***
+2. Reflect the intrinsic complexity of the stakeholder picture, such that the negotiation of a final set of objectives involves unavoidable difficulties. In this event, resolving the immediate dispute is not enough. There would also be a need to unpick the complex matrix of stakeholder interests, and be careful not to further complicate a future design by agreeing incoherent modified objectives in haste***
 
-  - ***Arise from a fundamental problem or inconsistency within the current list of objectives, and the Borough may be pointing out real and systemic risks inherent within the current scope. In this case, again, resolving the dispute is not enough. It should be considered whether systemic risks have crept into our current scope and objectives, and ensure it cannot happen again.***
+ 3. Arise from a fundamental problem or inconsistency within the current list of objectives, and the stakeholders may be pointing out real and systemic risks inherent within the current scope. In this case, again, resolving the dispute is not enough. It should be considered whether systemic risks have crept into our current scope and objectives, and ensure it cannot happen again.
 
-***And in general, we would tackle any such dispute at several levels at once:***
+**Tackle stakeholder disputes at several levels at once**
 
-  - ***Risk identification: Conduct an exercise to identify and evaluate the various consequences/risks which are possible if the dispute continues***
+1.Risk identification: Conduct an exercise to identify and evaluate the various consequences/risks which are possible if the dispute continues
 
-  - ***Risk mitigation: Prepare mitigations for the likely risks, and closely monitor the situation***
+2.Risk mitigation: Prepare mitigations for the likely risks, and closely monitor the situation
 
-  - ***Reporting: Communicate this as an issue at the next Steering Group meeting, and escalate it as requiring their resolution if required***
+3.Reporting: Communicate this as an issue at the next Steering Group meeting, and escalate it as requiring their resolution if required
 
-  - ***Stakeholder engagement: we would increase our activities in working and communicating with the Borough, to address and understand how the two parties can work better together. This activity would aim to facilitate agreement among both parties, and mitigate the risk of poor communication resulting in more serious issues to the project in later phases.***
+4.Stakeholder engagement: increase activities in working and communicating with Stakeholders, to address and understand how the two parties can work better together. This activity would aim to facilitate agreement among both parties, and mitigate the risk of poor communication resulting in more serious issues to the project in later phases.
 
-  - ***User requirement and benefits mapping review: we would use this as an opportunity to jointly review how the user objectives agreed so far map through to the current scope and the benefits profile. By testing these links into benefits, potentially even running the alternate objectives as two separate scenarios, the implications of particular objectives may become clearer to both parties, and a trade-off decision can be successfully agreed. Even if this is not the final outcome, the project team will have successfully refreshed their benefits map.***
+5. User requirement and benefits mapping review: use this as an opportunity to jointly review how the user objectives agreed so far map through to the current scope and the benefits profile. By testing these links into benefits, potentially even running the alternate objectives as two separate scenarios, the implications of particular objectives may become clearer to both parties, and a trade-off decision can be successfully agreed. Even if this is not the final outcome, the project team will have successfully refreshed their benefits map.
 
 § ***3 Steps to integrate with ongoing risk management***
 
@@ -86,7 +71,7 @@
 
 ***We’s approach is to ensure that all of the functions of risk are carried out, not just those of identification, assessment and reporting. Risk management is a call to actio***![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image2.png)***n, and above all, it sets out the need and scope of the next leadership decisions. The table shows the key functions of risk that need to be carried out. To do this, we have distinguished between levels of risk, and areas of responsibility. High impact risks must be treated differently from low risk ones, and a risk manager must be guided by their senses of proportion and timeliness and not only from a sense of responsibility. The table also shows how we would link with Owner’s risk systems: for instance, making the most of heat tables, risk drawdown, Primavera & ARM, P50 risk levels, and working with the Key Risk Representative.***
 
-***Table*** ***2: Risk Strategy: How the key functions of risk will be carried out on the Project***
+ **Risk Strategy: How the key functions of risk will be carried out on the Project**
 
 ![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image3.png)
 
@@ -101,7 +86,7 @@
 
 **Approach:** Benefits management is critical because without careful consideration Programmes often deliver scope but don’t realise actual benefits**.** *We will implement a benefits management approach and plan that accommodates Owner’s process readiness, existing levels of benefits and programme management maturity and – importantly – change readiness at both the stated portfolio and programme level.*
 
-We’s benefit approach supports **the delivery of benefits in four stages:**
+The benefit approach supports **the delivery of benefits in four stages:**
 
 1.  **Identify the benefits at the portfolio and programme level**
 
@@ -157,9 +142,9 @@ We’s benefit approach supports **the delivery of benefits in four stages:**
 
 **Benefits Management at the Portfolio Level and Programme and Project Level .**
 
-**Large capital programmes are often called capital projects, we have herein referred to it as a programme, to distinguish it clearly from its component projects. Success at a project level** tends to be about very specific outputs. But until cyclists are able to start using it, no benefits will be realised. Benefits management ensures the project level outputs are delivered (including outputs like delivery of the infrastructure, updated operational regimes, engagement with the community, communications for the launch etc.) and that in collection they add up to the benefit claimed in the programme business case for the investment required, this is demonstrated by table 1 below:
+**Large capital programmes are often called capital projects, we have herein referred to it as a programme, to distinguish it clearly from its component projects. Success at a project level** tends to be about very specific outputs.  Benefits management ensures the project level outputs are delivered (including outputs like delivery of the infrastructure, updated operational regimes, engagement with the community, communications for the launch etc.) and that in collection they add up to the benefit claimed in the programme business case for the investment required.
 
-Table 1: The benefits picture at different programme levels
+The benefits picture at different programme levels:
 
 | **Level**                              | **The benefit value chain** | **The dis-benefit value chain** | **Attribute**                                  | **Key management focus** |
 | -------------------------------------- | --------------------------- | ------------------------------- | ---------------------------------------------- | ------------------------ |
@@ -222,21 +207,10 @@ Dependencies in this case will be important to support benefit delivery across b
 
 4.  ***Gain stakeholder agreement on the most attractive option and process with the implementation of the updated approach following any required procedures if changes have to take place.***
 
->***Change Management of the Back Office Organisational Development Programme  
-1\. Your Overall Approach  
-We understand the challenge of sensitively making efficiency savings from back office functions that have to support front-line operations facing increasing demand. The approach to the engagement is:***
-
-![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image4.png)
-
-***<span class="underline">Programme Management:</span> We will work quickly with the Head of Organisational Development and the existing team to assess the current state of the programme using We’s ‘Programme Diagnostic’ tool to quickly define a suitable programme structure, governance, planning (milestones, dependencies) & controls setup and the programme’s financial security.***
-
-
-***<span class="underline">Process Improvement:</span> We’s experience suggests that this is best executed when integrated into the change management approach. As part of assessing the impact of change We will work with Owner to set up multi-disciplinary teams that can tap-into existing knowledge of operational processes and set out improvements defined on an informed basis. It is suggested that the multi-disciplinary teams work with stakeholders to appoint change and process improvement leads to champion and embed change.***
-
-***2.Proposed programme structure, high level governance, approach to tracking and reporting  
+**Proposed programme structure, high level governance, approach to tracking and reporting  
 A scalable programme structure is set out below. Delivery will be supported by an appropriately sized PMO, Change Management and Process Improvement expertise.  
-***![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image6.png)***  
-The We roles could be staffed by Owner if experienced Owner are available. This structure aims to provide:  
+![](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/P3M-content-first-framework/Risk/images/READme/image6.png)
+This structure aims to provide:  
 A) Strong, active leadership and sponsorship to drive the change.  
 B) Owner projects and enabling work streams supported by Business and Process Change Teams  
 C) Business Change Manger to lead the change management team and support project delivery  
