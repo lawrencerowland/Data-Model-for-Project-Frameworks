@@ -34,7 +34,7 @@
 
 ***Table*** ***1: Initial assessment of Business case vulnerabilities against key programme parameters and scope***
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image1.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image1.png)
 
 § ***2. Responding to conflict in objectives with a City area, with risk implications***
 
@@ -84,11 +84,11 @@
 
 ***(b) Preparing a risk management strategy and plan.***
 
-***We’s approach is to ensure that all of the functions of risk are carried out, not just those of identification, assessment and reporting. Risk management is a call to actio***![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image2.png)***n, and above all, it sets out the need and scope of the next leadership decisions. The table shows the key functions of risk that need to be carried out. To do this, we have distinguished between levels of risk, and areas of responsibility. High impact risks must be treated differently from low risk ones, and a risk manager must be guided by their senses of proportion and timeliness and not only from a sense of responsibility. The table also shows how we would link with Owner’s risk systems: for instance, making the most of heat tables, risk drawdown, Primavera & ARM, P50 risk levels, and working with the Key Risk Representative.***
+***We’s approach is to ensure that all of the functions of risk are carried out, not just those of identification, assessment and reporting. Risk management is a call to actio***![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image2.png)***n, and above all, it sets out the need and scope of the next leadership decisions. The table shows the key functions of risk that need to be carried out. To do this, we have distinguished between levels of risk, and areas of responsibility. High impact risks must be treated differently from low risk ones, and a risk manager must be guided by their senses of proportion and timeliness and not only from a sense of responsibility. The table also shows how we would link with Owner’s risk systems: for instance, making the most of heat tables, risk drawdown, Primavera & ARM, P50 risk levels, and working with the Key Risk Representative.***
 
 ***Table*** ***2: Risk Strategy: How the key functions of risk will be carried out on the Project***
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image3.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image3.png)
 
 ***(c) Embed Lessons learned at all levels of the programme***
 
@@ -226,7 +226,7 @@ Dependencies in this case will be important to support benefit delivery across b
 1\. Your Overall Approach  
 We understand the challenge of sensitively making efficiency savings from back office functions that have to support front-line operations facing increasing demand. The approach to the engagement is:***
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image4.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image4.png)
 
 ***<span class="underline">Programme Management:</span> We will work quickly with the Head of Organisational Development and the existing team to assess the current state of the programme using We’s ‘Programme Diagnostic’ tool to quickly define a suitable programme structure, governance, planning (milestones, dependencies) & controls setup and the programme’s financial security.***
 
@@ -235,7 +235,7 @@ We understand the challenge of sensitively making efficiency savings from back o
 
 ***2.Proposed programme structure, high level governance, approach to tracking and reporting  
 A scalable programme structure is set out below. Delivery will be supported by an appropriately sized PMO, Change Management and Process Improvement expertise.  
-***![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image6.png)***  
+***![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image6.png)***  
 The We roles could be staffed by Owner if experienced Owner are available. This structure aims to provide:  
 A) Strong, active leadership and sponsorship to drive the change.  
 B) Owner projects and enabling work streams supported by Business and Process Change Teams  
@@ -245,7 +245,7 @@ E) PMO Manager with a strong PMO team to pro-actively manage and provide assuran
 
 ***The governance of such a sensitive change management programme needs to focus appropriately on: Organisation Design, Skills and Experience, Process and Technology, Change Management and HR. We proposes a relatively standard governance model that focuses on the above aspects taking each business area in turn through the phases of: a) impact assessment, b) organisational & process re-design, c) organisational, process and role change, d) business readiness assessment, and e) operate***
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image7.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image7.png)
 
 ***The governance model, aligned to Owner’s Governance Framework within Pathway comprises of:  
 A. Programme Board that steers the direction of the programme, tracks and reports the performance of the programme, handles large-scale change control and ensures the delivery of the business case***
@@ -300,7 +300,7 @@ D. Project Boards responsible for governing, tracking and reporting performance,
 ***5. High Level view of programme timeline and critical path  
 The programme timeline is set out below. The critical path is set out in green and will be driven by resource constraints, stakeholder consultation and outputs of the change and programme reviews.***
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image8.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image8.png)
 
 ***6. Your view of likely key risks and issues to successfully deliver***
 
@@ -334,7 +334,7 @@ We has delivered significant process improvements across the Rail sector over a 
 
 ***(CONTROLS) *** **Proposed planning and controls organisational structure**
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image10.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image10.png)
 
 ***Head of PMO: Responsible for setup and operations of the PMO, its products and services. Assures setup and operation of governance arrangements of the programme. Resource balancing.***
 
@@ -488,7 +488,7 @@ We has delivered significant process improvements across the Rail sector over a 
 
 # *Proposed planning and controls organisational structure*
 
-![](Data-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image11.png)
+![](https://github.com/lawrencerowlandData-Model-for-Project-Frameworks/P3M-content-first-framework/Risk/images/READme/image11.png)
 
 ***Head of Programme Controls – responsible for setup/operations of the compliant planning and controls methodology and liaison with stakeholders (Owner, the supply-chain). Heads up compliance reviews.***
 
