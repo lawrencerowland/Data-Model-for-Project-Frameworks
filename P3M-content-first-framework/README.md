@@ -1,4 +1,4 @@
-**OBJECTIVE:**
+# Purpose
 
 Have a body of Portfolio services that everyone can understand and use
 
@@ -33,6 +33,13 @@ Have a body of Portfolio services that is consistent between Sales and Delivery
 Inconsistent Bidding on a suite of services
 Resourcing and pricing is not standardised
 Engagements are only more or less related to service as specified during sales.
+
+# Example
+A Portfolio services delivery framework looks like this:
+
+![](/images/Portfolio-services-mapped-to-business-needs-Rowland-and-Lewis.png)
+
+It can be opened and edited [here](/Portfolio-services-mapped-to-business-needs-Rowland-and-Lewis.graphml) can be viewed and modified in a graph package. I suggest YEd live.
 
 ***What success looks like:
 
