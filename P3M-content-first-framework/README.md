@@ -41,7 +41,8 @@ A simple and deployable portfolio management services framework allows project s
 
 This is our technology radar for project and portfolio teams. It considers the platforms, tools, languages and frameworks, and techniques that are most relevant to project management. This version is 2019, and we will post updates here. 
 
-![](/images/radar0.png)
+![](/images/P3M-content-first-framework-images/radar0.png)
+
 Find interactive version [here](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1G3bgKo60BvGuxleWsyqGLeH-aP3SGsobeUpozNzTqls%2Fedit%3Fusp%3Dsharing) (Open in Edge or Chrome, and wait a few seconds whilst it builds):
 
 
