@@ -20,6 +20,25 @@ This directory is being actively rewritten at this time (5/20) Please treat with
 
 1. Print out the  results of interest to you (topic model / grouping similar documents etc)
 
+# Further explanation of steps if necessary
+
+- pay attention to which links are enabled, and which are disabled, when first opening. enabling links one at a time allows calculation time to be controlled. 
+
+- The first time, use the 'import documents' widget to bring in the Nuclear pdf files
+
+- Subsequently, one can save the corpus with 'Save file' widget. The corpus can be saved as a *.tab file, and then in future the Corpus widget can just refer to this.
+
+- Modify 'Prepare training data' widget if you want other tokenisation options.a good early check is to look at the word cloud and make sure useful words are being tokenised. 
+
+- Bag of words widget can be modified for different model type. One can also refer to a list of stop words (in this folder). Lexicon is an interesting option - if one has been working with an expert and already has a structure in mind.
+
+-I have removed the Kmeans widget followed by the sieve owing to difficulty of interpretation. 
+
+
+
+# Adding extra functionality if required
+
+Heat-Map widget can be added to Topic model output. 
 
 # Worked Example
 
