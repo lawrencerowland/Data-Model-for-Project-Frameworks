@@ -158,11 +158,22 @@ With Sentiment analysis, we can inspect documents in on exceptionally positive o
 ![](doc results xx)
 
 ## Motivation 
-NLP is one of the fastest growing applications. Orange is only one of many platforms which allows this work to be done. What we are doing here, we can do on a whole number of tools and platfrms. One can use whichever open source or enterprise tool is easiest for the given job, providing the portfolio team focusses on understanding the principles. These example workflows can quickly be moved across to the best tool.
+NLP is one of the fastest growing applications. Orange is only one of many platforms which allows this work to be done. What we are doing here, we can do on a whole number of tools and platforms. One can use whichever open source or enterprise tool is easiest for the given job, providing the portfolio team focusses on understanding the principles. These example workflows can quickly be moved across to the best tool.
 
 ## How could this be improved ?
  
 xx call CSV
+
+### How to run in a conda environment
+
+- Install conda
+- Install orange with conda
+- 	condo activate orange3c
+	orange-canvas
+- Open Ows file through Orange window
+- disable links between widgets to avoid auto calculation
+- Either start from the Corpus file, or read in the documents again
+ 
 
 ### Installation On Older Mac:
 
