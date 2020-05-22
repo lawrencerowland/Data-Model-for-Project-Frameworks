@@ -166,9 +166,11 @@ xx call CSV
 
 ### How to run in a conda environment
 
+You don't need to do this if you have installed and opened Orange as a standalone application. 
+
 - Install conda
 - Install orange with conda
-- 	condo activate orange3c
+- 	conda activate orange3c
 	orange-canvas
 - Open Ows file through Orange window
 - disable links between widgets to avoid auto calculation

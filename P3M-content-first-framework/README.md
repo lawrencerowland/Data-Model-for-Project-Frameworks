@@ -11,7 +11,7 @@ Or
 
 A simple and deployable portfolio management services framework allows project staff to focus on delivering projects. 
 
-***Typical internal pain points***
+**Typical internal pain points**
 
 - Content is hard to find, patchy, and out of date
 
@@ -23,7 +23,7 @@ A simple and deployable portfolio management services framework allows project s
 
 - There is a lot of wasted time, year on year, arising from the argument as to what exactly should be in the full project framework
 
-***What success looks like internally***
+**What success looks like internally**
 
 1. Portfolio framework is complete and straightforward to access 
 
@@ -37,9 +37,23 @@ A simple and deployable portfolio management services framework allows project s
 
 - Each portfolio instance will be a variant /fork of the relevant modules. 
 
+# Why use Open Source Tools for Project Services ?
+
+The idea is that by using a tool within one of your existing work-flows, you will be able to do your job more quickly, accurately and effectively. I use these tools in four main ways:
+
+- better implementing a project capability improvement at the client
+
+- assisting my client to operate her portfolio , programme or project more effectively
+
+- linking up service offerings with general and specific client challenges for sales
+
+- recording, testing, repeating, improving and sharing our own work-flows and methods.
+
+I also find that it helps me understand better what my own current work-flow actually is, even as I try to improve it.
+
 # Technology Radar for Project services 
 
-This is our technology radar for project and portfolio teams. It considers the platforms, tools, languages and frameworks, and techniques that are most relevant to project management. This version is 2019, and we will post updates here. 
+This is a technology radar for project and portfolio teams. It considers the platforms, tools, languages and frameworks, and techniques that are most relevant to project management. This version is 2019, and we will post updates here. 
 
 ![](/images/P3M-content-first-framework-images/radar0.png)
 
