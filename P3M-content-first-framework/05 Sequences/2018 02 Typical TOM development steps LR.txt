@@ -1,0 +1,40 @@
+Here are some suggested stages to consider for the design and development of a changed TOM which 
+focusses on better delivery of IT programmes and projects. I have focussed more on the early stages, as 
+if these are done right, then steps 9-11 are easier to break down into the right detailed steps a little 
+later. Some of the activities can be concurrent, notably 3 and 4, and also 6,7,8 and also 9,10. You might 
+not want all of these, but it’s a reasonable shopping list to start with.
+
+1.	The Objectives and context of the TOM
+a.	Strategy Alignment within the wider business
+b.	Wider sector, consumer, competitor context, market features and externalities
+c.	Conduct organisation sense-making (the art of the possible)
+d.	Innovation and technological key elements.
+2.	Plan and set up programme for the design and development phases of the TOM
+3.	As-is assessment
+a.	Capability
+b.	Maturity 
+c.	Performance
+4.	Develop TOM requirements
+a.	Performance requirements
+b.	Functional requirements
+c.	Constraints
+d.	Best practice and sector-benchmarking
+5.	High Level options
+a.	Generate options
+b.	Evaluate options (strategy, feasibility, financials)
+c.	Agree option
+d.	Agree key staging for preferred option
+6.	Full feasibility assessment
+7.	High-level business case
+8.	Stakeholder buy-in
+a.	Re-align with the business
+b.	Change management and communications at different levels
+c.	success criteria and rollback arrangements
+9.	Detailed Design 
+10.	Implementation planning 
+11.	Implementation in stages including acceptance and adoption. 
+
+
+ 
+
+

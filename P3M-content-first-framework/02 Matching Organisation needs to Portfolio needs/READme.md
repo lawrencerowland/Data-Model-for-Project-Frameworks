@@ -11,6 +11,15 @@ Inconsistent Bidding on a suite of services
 Resourcing and pricing is not standardised
 Engagements are only more or less related to service as specified during sales.
 
+# Portfolio redesign whilst inflight (recovery)
+1. Identify the projects
+
+2. Map projects to a layer within Operating Model
+
+3. Tease out the implied Target Operating Model, including implied date
+
+· In each case, check to see whether it has been done
+
 # Example
 A Portfolio services delivery framework looks like this:
 
