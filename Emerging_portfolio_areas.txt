@@ -1,0 +1,31 @@
+
+Motivation 	Heuristic	Tools
+"Project 2020
+Strategy articulation
+Innovation
+Knowledge transfer
+Portfolio selection
+Portfolio optimisation
+Agile PMO
+Client data readiness
+(Forward requirements)
+
+"	"Strategic flexibility
+Modular sales
+Decision tree 
+Dependency planning
+Assignment insight
+Ensemble models
+Decentralised stakeholders
+(Sense-making)
+(Systems parallelism )
+
+
+"	"Capability assessments
+Portfolio modules
+Undirected graphs
+Algorithm selection
+Ideation data-lake
+Data science
+Bayesian forecasting
+"

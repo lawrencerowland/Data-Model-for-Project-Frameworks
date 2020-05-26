@@ -1,0 +1,59 @@
+Motivation: 
+*Starting an assignment
+Humility
+Understanding the problem / opportunity
+Firming up the remit
+‘Interim Management’ not always desirable
+*At start
+Data and conversations coming in
+Ideas coming in
+Pressure for a timetable
+*Getting to…. The toolset
+
+Heuristics
+Acknowledging that a methodology doesn’t always work
+Is it more of a practice ?
+Critically, how do we know when something isnt working
+
+Focus on the projects using the lens of the Portfolio framework modules
+Look at big or current or important projects first
+Increase the breadth of coverage across the projects
+
+Keep track of a request project with a UUID
+Have a few rules about how projects get in and out of the portfolio
+Don't use lists, use labels to keep track of projects
+Don't mix up project list with project reports
+Don't ask for more information than you can act upon
+Do a little bit less
+Improve a few projects at a time
+
+Typical Portfolio themes		
+	Layers upon layers of practice		
+		Conway's law	
+		Path dependence	
+		Remembered Chesterton's fence	
+		Exited with "Relationship and becoming part of the story"	
+	A simple principle, applied throughout		
+		Keeping track / basic inventory	
+		ID distinct from reporting	
+		Across many capabilities	
+	Metaphors / Stories		
+		Dripping tap, leaky bucket	
+		Applied "Choose their own"	
+		Exited with " 	
+	Portfolio as PMO or project		
+		Applied coaching by using examples	
+		Exited with " This is Portfolio not PMO"	
+	Same problem at all levels		
+		10 programmes	
+		dispositional causation	
+		Applied: Realism about magnitude of change	
+
+Emerging themes	
+	Vaulting ambition  + intelligent client + Immature organisation	
+	Rejection / shrinking back from a true agile approach	
+	Many Cross cutting programmes set up
+	Digital Programme underway
+
+
+
