@@ -37,6 +37,17 @@ A simple and deployable portfolio management services framework allows project s
 
 - Each portfolio instance will be a variant /fork of the relevant modules. 
 
+# Quick-start
+
+(optional in brackets)
+1. (Create Github account) and (download Github Desktop)
+1. Fork this code repository (Project Frameworks)
+1. Clone this fork onto your PC.
+1. Remove the modules (subfolders) you don't need within this folder (P3M-content-first-framework)
+1. Add in your own modules and modify the existing modules to suit your purposes
+1. Periodically sync with Github
+1. (When ready to deploy to your team, allow them to fork your Portfolio framework
+
 # Why use Open Source Tools for Project Services ?
 
 The idea is that by using a tool within one of your existing work-flows, you will be able to do your job more quickly, accurately and effectively. I use these tools in four main ways:
