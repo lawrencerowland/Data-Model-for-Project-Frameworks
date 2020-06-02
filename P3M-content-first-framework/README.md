@@ -46,7 +46,9 @@ A simple and deployable portfolio management services framework allows project s
 1. Remove the modules (subfolders) you don't need within this folder (P3M-content-first-framework)
 1. Add in your own modules and modify the existing modules to suit your purposes
 1. Periodically sync with Github
+1. (Edit the Folder-structure.graphml to reflect your modified module structure - most easily in YEd)
 1. (When ready to deploy to your team, allow them to fork your Portfolio framework
+
 
 # Why use Open Source Tools for Project Services ?
 
