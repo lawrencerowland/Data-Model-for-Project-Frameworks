@@ -49,6 +49,17 @@ A simple and deployable portfolio management services framework allows project s
 1. (Edit the Folder-structure.graphml to reflect your modified module structure - most easily in YEd)
 1. (When ready to deploy to your team, allow them to fork your Portfolio framework
 
+# How to open and view GraphMl in Neo4j
+
+To Open this in Neo4j: 
+
+CALL apoc.import.graphml("https://raw.githubusercontent.com/lawrencerowland/Data-Model-for-Project-Frameworks/master/P3M-content-first-framework/Folder-structure.graphml", {})
+
+Run this query to give the nodes a folder label. 
+
+MATCH (n)
+SET n:folder
+RETURN n.Node, labels(n) AS labels
 
 # Why use Open Source Tools for Project Services ?
 
