@@ -1,3 +1,10 @@
+<img src="images/Folder-structure-1.png" width="50%">
+
+# Acme: A research framework for reinforcement learning
+
+**[Purpose](#Purpose)** | **[Motivation](#Motivation)** |
+
+
 # Purpose
 
 Either: 

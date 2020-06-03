@@ -1,45 +1,42 @@
+# Strategic agility
 
-# Elicitation example in setting up
+- Articulating existing strategy
 
-## From interview, one might take the following key points
-J has some objectives for the next financial year
-- set up an office to manage the P3 portfolio
-- transform IT so that it outperforms Competitor 2
+- So that portfolios can readily be prepared
 
-J s seeking particular outcomes for the business 
-- reduce costs across the business
-- close innovation projects in stage xxx that fail certain criteria
+- Being able to pivot strategy, and reset portfolio fast, again and again
 
-J is working closely with
-- The Board
-- PMO
-- IT division
+# Where to start
 
-To achieve her objectives, Joel wants to understand
-How she should be supporting the mission of his Strategy director
-- what a portfolio office is and whether that is what he needs
-- what organisation she needs
-- what support she needs
-- what the plan should be 
+The guide and tools for this are in the Portfolio data model [repository](https://github.com/lawrencerowland/Data-models-for-portfolios)
 
+# when to use
 
-J expects to run particular portfolio services for the business 
-- select an appropriate portfolio
-- align the portfolio to the strategy
-- manage a portfolio
-- assure the portfolio 
-- continuous improvement 
+- If you are seeking to recast the operating model of your business 
 
-J has several touchpoints into the wider business: 
-- the strategic pillars
-- the IT lifecycle
-- the PMO lifecycle
+- If it might help to visualise and articulate that operating model 
+in different ways 
+for different business partners 
 
-J would recognise an operational rhythm something like  
-- Test
-- Measure
-- Learn.
+- If you  require your operating model to change and adjust as your understanding and objectives go on ?
 
-## Accordingly, the first place to start is to present this back
+# Alternate uses
 
-## Second place, is to organise the strategy report against the above implied structure
+- communicate your operating model to your business 
+in a series of operating-steps
+
+- reset your transformation agenda for delivering that model 
+(i.e. your portfolio of projects)
+
+- retain the existing portfolio and integrate with it
+and / or the operating landscape
+
+# justification
+
+“The 2017 edition of the World Economic Forum in Davos is framed under the overall umbrella of ‘Responsive and Responsible Leadership’.
+
+- “Institutionalize a focused, value-based, dynamic ‘agenda management’ governance system (separating the Decision from the Delivery agenda) that is not bound to traditional planning cycles, but has as its core objective more, better, higher-value decisions faster, with faster, high-quality execution. While this not new and has been applied with great success by large organizations in the past, we now have much better enablers (such as data analytics).
+- Use the new technologies at our disposal to create a dynamic and fully integrated planning, while connecting the dots from strategy development all the way down to operational planning. For example:
+- Accept the reality that “static” three-year plans and budgets no longer work. In today’s world, you have to constantly re-forecast based on real-time and predictive data analytics.
+- Consequently, adopt a “dynamic, value-based resource allocation” approach to capital management, whereby a clear distinction is made between capital allocation, capital release, and capital sanctioning.”
+- https://www.atkearney.com/about-us/world-economic-forum/responsive-and-responsible-leadership-is-the-ceo-wired-to-adapt-to-permanently-moving-goalposts
