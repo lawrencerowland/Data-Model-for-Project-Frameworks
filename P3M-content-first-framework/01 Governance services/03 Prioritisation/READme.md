@@ -72,3 +72,12 @@ smooth contractor and mobilisation curves
 -Positioning, negotiation and repetition
 -Has to be done as a series of finite options with the nda with time periods. Doing them all at once may be a unnecessary complexification 
 -Risk optimisation (incl. identify what needs to be done never to enter the critical stage of pressurised work)
+
+# Typical prioritisation needs (2016)
+
+Understand how practical trade-off decisions are made at Investment Panels
+Appropriate scenario planning
+Ensure the technology road map and asset strategies are supported by the portfolio
+Ensure that prioritisation decisions align to supply chain strategy
+Get the right cadence of prioritisation, which aligns to governance and sanction
+Ensuring that prioritisation decisions can be appropriately resourced, communicated  and recorded within an updated performance plan, in a timely manner
