@@ -1,4 +1,11 @@
-# OBJECTIVE
+<img src="images/Portfolio-example-governance-loop-with-levels.png" width="50%">
+
+# Selecting, tailoring and deploying a portfolio framework
+
+**[Purpose](#Purpose)** | **[Motivation](#Motivation)** |**[Quick start](#Quick-start)** |
+
+
+# Purpose
 The purpose of this repository is to provide:
 
 1. a starting point for a usable portfolio framework with deployable working practices
@@ -18,7 +25,7 @@ It is recommended that your preferred framework is adapted to:
 
 Crucially, by creating your own framework, it can be started small and with only those principles and management tasks that really do add value to your particular portfolio. Starting small is assisted by the modular nature of these tool-sets. Doing a few important portfolio-management tasks is more important than defining many tasks. 
 
-# Quick start
+# Quick-start
 There is more guidance below. However, if you want to get started quickly, and want to apply methods directly to a particular portfolio, then it may be best to start either with:
 [Text-mining with Orange](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-in-Orange-Datamining) if you want to break down your business domain straight-away
 
