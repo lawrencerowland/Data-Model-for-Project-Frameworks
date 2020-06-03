@@ -1,6 +1,6 @@
 <img src="images/Folder-structure-1.png" width="50%">
 
-# Acme: A research framework for reinforcement learning
+# A general portfolio framework
 
 **[Purpose](#Purpose)** | **[Motivation](#Motivation)** |
 
