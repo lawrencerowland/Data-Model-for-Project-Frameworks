@@ -1,14 +1,36 @@
-# STATUS
+<img src="Word-cloud.png" width="50%">
 
-This directory is being actively rewritten at this time (5/20) Please treat with caution. 
+# Selecting, tailoring and deploying a portfolio framework
 
-# Steps to run the model
+**[Purpose](#Purpose)** | **[Motivation](#Motivation)** |**[Quick start](#Quick-start)** |
+
+
+# Status
+
+This directory is being actively rewritten at this time (6/6) Please treat with caution. 
+
+# Purpose
+
+Tune the portfolio management activities so they relate to a particular business or function or set of regulations. 
+
+
+# Motivation
+
+The idea is to select large project or business function libraries - and use this process to start to make sense of what the key documents and the key themes are - so that the portfolio management tasks are tuned to an understanding of the business area. 
+
+This is better when it either starts from a good portfolio framework (see elsewhere in this repo) and when there are domain experts who can set out out the key themes and relationships. 
+
+But this can be a self-standing exercise, perhaps in a very new or growing area. 
+
+# Quick-start
 
 1. Download or clone Repository
 
 1. Install Orange Datamining from [here](https://orange.biolab.si/download)
 
 1. Open the Orange model in the folder, ending *.ows
+
+1. Install the Network and Text-mining widgets
 
 1. Run the model
 
@@ -18,7 +40,20 @@ This directory is being actively rewritten at this time (5/20) Please treat with
 
 1. Train the model on these new texts
 
+
 1. Print out the  results of interest to you (topic model / grouping similar documents etc)
+
+# Usage
+
+## Tips for smoother use
+
+1. Enable and Disable links between widgets as needed to avoid excessive recalculation. 
+
+1. Frequent use of 'view table' widget and 'save file' widget aids understanding - but best to add these only when you need them, then remove, to avoid confusing clutter
+
+1. If you have forked the repository, it can be faster to work intensely with the Orange file outside the repository, and then copy it back in once done - since GitHub Desktop takes time to synch the file
+
+1. Once the corpus has been created with Import Corpus, it is quicker going forward to use the Save Widget to save the corpus as a Tab file. Then delete the Import corpus widget and replace it with the Corpus widget, using that to open the tab file. 
 
 # Further explanation of steps if necessary
 
@@ -35,8 +70,7 @@ This directory is being actively rewritten at this time (5/20) Please treat with
 -I have removed the Kmeans widget followed by the sieve owing to difficulty of interpretation. 
 
 
-
-# Adding extra functionality if required
+## Adding extra functionality if required
 
 Heat-Map widget can be added to Topic model output. 
 
@@ -53,7 +87,7 @@ One can take any set of project documents and build a topic model to understand 
 
 Here we have taken regulatory and method documents for running nuclear projects. 
 
-![](image showing main flow xx)
+![](main-flow.png)
 
 We successfully machine-read all the different words in each document, and uncovered clusters of similar documents, document outliers, and the main topics covered. 
 
@@ -96,7 +130,28 @@ We could explore these themes with the relevant extracts from the respective Wat
 
 ## Data
 
-This library could be a project library or a process and standards library, or a collection of day to day management communications and reports. 
+This library could be a project library or a process and standards library, or a collection of day to day management communications and reports. Hundreds of documents can be used, I have tested up to 400 with no problems. For this example, I have kept to 16.
+
+
+| Document                                              | Reference           |
+| ----------------------------------------------------- | ------------------- |
+| Commissioning of security systems and infrastructure  | cns-tast-gd-4.4     |
+| Construction assurance                                | ns-tast-gd-076      |
+| Control of processes involving nuclear matter         | ns-tast-gd-023      |
+| Decommissioning                                       | ns-tast-gd-026      |
+| Design Safety Assurance                               | ns-tast-gd-057.pdf  |
+| Fundamental Principles                                | ns-tast-gd-004      |
+| Guidance on the Demonstration of ALARP                | ns-tast-gd-005      |
+| Management of Radioactive material                    | ns-tast-gd-024      |
+| nuclear construction sites                            | cns-tast-gd-6.6.pdf |
+| Organisational Change                                 | ns-tast-gd-048      |
+| oversight of items or services                        | cns-tast-gd-4.3.pdf |
+| Probabilistic Safety Analysis                         | ns-TAST-GD-030      |
+| Procedure Design and Administrative Controls          | NS-TAST-GD-060      |
+| Procurement                                           | cns-tast-gd-4.1     |
+| Reliability and resilience of the security system     | cns-tast-gd-5.1     |
+| Supplier capability                                   | cns-tast-gd-4.2     |
+
 
 ## Extract, Transform and Load the data
 
@@ -113,37 +168,49 @@ sample the data, as many of the early results in this paper have been run with s
 The first widget turns all the text into tokens (normally words). 
 The next widget turns each document into a “bag of words”, showing how many words are used in each.
 
-## Document clustering using distances between documents, then representing as a network 
+Where, required, a lot of work can be done here to improve the way that the documents are tidied up and the words are selected. 
 
-A lot of work can be done here to improve the way that the documents are tidied up and the words are selected. 
-Document clustering using distances between documents, then representing as a network 
+## Document clustering using distances between documents, then representing as a network 
 
 We first compute the distances between each document and every other document, based upon which words are found in which. There are several ways of visualising this data, and I have selected to show the distances as a network. This method allows you to treat documents that are like each other as being nodes connected with an edge, and we can set the distance threshold at which we decide to allocate an edge.  When doing this, we are paying more attention to the clusters rather than to the outliers. 
 
-By starting with clusters that are at a manageable human scale, such as three to six clusters, we can get a sense of the library. Then we can progressively allow the more ambiguous documents to appear and see more complex clusters only when we need it. Or we can have focussed in on one area with a manageable number of key documents, and only then start to find our way round the detailed clusters and relationships. This method could also be run on subsets of the data once we have decided which topics or words we are interested in. I.e. We could have selected a topic of interest and then looked in detail at the relevant documents as a network. 
+![](clusters-from-distances.png)
 
-- There appear to be three large document clusters:
-1
-2
-3
+
+By starting with clusters that are at a manageable human scale, such as three to six clusters, we can get a sense of the library. Then we can progressively allow the more ambiguous documents to appear and see more complex clusters only when we need it. 
+
+Or we can have focussed in on one area with a manageable number of key documents, and only then start to find our way round the detailed clusters and relationships. This method could also be run on subsets of the data once we have decided which topics or words we are interested in. I.e. We could have selected a topic of interest and then looked in detail at the relevant documents as a network. 
+
+- There appear to be two document clusters:
+
+1 One around construction and security
+2 One around decommissioning and nuclear handling. 
+
 
 ![](doc cluster xx)
-- Looking at some of the smaller clusters, there is:
-1
-2
-3
+- There is one smaller cluster around assurance.
+
+
 
 And so on. Once you select a cluster, you can view the documents and respective cloud. 
 
 ## Looking for outliers, and testing our original clusters at the same time
 
-We can do this with the whole library at once, but here I am showing a subset of the documents for speed. 
-![](doc hasing algo widgets xx)
+As can be seen above there  also one outlier, which is around Probabilistic safety analysis.  
+
+Let us compare that view with another analysis. 
 Using the hashing algorithm, we establish different clusters of documents, based upon word-similarity.
 
-Here we see that [xx](x) stands out as being very different. There is also a cluster of xx. This algorithm will scale well up to much large collections, and it also will be useful for the future, when trying to find a cluster of documents that is most relevant to a search document or search paragraph that we have. Once we select a cluster, however big or small, we can then view those documents together, or export them into their own folder.
+![](Document-grouping-from-hash-similarity.png)
+
+This one suggests that Procurement is an outlier. 
+xx
+xx
+This algorithm will scale well up to much large collections, and it also will be useful for the future, when trying to find a cluster of documents that is most relevant to a search document or search paragraph that we have. Once we select a cluster, however big or small, we can then view those documents together, or export them into their own folder.
 
 The first time, it is worth looking at alternate clustering algorithms, to see which perform better, or whether they pick up different aspects of the library.
+
+![](clusters-from-distance-names.png)
 
 We can also use the distances as calculated earlier but visualise them in a different way. These here are a subset of the documents. We can see different clusters, both from the blue dendrogram, and from the yellow shading. 
 ![](doc widgets xx)
