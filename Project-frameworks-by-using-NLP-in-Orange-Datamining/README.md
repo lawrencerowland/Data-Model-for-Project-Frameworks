@@ -87,7 +87,7 @@ One can take any set of project documents and build a topic model to understand 
 
 Here we have taken regulatory and method documents for running nuclear projects. 
 
-![](main-flow.png)
+![](images/main-flow.png)
 
 We successfully machine-read all the different words in each document, and uncovered clusters of similar documents, document outliers, and the main topics covered. 
 
@@ -161,7 +161,7 @@ The documents were converted into a text format compatible with Orange, and save
 
 
 Once the documents have been imported, the first widgets can be replaced with something that reads the corpus as a tab file (xx).
-![](Extract-Data-steady-state-flow.png)
+![](images/Extract-Data-steady-state-flow.png)
 
 - Data transformation and load
 
@@ -181,7 +181,7 @@ Where, required, a lot of work can be done here to improve the way that the docu
 
 We first compute the distances between each document and every other document, based upon which words are found in which. There are several ways of visualising this data, and I have selected to show the distances as a network. This method allows you to treat documents that are like each other as being nodes connected with an edge, and we can set the distance threshold at which we decide to allocate an edge.  When doing this, we are paying more attention to the clusters rather than to the outliers. 
 
-![](clusters-from-distances.png)
+![](images/clusters-from-distances.png)
 
 
 By starting with clusters that are at a manageable human scale, such as three to six clusters, we can get a sense of the library. Then we can progressively allow the more ambiguous documents to appear and see more complex clusters only when we need it. 
@@ -199,7 +199,7 @@ And so on. Once you select a cluster, you can view the documents and respective 
 
 the same analysis can also be viewed showing finer grained sub-clusters
 
-![](clusters-from-distance-names.png)
+![](images/clusters-from-distance-names.png)
 
 This is another way of viewing the same information, which could be useful when there are far more documents being reviewed.
 ![](images/clusters-from-distances.png)
@@ -213,8 +213,7 @@ As can be seen above there  also one outlier, which is around Probabilistic safe
 Let us compare that view with another analysis. 
 Using the hashing algorithm, we establish different clusters of documents, based upon word-similarity.
 
-![](Document-grouping-from-hash-similarity.png)
-
+![](images/Document-grouping-from-hash-similarity.png)
 This one suggests that Procurement is an outlier. 
 Other than that, it also sees to see as before similar groups
 

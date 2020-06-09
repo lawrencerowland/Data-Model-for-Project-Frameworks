@@ -42,7 +42,7 @@ This repository is structured as a series of independent frameworks and tool opt
 
 1. **Orange NLP** folder allows the construction of topic models for your business domain, based upon your own documents, working in No Code environment. The business benefit of this is described in a section immediately below
 
-1. **Python NLP folder** does the same as Orange NLP, but does it by providing a low code environment using Jupyter notebooks.
+1. ![**Python NLP folder**](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) does the same as Orange NLP, but does it by providing a low code environment using Jupyter notebooks.
 
 3. ***Project Frameworks from Example*** folder shows how to take a Portfolio best practice structure, in this case from hundreds of Wikipedia project pages, and generate an initial portfolio framework hierarchy. This is useful if you have a favourite portfolio management text and you wish to use that to create a portfolio practice framework from it
 
