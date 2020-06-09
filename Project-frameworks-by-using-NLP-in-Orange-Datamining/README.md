@@ -159,6 +159,10 @@ This library could be a project library or a process and standards library, or a
 
 The documents were converted into a text format compatible with Orange, and saved as one single libary. These documents are then read in from the file as a document corpus 
 
+
+Once the documents have been imported, the first widgets can be replaced with something that reads the corpus as a tab file (xx).
+![](Extract-Data-steady-state-flow.png)
+
 - Data transformation and load
 
 sample the data, as many of the early results in this paper have been run with smaller subsets of the 500 documents for speed. 
@@ -169,6 +173,9 @@ The first widget turns all the text into tokens (normally words).
 The next widget turns each document into a “bag of words”, showing how many words are used in each.
 
 Where, required, a lot of work can be done here to improve the way that the documents are tidied up and the words are selected. 
+
+
+
 
 ## Document clustering using distances between documents, then representing as a network 
 
@@ -186,13 +193,18 @@ Or we can have focussed in on one area with a manageable number of key documents
 1 One around construction and security
 2 One around decommissioning and nuclear handling. 
 
-
-![](doc cluster xx)
 - There is one smaller cluster around assurance.
 
-
-
 And so on. Once you select a cluster, you can view the documents and respective cloud. 
+
+the same analysis can also be viewed showing finer grained sub-clusters
+
+![](clusters-from-distance-names.png)
+
+This is another way of viewing the same information, which could be useful when there are far more documents being reviewed.
+![](images/clusters-from-distances.png)
+
+The small cluster of assurance can be clearly seen at the bottom. 
 
 ## Looking for outliers, and testing our original clusters at the same time
 
@@ -204,19 +216,18 @@ Using the hashing algorithm, we establish different clusters of documents, based
 ![](Document-grouping-from-hash-similarity.png)
 
 This one suggests that Procurement is an outlier. 
-xx
-xx
+Other than that, it also sees to see as before similar groups
+
+1 One around construction and security (top 3 docs)
+2 One around decommissioning and nuclear handling. (bottom 12 docs)
+
+But it also sees sub-clusters, for example the bottom two documents (Decom and Reliability).
+
+
 This algorithm will scale well up to much large collections, and it also will be useful for the future, when trying to find a cluster of documents that is most relevant to a search document or search paragraph that we have. Once we select a cluster, however big or small, we can then view those documents together, or export them into their own folder.
 
 The first time, it is worth looking at alternate clustering algorithms, to see which perform better, or whether they pick up different aspects of the library.
 
-![](clusters-from-distance-names.png)
-
-We can also use the distances as calculated earlier but visualise them in a different way. These here are a subset of the documents. We can see different clusters, both from the blue dendrogram, and from the yellow shading. 
-![](doc widgets xx)
-![](doc results xx)
-
-We can select each cluster and inspect. The top left cluster is xxx
 
 Here, a multi-dimensional scaling tries to reduce difference to two dimensions, and we see similar outliers.
 
