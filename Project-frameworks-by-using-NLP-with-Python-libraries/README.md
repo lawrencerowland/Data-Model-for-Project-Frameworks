@@ -26,9 +26,7 @@ xx
 
 (you may need to also activate the Env again once in Jupiter lab)
 
-1. ( Navigate to directory)
-
-1. First one to start with might be '2020 03 USEFUL version GENSIM pdf corpus at Document level to text summary keyword BOW TFIDF LSI cosine similarity.ipynb' 
+1. one to start with might be '2020 03 USEFUL version GENSIM pdf corpus at Document level to text summary keyword BOW TFIDF LSI cosine similarity.ipynb'  See here (xx) 
 
 # Software requirements for the various notebooks**
 the following Python libraries to be installed: Gensim, BS4. Also NLTK and SpaCy. Gensim requires NumPy and SciPy. NLTK requires Pandas.
