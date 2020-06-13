@@ -1,10 +1,6 @@
 # 1st Notebook example: Keyword and Topic modelling
 
-
-
-```python
 <img src="xx.png" width="50%">
-```
 
 **[Purpose](#Purpose)** | **[Motivation](#Motivation)** |**[Features](#Features)** |**[Prerequisites](#Prerequisites)** |**[Quick start](#Quick-start)** |**[How-to-use](#How-to-use)**|
 
@@ -29,7 +25,7 @@ For simplicity, this one starts from documents as text files and internet pages.
 
 # Prerequisites 
 
-The following Python libraries are needed: Gensim, BS4. Also NLTK and SpaCy. Gensim requires NumPy and SciPy. NLTK requires Pandas.
+The following Python libraries are needed: Gensim, BS4, Igraph. Also NLTK and SpaCy. Gensim requires NumPy and SciPy. NLTK requires Pandas.
 
 For example, if one chooses to do it in Conda:
 
