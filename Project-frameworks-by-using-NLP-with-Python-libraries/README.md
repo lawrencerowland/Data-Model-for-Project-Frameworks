@@ -799,6 +799,13 @@ print (sims)
 
 **Using keywords into Neo4j concurrence...**
 
+CALL apoc.import.graphml("https://raw.githubusercontent.com/lawrencerowland/Data-Model-for-Project-Frameworks/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter%20notebooks/Top_10_Keywords_ONR.graphml",{storeNodeIds: true})
+
+MATCH (n)
+SET n:
+RETURN n.name, labels(n) AS labels
+
+then select keywords and get them to show labels...
 
 # Acknowledgements
 
