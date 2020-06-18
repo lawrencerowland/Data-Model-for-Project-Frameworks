@@ -39,6 +39,8 @@ For example, if one chooses to do it in Conda:
 
 (one may need to also activate the Env again once in Jupyter lab)
 
+From Step 8 onwards, it is recommended you install Neo4j.
+Although it can be done on cloud versions of Neo4j, or on YEd, or YEd live, or on Gephi. 
 
 # Quick-start
 
@@ -68,9 +70,3 @@ The user can start from the markdown file (xx) showing and explaining the code, 
 - for Topic model, uses only Bag of Words model 
 - for similarity-search, using cosine similarity, based upon TFIDF model
 - for topic model, uses methods other than LSI. 
-
-# How-to-use
-
-## Installation
-
-First Check installation has been made, as per the [READme](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/README.md)
