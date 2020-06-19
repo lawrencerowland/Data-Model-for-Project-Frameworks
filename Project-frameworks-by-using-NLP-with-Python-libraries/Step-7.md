@@ -2,7 +2,7 @@
 
 
 
-![Knowledge-graph-from-keywords-1.png](/images/Step-7_files/attachment:d8dc96af-b597-4ead-a51e-f1ff87c900dd.png)
+![Knowledge-graph-from-keywords-1.png](images/Step-7_files/attachment:d8dc96af-b597-4ead-a51e-f1ff87c900dd.png)
 
 |**[Overview](#Overview)** |**[Prior-steps](#Prior-steps)**|**[How-to-use](#How-to-use)**|**[Next-steps](#Next-steps)**|**[Postscript](#Postscript)**|**[Acknowledgements](#Acknowledgments)|
 
@@ -108,7 +108,7 @@ plt.show()
 
 
 
-![png](/images/Step-7_files/output_16_1.png)
+![png](images/Step-7_files/output_16_1.png)
 
 
 ```python

@@ -2,7 +2,7 @@
 
 
 
-![Keywords-for-whole-library.png](/images/Step-6_files/attachment:e2bc4d21-b434-47a3-a0a1-9eeeaaab9942.png)
+![Keywords-for-whole-library.png](images/Step-6_files/attachment:e2bc4d21-b434-47a3-a0a1-9eeeaaab9942.png)
 
 |**[Overview](#Overview)** |**[Installation](#Installation)||**[Prior-steps](#Prior-steps)**|**[How-to-use](#How-to-use)**|**[Next-steps](#Next-steps)**|**[Postscript](#Postscript)**|**[Acknowledgements](#Acknowledgments)|
 
@@ -63,7 +63,7 @@ pyplot.savefig(directory+'Keywords-for-whole-library.png') #saves last figure ge
 ```
 
 
-![png](/images/Step-6_files/output_14_0.png)
+![png](images/Step-6_files/output_14_0.png)
 
 
 # Next-steps
