@@ -25,7 +25,7 @@ For simplicity, this one starts from documents as text files and internet pages.
 
 # Prerequisites 
 
-The following Python libraries are needed: Gensim, BS4, NetworkX, Matplotlib, Pandas. Also NLTK and SpaCy. Gensim requires NumPy and SciPy. NLTK requires Pandas.
+The following Python libraries are needed: Gensim, BS4, NetworkX, Matplotlib, Pandas. Also NLTK and SpaCy. Gensim requires NumPy and SciPy. NLTK requires Pandas. Pdfminersix if you are starting from Pdfs
 
 For example, if one chooses to do it in Conda:
 
