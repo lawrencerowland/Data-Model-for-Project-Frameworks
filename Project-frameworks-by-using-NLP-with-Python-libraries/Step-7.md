@@ -1,34 +1,21 @@
-# Build knowledge-graph-from-keywords
+# Step 7: Build knowledge-graph-from-keywords
 
 
 
-```python
-pos = nx.spring_layout(g)
-plt.figure()
-nx.draw(g, pos, edge_color='black', width=1, linewidths=1,node_size=3000, node_color='seagreen', alpha=0.9,labels={node: node for node in g.nodes()})
-plt.axis('off')
-plt.show()
-```
+![Knowledge-graph-from-keywords-1.png](/images/Step-7_files/attachment:d8dc96af-b597-4ead-a51e-f1ff87c900dd.png)
 
-
-![png](/images/output_0_0.png)
-
-
-# Step7: Compile a single library
-
-|**[Quick start](#Quick-start)** |**[How-to-use](#How-to-use)**|
+|**[Overview](#Overview)** |**[Prior-steps](#Prior-steps)**|**[How-to-use](#How-to-use)**|**[Next-steps](#Next-steps)**|**[Postscript](#Postscript)**|**[Acknowledgements](#Acknowledgments)|
 
 # Overview
- This accesses the relationships between selected keywords, and show it as a knowledge graph. 
- This will allow subsequent steps to craft an appropriate portfolio services framework within the particular business domain being analysed.
- 
- These linkages suggest ways of laying out the knowledge area under question.
+This accesses the relationships between selected keywords, and show it as a knowledge graph. 
+This will allow subsequent steps to craft an appropriate portfolio services framework within the particular business domain being analysed.
+These linkages suggest ways of laying out the knowledge area under question.
+
+# Prior-steps
+Step 5 and 6
 
 # How-to-use
-Work from this description or the equivalent Jupyter notebook (xx). Any code omitted for clarity is available in the notebook.
-
-## Prior steps
-Step 5 and 6
+Work from this description or the equivalent Jupyter [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter%20notebooks/Step-7-knowledge-graph-from-keywords.ipynb). Any code omitted for clarity is available in the notebook.
 
 ## Import modules
 
@@ -84,7 +71,8 @@ for edge in h.edges():
 
 ## Reduce the graph to just those links between keywords
 The above graph can be plotted, but its pretty dense. 
-We remove all nodes except for the keyword-stems.
+i.e. Manually list the stems you want to keep. 
+The line below removes all nodes except for the keyword-stems.
 
 ```python
 g.remove_nodes_from([n for n in g if n not in set(['safe', 'design', 'requir','oper','appropri','process','secur','site'])])
@@ -101,22 +89,36 @@ g.nodes()
 
 
 
+## Plot graph between keywords
+
 ```python
 pos = nx.spring_layout(g)
-plt.figure()
+figure1=plt.figure()
 nx.draw(g, pos, edge_color='black', width=1, linewidths=1,node_size=3000, node_color='seagreen', alpha=0.9,labels={node: node for node in g.nodes()})
 plt.axis('off')
+plt.savefig(directory+'Knowledge-graph-from-keywords-1.png') #saves last figure generated
+```
+
+```python
 plt.show()
 ```
 
 
-![png](/images/output_14_0.png)
+    <Figure size 432x288 with 0 Axes>
 
 
-# Next steps
+
+![png](/images/Step-7_files/output_16_1.png)
+
+
+```python
+nx.write_graphml(g, directory+'Keyword-graph.graphml', encoding='utf-8', prettyprint=True, infer_numeric_types=False)
+```
+
+# Next-steps
 Step 8 uses this keyword model to outline the business domain relating to the whole library collected. 
 
-## Postscript: Alternative
+# Postscript: Alternative
 Instead of removing nodes, a subgraph can be generated, but it does not allow one to throw away the full graph. 
 
 ```python
