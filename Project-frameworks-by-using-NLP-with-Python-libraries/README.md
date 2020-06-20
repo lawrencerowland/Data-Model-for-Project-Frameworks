@@ -44,13 +44,12 @@ Although it can be done on cloud versions of Neo4j, or on YEd, or YEd live, or o
 
 # Quick-start
 
-It is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.
+It is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.There is a list of steps, which also shows which are optional. Each step has its own notebook, which explains the step and provides the code,and shows an example. 
 
-(Attributes and adjustments are included immediately below for ease of reference, but best consulted after using the notebook).
+Attributes and adjustments are included immediately below for ease of reference, but best consulted after using the notebook.
+To see which steps you want to use first, you can look at the [Interim-results folder](Data-Model-for-Project-Frameworks/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results/) which shows the results applied to the nuclear example. 
 
-The user can start from the markdown file (xx) showing and explaining the code, or can work through the notebook directly (xx). Some minor detail is hidden in the markdown file, but shown in the notebook.
-
-## Attributes
+# Attributes
 
 - Uses GENSIM library
 - Starts from Text file rather than PDF
@@ -70,3 +69,18 @@ The user can start from the markdown file (xx) showing and explaining the code, 
 - for Topic model, uses only Bag of Words model 
 - for similarity-search, using cosine similarity, based upon TFIDF model
 - for topic model, uses methods other than LSI. 
+
+# Sequence of steps
+
+| Step  | Handl                                         | Option                                                                                                     |
+| ----- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 1     | Handle pdfs                                   | ![](Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
+| 2     | Handle internet pages                         | ![](Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
+| 3     | Discover keywords for each document           | Optional                                                                                                   |
+| 4     | Prepare automatic summaries for each document | ![](                                                                                                       |
+| 5     | **Create one library**                        | Core                                                                                                       |
+| 6     | Discover keywords across whole libary         | Core                                                                                                       |
+| 7     | Create knowledge graph from keywords          | Core                                                                                                       |
+| 8     | Outline the business domain                   | Core                                                                                                       |
+
+For some key steps, a markdown file is provided to read rather than the notebook. 
