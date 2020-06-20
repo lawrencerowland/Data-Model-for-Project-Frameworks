@@ -1,6 +1,6 @@
 # 1st Notebook example: Keyword and Topic modelling
 
-<img src="xx.png" width="50%">
+<img src="https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results/knowledge-graph-2.png" width="50%">
 
 **[Purpose](#Purpose)** | **[Motivation](#Motivation)** |**[Features](#Features)** |**[Prerequisites](#Prerequisites)** |**[Quick start](#Quick-start)** |**[How-to-use](#How-to-use)**|
 
@@ -47,10 +47,9 @@ Although it can be done on cloud versions of Neo4j, or on YEd, or YEd live, or o
 It is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.There is a list of steps, which also shows which are optional. Each step has its own notebook, which explains the step and provides the code,and shows an example. 
 
 Attributes and adjustments are included immediately below for ease of reference, but best consulted after using the notebook.
-To see which steps you want to use first, you can look at the [Interim-results folder](Data-Model-for-Project-Frameworks/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results/) which shows the results applied to the nuclear example. 
+To see which steps you want to use first, you can look at the [Interim-results folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results) which shows the results applied to the nuclear example. 
 
 # Attributes
-
 - Uses GENSIM library
 - Starts from Text file rather than PDF
 - also starts from Internet page
@@ -70,17 +69,23 @@ To see which steps you want to use first, you can look at the [Interim-results f
 - for similarity-search, using cosine similarity, based upon TFIDF model
 - for topic model, uses methods other than LSI. 
 
-# Sequence of steps
+# How-to-use
+
+(Status): Steps 1-8 have working notebooks which generate useful results. See below. Subsequent steps are under preparation, but are only enhancements. 
+
+***Currently please go straight to the [notebook folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks) to start, as I have not yet sorted the links in the table below***
+
+## Sequence of steps
 
 | Step  | Handl                                         | Option                                                                                                     |
 | ----- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1     | Handle pdfs                                   | ![](Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
-| 2     | Handle internet pages                         | ![](Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
+| 1     | Handle pdfs                                   | (Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
+| 2     | Handle internet pages                         | (Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
 | 3     | Discover keywords for each document           | Optional                                                                                                   |
-| 4     | Prepare automatic summaries for each document | ![](                                                                                                       |
-| 5     | **Create one library**                        | Core                                                                                                       |
-| 6     | Discover keywords across whole libary         | Core                                                                                                       |
-| 7     | Create knowledge graph from keywords          | Core                                                                                                       |
-| 8     | Outline the business domain                   | Core                                                                                                       |
+| 4     | Prepare automatic summaries for each document | (                                                                                                       |
+| 5     | **Create one library**                        |                                                                                                        |
+| 6     | **Discover keywords across whole library**         |                                                                                                        |
+| 7     | **Create knowledge graph from keywords**          |                                                                                                    |
+| 8     | **Outline the business domain**                   |                                                                                                        |
 
 For some key steps, a markdown file is provided to read rather than the notebook. 
