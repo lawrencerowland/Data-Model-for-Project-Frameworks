@@ -44,7 +44,9 @@ Although it can be done on cloud versions of Neo4j, or on YEd, or YEd live, or o
 
 # Quick-start
 
-It is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.There is a list of steps, which also shows which are optional. Each step has its own notebook, which explains the step and provides the code,and shows an example. 
+The user can go straight[notebook folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks) and work down the steps. 
+
+Otherwise it is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.There is a list of steps, which also shows which are optional. Each step has its own notebook, which explains the step and provides the code,and shows an example. 
 
 Attributes and adjustments are included immediately below for ease of reference, but best consulted after using the notebook.
 To see which steps you want to use first, you can look at the [Interim-results folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results) which shows the results applied to the nuclear example. 
@@ -73,19 +75,23 @@ To see which steps you want to use first, you can look at the [Interim-results f
 
 (Status): Steps 1-8 have working notebooks which generate useful results. See below. Subsequent steps are under preparation, but are only enhancements. 
 
-***Currently please go straight to the [notebook folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks) to start, as I have not yet sorted the links in the table below***
 
 ## Sequence of steps
 
+Core steps are in bold. You can go straight to the required notebook by clicking on the links below. 
+There is also a summary of the Core steps in the section below
+
+However the optional early steps, such as 3 and 4, are very useful in getting an immediate summary and keywords for each document. 
+
 | Step  | Handl                                         | Option                                                                                                     |
 | ----- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1     | Handle pdfs                                   | (Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
-| 2     | Handle internet pages                         | (Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
-| 3     | Discover keywords for each document           | Optional                                                                                                   |
-| 4     | Prepare automatic summaries for each document | (                                                                                                       |
-| 5     | **Create one library**                        |                                                                                                        |
-| 6     | **Discover keywords across whole library**         |                                                                                                        |
-| 7     | **Create knowledge graph from keywords**          |                                                                                                    |
-| 8     | **Outline the business domain**                   |                                                                                                        |
+| 1     | Handle pdfs                                   | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
+| 2     | Handle internet pages                         | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
+| 3     | Discover keywords for each document           |  [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-3-Summaries-for-each-document.ipynb)                                                                                                 |
+| 4     | Prepare automatic summaries for each document | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-4-Keywords-for-each-document.ipynb)                                                                                               |
+| 5     | **Create one library**                        |      [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-5-Create-one-library.ipynb)                                                                                                  |
+| 6     | **Discover keywords across whole library**         |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-6-Discover-keywords-whole-library.ipynb)|
+| 7     | **Create knowledge graph from keywords**          |                                                                                                    |[notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-7-knowledge-graph-from-keywords.ipynb)
+| 8     | **Outline the business domain**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-8-Outline-the-business-domain.ipynb)|
 
-For some key steps, a markdown file is provided to read rather than the notebook. 
+## Summary of core steps
