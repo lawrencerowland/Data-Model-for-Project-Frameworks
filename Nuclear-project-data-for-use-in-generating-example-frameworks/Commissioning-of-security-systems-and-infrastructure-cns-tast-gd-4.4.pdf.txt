@@ -1,0 +1,696 @@
+Commissioning-of-security-systems-and-infrastructure-cns-tast-gd-4.4.pdf
+ Title of document 
+ 
+ 
+ 
+ 
+ 
+ 
+
+OFFICIAL 
+ 
+
+ONR GUIDE 
+
+COMMISSIONING OF SECURITY SYSTEMS AND INFRASTRUCTURE 
+
+Document Type: 
+
+Nuclear Security Technical Assessment Guide 
+
+Unique Document ID and 
+Revision No: 
+
+CNS-TAST-GD-4.4 Revision 0 
+
+Date Issued: 
+
+March 2017 
+
+Review Date: 
+
+March 2020 
+
+Approved by: 
+
+David Pascoe 
+
+Professional Lead 
+
+Record Reference: 
+
+TRIM Folder 4.4.2.19074. (2017/104173) 
+
+Revision commentary: 
+
+New document issued 
+
+TABLE OF CONTENTS 
+
+ 
+
+ 
+1. 
+
+INTRODUCTION ................................................................................................................. 2 
+
+2.  PURPOSE AND SCOPE ..................................................................................................... 2 
+
+3.  RELATIONSHIP TO LICENCE AND OTHER RELEVANT LEGISLATION ......................... 2 
+
+4.  RELATIONSHIP TO IAEA DOCUMENTATION AND GUIDANCE ...................................... 2 
+
+5.  RELATIONSHIP TO NATIONAL POLICY DOCUMENTS ................................................... 3 
+
+6.  ADVICE TO INSPECTORS ................................................................................................. 3 
+
+7.  THE COMMISSIONING PROCESS .................................................................................... 4 
+
+8.  COMMISSIONING AND PERSONNEL ............................................................................... 5 
+
+9.  COMMISSIONING AND MAINTENANCE ........................................................................... 5 
+
+10. COMMISSIONING AND TRAINING .................................................................................... 6 
+
+11. REFERENCES .................................................................................................................... 7 
+
+12. GLOSSARY AND ABBREVIATIONS .................................................................................. 8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© Office for Nuclear Regulation, 2017 
+If you wish to reuse this information visit www.onr.org.uk/copyright for details.  
+Published 03/17 
+
+ 
+
+ 
+
+Template Ref: ONR-DOC-TEMP-002 Revision 1 
+
+Page 1 of 8 
+
+OFFICIAL 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+1. 
+
+INTRODUCTION 
+
+OFFICIAL 
+
+1.1 
+
+1.2 
+
+2.1 
+
+3.1 
+
+3.2 
+
+4.1 
+
+4.2 
+
+The Office for Nuclear Regulation (ONR) has established a set of Security Assessment 
+Principles (SyAPs) (Reference 7). This document contains Fundamental Security 
+Principles (FSyPs) that dutyholders must demonstrate have been fully taken into 
+account in developing their security arrangements to meet relevant legal obligations. 
+The security regime for meeting these principles is described in security plans prepared 
+by the dutyholders, which are approved by ONR under the Nuclear Industries Security 
+Regulations (NISR) 2003 (Reference 1).  
+
+The term ‘security plan’ is used to cover all dutyholder submissions such as nuclear site 
+security plans, temporary security plans and transport security statements. NISR 
+Regulation 22 dutyholders may also use the SyAPs as the basis for Cyber Security and 
+Information Assurance documentation that helps them demonstrate ongoing legal 
+compliance for the protection of Sensitive Nuclear Information (SNI). The SyAPs are 
+supported by a suite of guides to assist ONR inspectors in their assessment and 
+inspection work, and in making regulatory judgements and decisions.  This Technical 
+Assessment Guidance (TAG) is such a guide. 
+
+2. 
+
+PURPOSE AND SCOPE 
+
+This TAG contains guidance to advise and inform ONR inspectors in exercising their 
+regulatory judgment during assessment activities relating to a dutyholder’s 
+arrangements to ensure their security systems are subject to appropriate 
+commissioning. It aims to provide general advice and guidance to ONR inspectors on 
+how this aspect of security should be assessed. It does not set out how ONR regulates 
+the dutyholder’s arrangements.  It does not prescribe the methodologies for dutyholders 
+to follow in demonstrating they have addressed the SyAPs. It is the dutyholder’s 
+responsibility to determine and describe this detail and for ONR to assess whether the 
+arrangements are adequate.  
+
+3. 
+
+RELATIONSHIP TO LICENCE AND OTHER RELEVANT LEGISLATION 
+
+The term ‘dutyholder’ mentioned throughout this guide is used to define ‘responsible 
+persons’ on civil nuclear licensed sites and other nuclear premises subject to security 
+regulation, a ‘developer’ carrying out work on a nuclear construction site and approved 
+carriers, as defined in NISR. It is also used to refer to those holding SNI.  
+
+NISR defines a ‘nuclear premises’ and requires ‘the responsible person’ as defined to 
+have an approved security plan in accordance with Regulation 4. It further defines 
+approved carriers and requires them to have an approved Transport Security Statement 
+in accordance with Regulation 16. Persons to whom Regulation 22 applies are required 
+to protect SNI. ONR considers supply chain management to be an important component 
+of a dutyholder’s arrangements in demonstrating compliance with relevant legislation.   
+
+4. 
+
+RELATIONSHIP TO IAEA DOCUMENTATION AND GUIDANCE 
+
+The essential elements of a national nuclear security regime are set out in the 
+Convention on the Physical Protection of Nuclear Material (CPPNM) (Reference 4) and 
+the IAEA Nuclear Security Fundamentals (Reference 3). Further guidance is available 
+within IAEA Technical Guidance and Implementing Guides. 
+
+Fundamental Principle J of the CPPNM refers to quality assurance and states that a 
+quality assurance policy and quality assurance programmes should be established and 
+implemented with a view to providing confidence that specified requirements for all 
+activities important to physical protection are satisfied. The importance of issues relating 
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 2 of 8 
+
+ 
+OFFICIAL 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL 
+
+to quality assurance is also recognised in the Nuclear Security Fundamentals, 
+specifically: 
+
+ 
+
+Essential Element 12: Sustaining a Nuclear Security Regime – 3.12 A nuclear 
+security regime ensures that each competent authority and authorised person 
+and other organisations with nuclear security responsibilities contribute to the 
+sustainability of the regime by: 
+
+a)  Developing, implementing, and maintaining appropriate and effective 
+integrated management systems including quality management 
+systems; and, 
+
+h)  Routinely performing assurance activities to identify and address 
+
+issues and factors that may affect the capacity to provide adequate 
+nuclear security, including cyber security, at all times.  
+
+A more detailed description of the quality assurance is provided in Recommendations 
+level guidance, specifically Nuclear Security Series (NSS) 13, Recommendations on 
+Physical Protection of Nuclear Material and Nuclear Facilities (INFCIRC/225/Revision 5) 
+(Reference 2). This document states “The quality assurance policy and programmes for 
+physical protection should ensure that a physical protection system is designed, 
+implemented, operated and maintained in a condition capable of effectively responding 
+to the threat assessment or design basis threat and that it meets the State’s regulations, 
+including its prescriptive and/or performance based requirements.” 
+
+5. 
+
+RELATIONSHIP TO NATIONAL POLICY DOCUMENTS 
+
+The SyAPs provide ONR inspectors with a framework for making consistent regulatory 
+judgements on the effectiveness of a dutyholder’s security arrangements.  This TAG 
+provides guidance to ONR inspectors when assessing a dutyholder’s submission 
+demonstrating they have effective processes in place to achieve SyDP 4.4 – 
+Commissioning, in support of FSyP 4 – Nuclear Supply Chain Management.  The TAG 
+is consistent with other TAGs and associated guidance and policy documentation. 
+
+The HMG Security Policy Framework (SPF) (Reference 5) describes the Cabinet 
+Secretary’s expectations of how HMG organisations and third parties handling HMG 
+information and other assets will apply protective security to ensure HMG can function 
+effectively, efficiently and securely. The security outcomes and requirements detailed in 
+the SPF have been incorporated within the SyAPs. This ensures that dutyholders are 
+presented with a coherent set of expectations for the protection of nuclear premises, 
+SNI and the employment of appropriate personnel security controls both on and off 
+nuclear premises. 
+
+5.3 
+
+The Classification Policy (Reference 6) indicates those categories of SNI, which require 
+protection and the level of security classification to be applied. 
+
+6. 
+
+ADVICE TO INSPECTORS 
+
+Commissioning is the activity of setting to work systems and associated infrastructure, 
+including assuring all systems and components are designed, installed, tested, 
+operated, and maintained according to the Operational Requirements (ORs) of the 
+owner. A commissioning process may be applied to new projects and existing systems, 
+subject to modifications or significant maintenance. The scale of the commissioning 
+activity should be proportionate to the level of complexity and degree of impact that the 
+project will have on the site or facility’s ability to meet its security outcome as defined in 
+Annexes C and D of SyAPs.  
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 3 of 8 
+
+ 
+OFFICIAL 
+
+4.3 
+
+5.1 
+
+5.2 
+
+6.1 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+6.2 
+
+OFFICIAL 
+
+This TAG is aimed at providing guidance to the inspector when assessing the adequacy 
+of the commissioning arrangements demonstrated through the performance of the 
+equipment (and those personnel who will manage, operate and maintain it) and the 
+adequacy of the procedures to support the operation of that equipment. As part of this 
+process, early engagement with dutyholders is essential in order to fully understand 
+their proposals, assess the quality and completeness of the activities and measure the 
+compliance of the plant and systems with the Physical Protection System (PPS) 
+outcome and postures. This engagement should have been on-going throughout the 
+development of the project. The commissioning activity is the first opportunity to confirm 
+the performance of the installation and its contribution to meeting relevant security 
+objectives.  
+
+6.3 
+
+This TAG should also be used to consider circumstances when security equipment is 
+being removed at a dutyholder’s site, when the site is being progressively being 
+decommissioned. 
+
+Regulatory Expectation 
+
+6.4 
+
+The regulatory expectation is that dutyholders demonstrate in the security plan how they 
+implement proportionate commissioning plans which should include clear definition of 
+roles and responsibilities, performance indicators, availability of resources and clearly 
+defined decision points (to be met prior to moving to the next phase), as appropriate. 
+Where the plant and systems form a part of an existing infrastructure, the inspector 
+should expect to identify that a risk assessment has been undertaken to review the 
+potential impact on security caused by the commissioning of the new (or refurbished) 
+equipment. Planned mitigation of any associated risks should also be evidenced. 
+
+FSYP 4 - Reliability, 
+Resilience and 
+Sustainability 
+
+Commissioning 
+
+SyDP 4.4 
+
+Before bringing into operation or returning to service any facility, system or process 
+that may affect security it should be subject to testing and a commissioning plan 
+defined in the security plan. 
+
+ 
+
+7. 
+
+7.1 
+
+7.2 
+
+7.3 
+
+THE COMMISSIONING PROCESS 
+
+Commissioning activity should be much more than simply setting plant and equipment to 
+work. The effectiveness of security equipment to meet PPS postures and outcomes 
+described in SyAPs, requires the integration of a wider range of assets to support the 
+operation of security equipment. This may include uninterruptable and possibly 
+alternative power supplies such as diesel generators, to secure reliable performance. 
+Commissioning should provide evidence and demonstrate that all aspects of the wider 
+infrastructure operate as planned in both normal and fault conditions to confirm 
+operational resilience. 
+
+Commissioning is typically broken into two parts usually termed ‘cold’ and ‘hot’ 
+commissioning. The former usually demonstrates the completeness of the plant and 
+systems. It confirms that all components are installed, connections made and plant 
+labelled. Evidence should be available to show this process has been undertaken and 
+appropriate ‘snagging’, to put things right, has been expedited. 
+
+‘Hot’ commissioning refers to a phase when the plant and systems are energised. It is 
+when the actual performance of the individual plant components is demonstrated 
+ 
+OFFICIAL 
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 4 of 8 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL 
+
+7.4 
+
+7.5 
+
+7.6 
+
+7.7 
+
+7.8 
+
+8.1 
+
+9.1 
+
+against their specified performance. This is followed by component integration into 
+systems together with the human response elements.  The final combination of the 
+different systems into the overall infrastructure should prove the overall effectiveness of 
+the installation and whether it meets the intent and success criteria described in the 
+ORs. 
+
+Integral to this ‘hot’ commissioning phase is the record of commissioning activities. The 
+inspector should expect comprehensive records to be kept of this phase of the 
+programme. This captures the settings for plant components to deliver the system 
+performance and may need to correlate with the ‘as tested’ settings in the case of 
+Centre for the Protection of National Infrastructure approved security equipment for 
+example. These base settings are important in confirming equipment remains fit for 
+purpose and to enable straightforward fault finding and system re-commissioning later in 
+its life. A package of information should be delivered which also includes a set of ‘as 
+built’ drawings, operating and maintenance procedures and requirements, a 
+recommended spares holding and other pertinent information. 
+
+Commissioning plant represents the penultimate step towards operation. The inspector 
+should seek evidence from the dutyholder that the original ORs are met throughout the 
+different phases of commissioning. Evidence of any changes (and associated 
+justifications to support them), should be available from the dutyholder. 
+
+The introduction of new or revised security equipment and systems, impacts the 
+approved security plan in that it represents a change to the approved arrangements. It 
+would be expected that these changes are captured in any Security Improvement 
+Schedule (SIS), itself a part of the approved security plan. 
+
+The inspector should ensure that the dutyholder is preparing the appropriate submission 
+to modify the security plan (and the SIS) in order to reflect the changes to the 
+arrangements delivered by the new plant and systems 
+
+The introduction of new plant and systems should be subject to extant local facility 
+modification procedures to ensure the impact of this new equipment on both existing 
+safety and security systems is understood and approved. The inspector should seek 
+evidence of this being done prior to ‘hot commissioning’ being undertaken. 
+
+8. 
+
+COMMISSIONING AND PERSONNEL 
+
+Plant and equipment are material parts of the security infrastructure.  However, 
+personnel and associated processes are similarly important. Accordingly, the 
+identification of Suitably Qualified and Experienced (SQEP) human resource to manage 
+and operate this new equipment is necessary to deliver the capability. It is essential, 
+therefore, to seek evidence that all these aspects are being addressed in the 
+commissioning programme. 
+
+9. 
+
+COMMISSIONING AND MAINTENANCE 
+
+Security infrastructure should provide an effective and reliable system to deliver the 
+required PPS posture and outcome.  Accordingly, the long-term reliability of systems 
+must be underpinned by an appropriate maintenance regime and spares holdings. This 
+is supported by the provision of operating and maintenance manuals to describe those 
+activities required to support system performance and the schedule for component 
+replacement. Often the manufacturer will provide a recommended spares holding to 
+support system reliability.  
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 5 of 8 
+
+ 
+OFFICIAL 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+OFFICIAL 
+
+9.2 
+
+The dutyholder should be able to demonstrate a maintenance strategy has been 
+developed and is in place. It may include provision of in-house resources or contracted 
+services to support the strategy. The inspector should seek confirmation that the 
+dutyholder has the appropriate funding identified to support the long term operation and 
+maintenance of the equipment or plant being commissioned. 
+
+10. 
+
+COMMISSIONING AND TRAINING 
+
+10.1  Where appropriate, the training of staff linked to delivery of security outputs associated 
+
+with the plant, equipment and systems being commissioned, should also be 
+demonstrated. The ‘cold’ commissioning phase offers a good opportunity to review the 
+adequacy of the training of operational personnel, the availability of operating 
+procedures and the proposed integration of the plant and systems into the existing 
+security infrastructure. This can be considered as a ‘readiness review’. The inspector 
+should expect a positive decision point within the dutyholder’s plan to allow a move to 
+the next phase of commissioning and written justification of such a decision. 
+
+Inspectors should consider: 
+
+  Does the new equipment enable the dutyholder to achieve the required PPS 
+
+outcome? 
+
+process? 
+
+schedule? 
+
+plans? 
+
+ 
+
+Is the commissioning process underpinned by appropriate levels of internal and 
+external stakeholder engagement and adequate ORs? 
+
+  Are all appropriate stakeholders involved during the actual commissioning 
+
+  Are there appropriate plans and procedures in place to support the 
+
+commissioning process and the introduction of any new or amended processes 
+or procedures? 
+
+ 
+
+Is the commissioning process supported by adequate numbers of SQEP 
+personnel? (managers, operators and maintainers) 
+
+  Have whole life maintenance and training requirements been adequately 
+
+considered during the commissioning process? 
+
+  Are there contingency plans if security equipment is not commissioned on 
+
+  Has security equipment being commissioned been incorporated within security 
+
+  Does the commissioned equipment meet defined performance requirements and 
+
+if it does not what is the response of the dutyholder? 
+
+ 
+
+Is commissioned equipment appropriately reliable and resilient? 
+
+ 
+
+ 
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 6 of 8 
+
+ 
+OFFICIAL 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+11. 
+
+REFERENCES 
+
+OFFICIAL 
+
+Nuclear Industries Security Regulations 2003.  Statutory Instrument 2003 No. 403 
+
+IAEA Nuclear Security Series No. 13.  Nuclear Security Recommendations on 
+Physical Protection of Nuclear Material and Nuclear Facilities (INFCIRC/225/Revision 
+5).  January 2011.  www-pub.iaea.org/MTCD/Publications/PDF/Pub1481_web.pdf. 
+
+IAEA Nuclear Security Series No. 20.  Objective and Essential Elements of a State’s 
+Nuclear Security Regime. http://www-
+pub.iaea.org/MTCD/Publications/PDF/Pub1590_web.pdf 
+
+Convention on the Physical Protection of Nuclear Material (CPPNM) 
+https://ola.iaea.org/ola/treaties/documents/FullText.pdf 
+
+HMG Security Policy Framework. Cabinet Office.  
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/316182/S
+ecurity_Policy_Framework_-_web_-_April_2014.pdf 
+
+NISR 2003 Classification Policy – Trim Ref. 2012/243357. 
+
+Security Assessment Principles – Trim Ref. 2017/121036   
+
+ 
+Note: ONR staff should access the above internal ONR references via the How2 Business 
+Management System. 
+ 
+
+ 
+
+1. 
+ 
+2. 
+
+ 
+3. 
+
+ 
+4. 
+
+ 
+5. 
+
+ 
+6. 
+ 
+7. 
+ 
+ 
+  
+
+ 
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 7 of 8 
+
+ 
+OFFICIAL 
+
+Office for Nuclear Regulation  
+ 
+ 
+
+12. 
+
+GLOSSARY AND ABBREVIATIONS 
+
+OFFICIAL 
+
+CPPNM 
+
+Convention on the Physical Protection of Nuclear Material 
+
+FSyP 
+
+IAEA 
+
+NISR 
+
+NSS 
+
+ONR 
+
+OR 
+
+PPS 
+
+SIS 
+
+SNI 
+
+SPF 
+
+SQEP 
+
+SyAP 
+
+SyDP 
+
+TAG 
+
+ 
+ 
+
+Fundamental Security Principle 
+
+International Atomic Energy Agency 
+
+Nuclear Industries Security Regulations 
+
+Nuclear Security Series 
+
+Office for Nuclear Regulation 
+
+Operational Requirement 
+
+Physical Protection System 
+
+Security Improvement Schedule 
+
+Sensitive Nuclear Information 
+
+Security Policy Framework 
+
+Suitably Qualified and Experienced 
+
+Security Assessment Principle 
+
+Security Delivery Principle 
+
+Technical Assessment Guide 
+
+Doc Ref: CNS-TAST-GD-4.4 Revision 0 
+TRIM Ref: 2017/104173 
+
+Page 8 of 8 
+
+ 
+OFFICIAL 
+
+
