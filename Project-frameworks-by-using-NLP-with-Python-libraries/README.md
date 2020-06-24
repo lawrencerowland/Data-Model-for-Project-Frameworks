@@ -121,9 +121,14 @@ However the optional early steps, such as 3 and 4, are very useful in getting an
 | 7     | **Create knowledge graph from keywords**          |                                                                                                    [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-7-knowledge-graph-from-keywords.ipynb)
 |
 | 8     | **Outline the business domain**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-8-Outline-the-business-domain.ipynb)|
+| 9     | **Create TFIDF model**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-9-Create_TFIDF_model.ipynb)|
+| 10     | **How similar are these documents?                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-How-similar-are-these-documents.ipynb)|
+|
 
 ## Next-enhancements
-- Steps 9-10 Topic modelling
+- Steps 11 New document queries
+Step 12 LSI
+
 - Incorporation of Topic models into the knowledge graph
 - Adding back the lower-level keywords into knowledge graph
 Combine this knowledge graph with one based on stakeholder requirements
