@@ -1,0 +1,35 @@
+Some key terms for requirements
+1. User requirement: a requirement expressed by the User for the capability
+2. High level requirement: The more important User requirements
+3. Mid-level requirement: Normally, a requirement that is:
+ 	a. derived from a high-level requirement, or
+	b. a tacit requirement. This is implied by oneser requirement, which further context or interpretation draws out. Or,
+	c. an environmental requirement that has not been expressed by the User
+
+Constraints
+0. Constraints are particular types of requirements. Some requirements are fixed and come with the territory, or are defined by the client. Others are created during the early design process, to make it easier to find a solution to meet the requirements. 
+1. Constraints, whether couplers or containers, are still constraints because they both act upon degrees of freedom, but both are often enabling something you can use in your solution.
+	1a. A container will limit the amount or direction or range of something, and thereby may enable your solution to act in a certain way which would not be safe otherwise. These are often called "non-functional requirements"
+	1b. A coupler is a constraint because it is enforcing some sort of link between two elements. It is often enabling because by providing a link, an element can co-operate with other elements. 
+	1c. That said, containers are generally more constraining, and couplers are generally more enabling. 
+
+Parts of the process that have been implicit for speed
+1. Requirements here have been categorised into being requirements in general, or requirements for one or other of the solution areas.In so doing, candidate requirements have also been filtered so that agreed requirements remain.
+2. Requirements are part of the specification process. If done properly, they are also a key part of the early design process, as they help you to understand what options you can generate. 
+
+Oddities of the approach on this assignment
+1. In this assignment, mid-level requirement is also: 
+	a. less important User requirements (or preferences) that have not been captured in High level requirement
+	b.Constraints (both coupling and containers)
+2. The picture is further confused in that I have talked about second-tier requirements. Second tier requirements originated as a synonym for mid-level requirements. However 2nd tier have now become essentially dropped requirements, as I have not had time to review these documents to hunt for requirements. 
+
+Outline design
+1. Outline design will come up with options to meet the requirements. There are many styles / processes for doing this, and Design Principles are sometimes prepared to give a flavour for how it will be done. If we had time, we would write a Design Plan. 
+2. 
+
+More common later stages of requirements (not yet relevant to us)
+1. A common next stage is to take these requirements and to generate functional requirements from them. We havent got time to do this. A functional requirement describes the behaviour of the resultant capability or of a part of that capability. Functional requirements are often grouped into Use cases. 
+2. Several different types of solution or system can meet these requirements above. During early design we generate options for this. Depending on which option is selected, we can then generate new requirements for the shape of that solution. These are solution requirements. 
+
+	
+	

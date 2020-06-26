@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="label" for="node" attr.name="label"/>
+<key id="id" for="node" attr.name="id"/>
+<key id="weight" for="edge" attr.name="weight"/>
+<key id="label" for="edge" attr.name="label"/>
+<graph id="G" edgedefault="directed">
+<node id="n1" labels=":Opmodel"><data key="labels">:Opmodel</data><data key="id">design</data></node>
+<node id="n2" labels=":site"><data key="labels">:site</data><data key="id">site</data></node>
+<node id="n3" labels=":requirement"><data key="labels">:requirement</data><data key="id">secur</data></node>
+<node id="n5" labels=":Opmodel"><data key="labels">:Opmodel</data><data key="id">oper</data></node>
+<node id="n6" labels=":Opmodel"><data key="labels">:Opmodel</data><data key="id">process</data></node>
+<node id="n7" labels=":requirement"><data key="labels">:requirement</data><data key="id">safe</data></node>
+<edge id="e6" source="n1" target="n6" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e7" source="n1" target="n2" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e9" source="n1" target="n1" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e10" source="n1" target="n5" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e11" source="n2" target="n3" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e12" source="n2" target="n6" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e13" source="n2" target="n2" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e14" source="n2" target="n5" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e16" source="n3" target="n5" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e19" source="n5" target="n7" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+<edge id="e20" source="n5" target="n5" label="RELATED"><data key="label">RELATED</data><data key="weight">1</data></edge>
+</graph>
+</graphml>

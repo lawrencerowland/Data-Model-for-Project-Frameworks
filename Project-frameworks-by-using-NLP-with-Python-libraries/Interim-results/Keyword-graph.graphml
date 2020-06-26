@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="requir" />
+    <node id="design" />
+    <node id="site" />
+    <node id="secur" />
+    <node id="appropri" />
+    <node id="oper" />
+    <node id="process" />
+    <node id="safe" />
+    <edge source="requir" target="secur">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="requir" target="process">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="requir" target="appropri">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="requir" target="oper">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="requir" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="requir" target="safe">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="process">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="site">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="appropri">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="oper">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="site" target="secur">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="site" target="process">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="site" target="site">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="site" target="oper">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="site" target="appropri">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="secur" target="oper">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="secur" target="appropri">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="appropri" target="process">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="oper" target="safe">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="oper" target="oper">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>
