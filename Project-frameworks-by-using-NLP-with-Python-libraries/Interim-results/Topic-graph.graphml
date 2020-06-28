@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="label" for="node" attr.name="label"/>
+<key id="id" for="node" attr.name="id"/>
+<key id="label" for="edge" attr.name="label"/>
+<graph id="G" edgedefault="directed">
+<node id="n0" labels=":topics"><data key="labels">:topics</data><data key="id">Supply-chain</data></node>
+<node id="n20" labels=":topics"><data key="labels">:topics</data><data key="id">resilience</data></node>
+<node id="n21" labels=":topics"><data key="labels">:topics</data><data key="id">commission</data></node>
+<node id="n22" labels=":topics"><data key="labels">:topics</data><data key="id">Dutyholder</data></node>
+<node id="n23" labels=":topics"><data key="labels">:topics</data><data key="id">secur</data></node>
+<node id="n24" labels=":topics"><data key="labels">:topics</data><data key="id">Purchaser</data></node>
+<node id="n25" labels=":topics"><data key="labels">:topics</data><data key="id">Decommission</data></node>
+<node id="n26" labels=":topics"><data key="labels">:topics</data><data key="id">ALARP</data></node>
+<node id="n27" labels=":topics"><data key="labels">:topics</data><data key="id">PSA</data></node>
+<node id="n28" labels=":topics"><data key="labels">:topics</data><data key="id">radioactive</data></node>
+<node id="n29" labels=":topics"><data key="labels">:topics</data><data key="id">waste</data></node>
+<node id="n30" labels=":topics"><data key="labels">:topics</data><data key="id">licensee</data></node>
+<node id="n31" labels=":topics"><data key="labels">:topics</data><data key="id">Change</data></node>
+<edge id="e0" source="n25" target="n26" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e20" source="n25" target="n31" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e21" source="n25" target="n30" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e22" source="n25" target="n29" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e23" source="n25" target="n28" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e24" source="n29" target="n28" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e40" source="n28" target="n27" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e41" source="n27" target="n26" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e42" source="n0" target="n24" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e43" source="n0" target="n22" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e44" source="n20" target="n21" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e62" source="n0" target="n20" label="RELATED"><data key="label">RELATED</data></edge>
+<edge id="e63" source="n0" target="n23" label="RELATED"><data key="label">RELATED</data></edge>
+</graph>
+</graphml>

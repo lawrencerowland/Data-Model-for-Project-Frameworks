@@ -122,20 +122,25 @@ However the optional early steps, such as 3 and 4, are very useful in getting an
 |
 | 8     | **Outline the business domain**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-8-Outline-the-business-domain.ipynb)|
 | 9     | **Create TFIDF model**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-9-Create_TFIDF_model.ipynb)|
-| 10     | **How similar are these documents?                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-How-similar-are-these-documents.ipynb)|
+| 10     | **How similar are these documents?**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-How-similar-are-these-documents.ipynb)|
+| 11     | **Similarity for a fresh text**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Similarity_for_a_fresh_text.ipynb)|
+| 12     | **Create topic model**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Create_topic_model.ipynb)|
 |
 
 ## Next-enhancements
-- Steps 11 New document queries
-Step 12 LSI
-
-- Incorporation of Topic models into the knowledge graph
-- Adding back the lower-level keywords into knowledge graph
-Combine this knowledge graph with one based on stakeholder requirements
-- Show how this flows into either Portfolio services or Data model, depending on type (apply this to Invernizzi, Locatelli, Brookes 2020
-- Show how alternative views come off from one central knowledge graph
+- 13. create new knowledge graph for Topic models
+- (this shows portfolio services/ data model labels)
+- ( do it in Neo4j but explain how to do it in arrow)
+14. separate KG for Invernizzi, Locatelli, Brookes 2020
+15. combine three/any knowledge graphs
+16. Adding back the lower-level keywords into knowledge graph
+17. Show how to split (retain) Portfolio services + Data model, depending on type 
+18. Create tree outline for Portfolio services, including Schedule template
 - show trees (for outlines) coming for a view, from depth based search in networkx
-
+19. Create YEd linked jump off sheet for Portfolio Services 
+20. Create Sample input spreadsheet for that project data model
+21. Show facets (Regulatory / Success) sampled from one KG
+-maybe even one graph for data model and services
 
 ## Summary-of-core-steps
 

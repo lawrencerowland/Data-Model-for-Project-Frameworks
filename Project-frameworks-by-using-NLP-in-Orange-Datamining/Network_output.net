@@ -1,0 +1,89 @@
+*Network ""
+*Vertices	16
+     1 "Commissioning of security systems and infrastructure cns-tast-gd-4.4"	
+     2 "Construction Assurance ns-tast-gd-076"	
+     3 "Control of processes involving nuclear matter ns-tast-gd-023"	
+     4 "Decommissioning ns-tast-gd-026"	
+     5 "Design Safety Assurance ns-tast-gd-057"	
+     6 "Fundamental Principles ns-tast-gd-004"	
+     7 "Guidance on the Demonstration of ALARP ns-tast-gd-005"	
+     8 "Management of Radioactive material ns-tast-gd-024"	
+     9 "nuclear construction sites cns-tast-gd-6.6"	
+    10 "Organisational Change ns-tast-gd-048"	
+    11 "oversight of items or services cns-tast-gd-4.3"	
+    12 "Probabilistic Safety Analysis"	
+    13 "Procedure Design and Administrative Controls"	
+    14 "Procurement cns-tast-gd-4.1"	
+    15 "Reliability and resilience of the security system cns-tast-gd-5.1"	
+    16 "Supplier capability cns-tast-gd-4.2"	
+*Edges
+     1      1 0.000000
+     1      9 0.568997
+     1     11 0.538064
+     1     14 0.569126
+     1     15 0.453834
+     1     16 0.537192
+     2      2 0.000000
+     2      5 0.488759
+     3      3 0.000000
+     3      4 0.493154
+     3      6 0.561487
+     3      8 0.490035
+     3     13 0.593451
+     4      3 0.493154
+     4      4 0.000000
+     4      6 0.510784
+     4      7 0.508202
+     4      8 0.383122
+     4     10 0.551035
+     4     13 0.580662
+     5      2 0.488759
+     5      5 0.000000
+     6      3 0.561487
+     6      4 0.510784
+     6      6 0.000000
+     6      7 0.560333
+     6      8 0.583127
+     7      4 0.508202
+     7      6 0.560333
+     7      7 0.000000
+     7      8 0.562189
+     8      3 0.490035
+     8      4 0.383122
+     8      6 0.583127
+     8      7 0.562189
+     8      8 0.000000
+     9      1 0.568997
+     9      9 0.000000
+     9     11 0.591521
+     9     14 0.558269
+     9     15 0.542229
+    10      4 0.551035
+    10     10 0.000000
+    11      1 0.538064
+    11      9 0.591521
+    11     11 0.000000
+    11     14 0.372634
+    11     15 0.551651
+    11     16 0.407918
+    12     12 0.000000
+    13      3 0.593451
+    13      4 0.580662
+    13     13 0.000000
+    14      1 0.569126
+    14      9 0.558269
+    14     11 0.372634
+    14     14 0.000000
+    14     15 0.561239
+    14     16 0.420412
+    15      1 0.453834
+    15      9 0.542229
+    15     11 0.551651
+    15     14 0.561239
+    15     15 0.000000
+    15     16 0.551895
+    16      1 0.537192
+    16     11 0.407918
+    16     14 0.420412
+    16     15 0.551895
+    16     16 0.000000
