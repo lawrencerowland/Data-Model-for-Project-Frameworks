@@ -67,6 +67,16 @@ For example, if one chooses to do it in Conda:
 
 (one may need to also activate the Env again once in Jupyter lab)
 
+
+Or if one is using the Python Venv module
+
+1. Create module (eg. ‘ensim_Env’)
+
+1. Activate using source Gensim_Env/bin/activate in terminal
+
+1. start jupyter lab 
+(one may need to also activate the Env again once in Jupyter lab)
+
 From Step 8 onwards, it is recommended you install Neo4j.
 Although it can be done on cloud versions of Neo4j, or on YEd, or YEd live, or on Gephi. 
 
@@ -126,13 +136,14 @@ However the optional early steps, such as 3 and 4, are very useful in getting an
 | 11     | **Similarity for a fresh text**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Similarity_for_a_fresh_text.ipynb)|
 | 12     | **Create topic model**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Create_topic_model.ipynb)|
 |
+| 13     | **Create Knowledge Graph from topic models**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-13-Create-KG-from_topic-models)|
+|
 
 ## Next-enhancements
-- 13. create new knowledge graph for Topic models
-- (this shows portfolio services/ data model labels)
-- ( do it in Neo4j but explain how to do it in arrow)
+
 14. separate KG for Invernizzi, Locatelli, Brookes 2020
 15. combine three/any knowledge graphs
+- (this shows portfolio services/ data model labels)
 16. Adding back the lower-level keywords into knowledge graph
 17. Show how to split (retain) Portfolio services + Data model, depending on type 
 18. Create tree outline for Portfolio services, including Schedule template
