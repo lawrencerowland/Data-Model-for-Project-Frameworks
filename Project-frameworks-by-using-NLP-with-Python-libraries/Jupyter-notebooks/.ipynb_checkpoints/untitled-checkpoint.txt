@@ -1,0 +1,55 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  bgcolor=transparent;
+
+  subgraph cluster_0 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=pink];
+    Automated_Keyword_extraction -> knowledge_graph_1; topic_model -> knowledge_graph_2
+    label = "*Regulations library*";
+    fontsize = 20;
+  }
+
+  subgraph cluster_1 {
+    node [style=filled,color=pink];
+    color=lightgrey;
+    List_success_factors -> List_project_services -> knowledge_graph_3;
+    label = "*Success factors paper*";
+    fontsize = 20;
+    color=lightgrey
+  }
+  subgraph cluster_2 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=lightgrey];
+    Combine_graphs -> Work_breakdown_structure -> Plan ; Project_Documentation_list -> Document_relationships ; Project_Data_model ; Project_Strategy_TOC -> Project_Strategy_slices
+    Combine_graphs -> Project_Documentation_list
+    Combine_graphs ->Project_Data_model
+    Combine_graphs -> Project_Strategy_TOC
+    label = "*project_Graph_Database*";
+    fontsize = 20;
+  }
+  subgraph cluster_3 {
+    node [style=filled,color=blue];
+    color=lightgrey;
+    Project_plan;Document_management;Project_records;Project_Strategy
+    label = "*Controls_on_the_project*";
+    fontsize = 20;
+    color=lightgrey
+  }
+  
+  start -> Automated_Keyword_extraction;
+  start -> List_success_factors;
+  start ->topic_model;
+  knowledge_graph_1 ->Combine_graphs;
+  knowledge_graph_2 ->Combine_graphs;
+  knowledge_graph_3 ->Combine_graphs;
+
+  start [shape=Mdiamond];
+}
