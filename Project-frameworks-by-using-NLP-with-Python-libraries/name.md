@@ -54,7 +54,7 @@ All technology is free to use, without subscription.
 
  <br />
 ##  Work break-down
-The tasks required to support each success-factor. 
+Here the project-tasks has been grouped by  success-factor.
 
 | Success Factor            | Project Services supporting that Success Factor                                                                                    |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -73,11 +73,8 @@ e.g.
 - Waste itemisation database
 - Facilities Description
 - regulation
-
- <br />
- <br />
-
 # OUTPUT 3: Feature list for project work-packages
+These are the domain-specific features that should be tracked across the project. i.e. they are the attributes or properties captured for each work-package or sub-project. These features are also known as the project data model.
 
 | Work-package feature           | Work-package 1 | Work-package 2 |
 | ------------------------------ | -------------- | -------------- |
@@ -97,29 +94,16 @@ e.g.
 | Safety performance             |                |                |
 | Resilience score               |                |                |
 | Security performance           |                |                |
-
-
-***What** These are the domain-specific features that should be tracked across the project. i.e. they are the attributes or properties captured for each work-package or sub-project. These features are also known as the project data model. 
-
-***Where*** They will be captured in project records. These records may be in:
-- a spreadsheet
-- a project folder
-- a project database
-- an Enterprise Project Management tool
-- a cloud EPM tool
-Some of these feature will appear in project reports and dashboards.
-
-***Why*** These features are key element of the data model for the project, to represent the special characteristics of projects in this business domain. 
-
-If unnecessary features are captured, they will not be used to guide the project, and will be a waste of money and a distraction. 
-
-***With what else?*** These features are often added to features from standard project data models .i.e. scope, schedule, cost etc. 
-
-
- <br />
- <br />
+ 
 
 # OUTPUT 4: Project Strategy Table of Contents
+The project strategy assists the stakeholder groups to understand the business justification and the team to understand the method of execution. 
+
+<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="150">
+
+> The structure of the strategy should reflect the characteristics of project success in the business domain as well as the language and interests of the strategy consumers. 
+
+***Table of Contents as file***
 
 | Level 1 REQUIREMENT                    | Level 2 SUCCESS FACTOR          | Level 3 PROJECT SERVICE               | Level 4 SITE FEATURE         |
 | ------------------------------ | ----------------------- | ----------------------------- | -------------------- |
@@ -129,51 +113,12 @@ If unnecessary features are captured, they will not be used to guide the project
 | regulation                     | Clear end state         | Define interim states         | radioactive          |
 | regulation                     | Clear end state         | Define interim states         | licensee             |
 | regulation                     | Clear end state         | Systems view                  | null                 |
+| ..                     | ***remainder in Appendix***         | ...                | ...               |
 
-<image src="Jupyter-notebooks/images/Strategy_TOC.png"  height=auto/> 
+This worked-example settled on one of several possible structures, allowing Requirements the highest level in the hierarchy. One merit of our approach is that that the selection of a particular structure is explicit, and decided by the stakeholders involved in the process.
 
-
-```python
-made with rawgraphs.io
-```
-![method]('Jupyter-notebooks/images/method.png')
-![Strategy_TOC.png]('Jupyter-notebooks/images/Strategy_TOC.png')
-
-
- <br />
- <br />
- <br />
- <br />
- <br />
- 
-# ONR Technical library --AUTO--> Keywords + Keyword relationships
-
-<img src="Jupyter-notebooks/images/ONR_documents_as_library.png" width="15%"><img src="Jupyter-notebooks/images/gensim.png" width="15%"> <img src="Jupyter-notebooks/images/Keywords-for-whole-library.png" width="45%"> 
-
-
-# Select useful keyword relationships  
-
-<img src="Jupyter-notebooks/images/graph-schema-2.png" width="30%"><img src="neo4j.png" width="10%"><img src="Jupyter-notebooks/images/knowledge-graph-2.png" width="30%">
-
-# Add back in lower-scoring keywords
-<img src="Jupyter-notebooks/images/Keyword-graph-3.png" width="60%">
-
-<br />
- <br />
- <br />
- <br />
- <br />
- <br />
- <br />
- <br />
- <br />
- <br />
- 
-# Topic model
-
-# Paper
-Success criteria were taken from the paper. 
-- extraction focussed on success factors for DeCom that were contributed by the paper
+# INPUT 1: Paper
+These are the Decommissioning success criteria contributed by the paper: 
 
 | Success factor            | Description                                         |
 | ------------------------- | --------------------------------------------------- |
@@ -185,7 +130,7 @@ Success criteria were taken from the paper.
 | "plan early"              | "It’s a plan that goes from cradle to grave!"       |
 | "Qualified resources"     | "The availability of suitably qualified resources"  |
 
-Where the paper proposed project tasks in line with the success factor these were recorded. 
+Where the paper proposed project tasks in line with the success factor these were recorded:
 
 | Project_Service                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -394,3 +339,5 @@ Clustering also indicates four types of documentation:
 
 /Jupyter-notebooks/images/gensim.png
 [](
+
+made with rawgraphs.io
