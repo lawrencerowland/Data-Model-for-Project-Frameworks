@@ -18,8 +18,12 @@
 # Inputs
 1. A paper identifying success factors for this type of project
 2. A library of relevant guidance / regulations
+# Methods
+1. Automated Keyword extraction
+2. Automated Topic Modelling
+3. Knowledge graph creation. 
 # Abstract
-Managers often use plans, documentation lists, feature lists and strategies to manage projects. We demonstrate how to create these artefacts from document libraries and a list of project success-characteristics. These sources are specific to the sector and organisation in question. In this way, we generate slim project-management artefacts that are both consistent and applicable to the project context. This is done by using natural language processing to generate a knowledge graph which generates the four artefacts. This worked-example looks at the project characteristics for a UK nuclear decommissioning project. 
+Projects are often controlled with plans, documentation lists, feature lists and strategies. We demonstrate how to create these artefacts from document libraries and a list of project success-characteristics. These sources are specific to the sector and organisation in question. In this way, we generate slim project-management artefacts that are both consistent and applicable to the project context. This is done by using natural language processing to generate a knowledge graph which generates the four artefacts. This worked-example looks at the project characteristics for a UK nuclear decommissioning project. 
 # Keywords
 project management, project controls, project set-up, project strategy, project innovation, project characterisation, project data models, topic models, natural language processing, graph database, knowledge graphs.
 # OUTPUT 1: Project plan and work-breakdown
@@ -173,6 +177,10 @@ Clustering also indicates four types of documentation:
 3. design and system descriptions
 4. stakeholder and controls documents. 
 (see [online method](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries))
+# Viewing knowledge graph 
+1. Go to [sandbox](https://sandbox.neo4j.com/)
+2. log in: lgrowla@gmail.com 
+3. 
 # Other ways of saying
 Context >> Patterns >> Form
 Establish context, seek patterns, and use them to define the form of the project.

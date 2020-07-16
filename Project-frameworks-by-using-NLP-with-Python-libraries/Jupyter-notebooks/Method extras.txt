@@ -1,0 +1,16 @@
+# ONR Technical library --AUTO--> Keywords + Keyword relationships
+
+<img src="images/ONR_documents_as_library.png" width="15%"><img src="images/gensim.png" width="15%"> <img src="images/Keywords-for-whole-library.png" width="45%"> 
+
+
+# Select useful keyword relationships  
+
+<img src="images/graph-schema-2.png" width="30%"> <img src="images/neo4j.png" width="10%"> <img src="images/knowledge-graph-2.png" width="30%">
+
+# Add back in lower-scoring keywords
+<img src="images/Keyword-graph-3.png" width="60%">
+
+<br />
+ <br />
+
+
