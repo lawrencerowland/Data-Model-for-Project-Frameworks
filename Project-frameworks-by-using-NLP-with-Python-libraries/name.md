@@ -15,6 +15,7 @@
 2. Project documentation list
 3. Feature list for project work-packages
 4. Table of Contents for the Project Strategy
++++
 # Inputs
 1. A paper identifying success factors for this type of project
 2. A library of relevant guidance / regulations
@@ -26,6 +27,7 @@
 Projects are often controlled with plans, documentation lists, feature lists and strategies. We demonstrate how to create these artefacts from document libraries and a list of project success-characteristics. These sources are specific to the sector and organisation in question. In this way, we generate slim project-management artefacts that are both consistent and applicable to the project context. This is done by using natural language processing to generate a knowledge graph which generates the four artefacts. This worked-example looks at the project characteristics for a UK nuclear decommissioning project. 
 # Keywords
 project management, project controls, project set-up, project strategy, project innovation, project characterisation, project data models, machine learning, topic models, natural language processing, graph database, knowledge graphs.
++++
 # OUTPUT 1: Project plan and work-breakdown
 ## Project plan
 | Project Activity                | Successor Project-Activities                                                                                                       |
@@ -38,7 +40,7 @@ project management, project controls, project set-up, project strategy, project 
 ##  Visual plan
 
 <img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="95%">
-
++++
 ##  Work break-down
 Here the project-tasks has been grouped by  success-factor.
 
@@ -54,10 +56,7 @@ Here the project-tasks has been grouped by  success-factor.
 <img src="Jupyter-notebooks/images/Project_document_list.png" width="25%"> &nbsp; &nbsp; &nbsp;<img src="Jupyter-notebooks/images/documents_organic_view.png" width="70%">
 
 More central documents have more connections to other documents.
-e.g.
-- Waste itemisation database
-- Facilities Description
-- regulation.
+e.g. Waste itemisation database, Facilities Description and regulation.
 # OUTPUT 3: Feature list for project work-packages
 These are the domain-specific features that should be tracked across the project. i.e. they are the attributes or properties captured for each work-package or sub-project. In this case, many of the features relate to requirements and site/stakeholder  aspects that relate to project tasks. 
 
@@ -80,14 +79,17 @@ These are the domain-specific features that should be tracked across the project
 | Resilience score               |                |                |
 | Security performance           |                |                |
 
-These features should be considered for inclusion in any lists and reports per Work-package. This work-package list may be an Excel sheet, or in Power BI or in an EPM system, or SQL database.These features are also known as the project data model.
+These features should be considered for inclusion in any lists and reports per Work-package. This work-package list may be an Excel sheet, or in Power BI or in an EPM system, or SQL database.These features are a key element of the project data-model.
++++
 # OUTPUT 4: Project Strategy Table of Contents
-The project strategy assists the stakeholder groups to understand the business justification and the team to understand the method of execution. 
+The project strategy assists:
+- stakeholder groups to understand the business justification
+- the team to understand the method of execution. 
 
-<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="150">
+<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="300">
 
-The structure of the strategy should reflect the characteristics of project success in the business domain as well as the language and interests of the strategy consumers. 
-
+The structure should reflect the characteristics of project success in the business domain as well as the language and interests of the strategy consumers. 
++++
 ### Table of Contents as file
 
 | Level 1 REQUIREMENT                    | Level 2 SUCCESS FACTOR          | Level 3 PROJECT SERVICE               | Level 4 SITE FEATURE         |
@@ -103,6 +105,7 @@ The structure of the strategy should reflect the characteristics of project succ
 This worked-example settled on one of several possible structures, allowing Requirements the highest level in the hierarchy. Two merits of our approach:
 - selection of a particular structure is explicit
 - stakeholders can be involved in selection.
++++
 # Inputs
 1. A paper identifying success factors for this type of project
 2. A library of relevant guidance / regulations
@@ -133,7 +136,7 @@ Where the paper proposed project tasks in line with the success factor these wer
 | ...         | ***full list in appendix***                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 # INPUT 2: A library of relevant guidance / regulations
-The UK Office of Nuclear Regulation  publishes a set of [technical guidance](http://www.onr.org.uk/operational/tech_asst_guides/index.htm) This is a set of pdf documents. This is one element of the regulatory context for nuclear decommissioning projects. A subset of 16 documents were selected for their relevance to project and technical management. 
+The UK Office of Nuclear Regulation  publishes a set of [technical guidance](http://www.onr.org.uk/operational/tech_asst_guides/index.htm) This is a set of pdf documents. This is one element of the regulatory context for nuclear decommissioning projects. A subset of 17 documents were selected for their relevance to project and technical management. 
 
 | Document                                                                     |
 | ---------------------------------------------------------------------------- |
@@ -143,38 +146,56 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 | Decommissioning ns-tast-gd-026.pdf.txt                                       |
 | Design Safety Assurance ns-tast-gd-057.pdf.txt                               |
 | *full list in appendix*                                |
-
++++
 # Methods
 ## Automated Keyword extraction
 Keywords are extracted from the regulations library by scoring each word by how linked that word is to other well-linked words. This provides not just a list of keywords, but also the strength of relationships between keywords. This is done by using the TextRank algorithm, which is like the Google PageRank algorithm for web-pages.
 ## Automated Topic Modelling
-The strongest topics across the regulation library are identified by a topic model method called Latent Direchlet Allocation, or LDA. Murdock (2019) says that 'LDA is a generative model that represents each document as a bag of words generated by a mixture of topics.' and 'It posits that each document has a distribution of contexts, or topics, that it is composed of.'[^[@misc{murdock2019topic,
+The strongest topics across the regulation library are identified by a topic model method called Latent Direchlet Allocation, or LDA. Murdock (2019)[^[@misc{murdock2019topic,
     title={Topic Modeling the Reading and Writing Behavior of Information Foragers},
     author={Jaimie Murdock},
     year={2019},
     eprint={1907.00488},
     archivePrefix={arXiv},
-    link [here](https://arxiv.org/abs/1907.00488v1)]
+    link [here](https://arxiv.org/abs/1907.00488v1)] says that 
+
+> 'LDA is a generative model that represents each document as a bag of words generated by a mixture of topics.'
+
+> 'It posits that each document has a distribution of contexts, or topics, that it is composed of.'
+
 ## Knowledge graph creation
-The above methods generate lists of key concepts from the regulation library, as well as lists of relationships between concepts. For example, 'radioactivity' is related to 'waste'. The concepts become 'nodes' of a knowledge graph, and the relationships become 'edges' between these nodes. 
+The above methods generate lists of key concepts from the regulation library, as well as lists of relationships between concepts. The concepts become 'nodes' of a knowledge graph, and the relationships become 'edges' between these nodes. 
 
-The success-factors paper contributes a number of success factors, as well as a number of recommended project services to be carried out by the project management team. These are added as nodes, and edges are added where there are relationships between success factors, or between project services, or between a success factor and a project task. Groups of similar nodes have the same 'labels' such as 'success_factor' or 'project_service'.
+> e.g. 'radioactivity' is related to 'waste'. This is an edge connecting 2 nodes.
 
-This combined knowledge graph stand as one interpretation of project success in this business domain. It is viewed for useful patterns. These patterns are reinforced by changing nodes and edges and labels, preferably in consultation with the project team. The outputs are then generated by querying the knowledge graph for specific labels. For example, the Strategy TOC in this case is returned by running a query which asks for nodes with the following labels in this order: 
-(requirements)-->(success_factor)-->(project_service)-->(site or stakeholder feature) 
+The success-factors paper contributes a number of success factors, as well as a number of recommended project services to be carried out by the project management team. These are added as nodes. Edges are added where there are:
+-  relationships between success factors
+-  between project services
+-  between a success factor and a project task.
+
+Groups of similar nodes have the same 'labels'.e.g.'success_factor','project_service'.
+
+This combined knowledge graph is one interpretation of project success in Nuclear DeCommissioning.
+Next, the project team:
+1.  views the graph for useful patterns
+2.  reinforces patterns by changing nodes and edges and labels.
+
+The outputs are generated by querying the knowledge graph for specific labels. For example, the Strategy TOC relates to a query which asks for nodes with labels in this order: 
+
+> (requirements)-->(success_factor)-->(project_service)-->(site or stakeholder) 
 
 ## Method and guide for use
 The method, along with a guide sufficient for using this on other libraries and projects, is [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) *July 2020 note: its all there, but working on making it easier to read*
 # Technology applied
-All technology is free to use, without subscription. The code is written up in Jupiter notebooks, which allows guidance to sit alongside the code, so limited coding experience is needed. 
+All technology is free to use, without subscription. The code is written up in Jupyter notebooks, which allows guidance to sit alongside the code, so limited coding experience is needed. 
 1. Gensim is OpenSource
 2. NetworkX is OpenSource
-3. Neo4j Graph Database: Neo4j Desktop is free. 
+3. Neo4j Desktop is free. 
 4. Jupyter Notebooks and Python are OpenSource.
-# Business challenge
-1. Projects have success-factor
-# Motivation
-# Use Cases
+5. Yfiles Neo4j Explorer is free
+
+<image src="Jupyter-notebooks/images/gensim.png" width="70" height="50"/> <image src="Jupyter-notebooks/images/NetworkX.svg" width="70" height="50"/> <image src="Jupyter-notebooks/images/neo4j.png" width="70" height="50"/> <image src="Jupyter-notebooks/images/jupyter_icon.png" width="70" height="50"/><image src="Jupyter-notebooks/images/python-logo.png" width="70" height="50"/><image src="Jupyter-notebooks/images/Yfiles.svg" width="70" height="50"/>
++++
 
 # Infographic
 
@@ -184,6 +205,10 @@ All technology is free to use, without subscription. The code is written up in J
 <img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="120"> &nbsp; &nbsp; <img src="Jupyter-notebooks/images/short_list_of_docs.png" width="120">   &nbsp; &nbsp; <img src="Jupyter-notebooks/images/trimmed_Project_data_model.png" width="120"> &nbsp; &nbsp; </div>
 <img src="Jupyter-notebooks/images/Strategy_TOC.png" width="70">
  <br />  
+# Business challenge
+1. Projects have success-factor
+# Motivation
+# Use Cases
  
 # Directions
 1. Ongoing project management within graph database
