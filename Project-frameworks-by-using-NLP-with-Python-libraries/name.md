@@ -40,9 +40,14 @@ project management, project controls, project set-up, project strategy, project 
 ##  Visual plan
 
 <img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="95%">
+
+> Blue(Success factors)
+> Orange(Project services)
+> Purple (Requirement-related )
+
 +++
 ##  Work break-down
-Here the project-tasks has been grouped by  success-factor.
+Here the project-tasks have been grouped by  success-factor.
 
 | Success Factor            | Project Services supporting that Success Factor                                                                                    |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +91,7 @@ The project strategy assists:
 - stakeholder groups to understand the business justification
 - the team to understand the method of execution. 
 
-<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="300">
+<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="350">
 
 The structure should reflect the characteristics of project success in the business domain as well as the language and interests of the strategy consumers. 
 +++
@@ -102,7 +107,7 @@ The structure should reflect the characteristics of project success in the busin
 | regulation                     | Clear end state         | Systems view                  | null                 |
 | ..                     | ***remainder in Appendix***         | ...                | ...               |
 
-This worked-example settled on one of several possible structures, allowing Requirements the highest level in the hierarchy. Two merits of our approach:
+This worked-example settled on one of several possible structures, allowing Requirements the highest level in the hierarchy. Two merits of the approach:
 - selection of a particular structure is explicit
 - stakeholders can be involved in selection.
 +++
@@ -110,7 +115,8 @@ This worked-example settled on one of several possible structures, allowing Requ
 1. A paper identifying success factors for this type of project
 2. A library of relevant guidance / regulations
 # INPUT 1: Paper
-These are the Decommissioning success criteria contributed by the paper: 
+Invernizzi, Locatelli, Brookes (2020)[^Diletta Colette Invernizzi, Giorgio Locatelli & Naomi J. Brookes (2020): Characterising nuclear decommissioning projects: an investigation of the project characteristics that affect the project performance, Construction Management and Economics, DOI: 10.1080/01446193.2020.1775859
+To link to this article: https://doi.org/10.1080/01446193.2020.1775859)] propose the following factors in successful nuclear decommissioning projects:
 
 | Success factor            | Description                                         |
 | ------------------------- | --------------------------------------------------- |
@@ -122,7 +128,7 @@ These are the Decommissioning success criteria contributed by the paper:
 | "plan early"              | "It’s a plan that goes from cradle to grave!"       |
 | "Qualified resources"     | "The availability of suitably qualified resources"  |
 
-Where the paper proposed project tasks in line with the success factor these were recorded:
+The paper also proposes project tasks to support these factors:
 
 | Project_Service                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -130,7 +136,7 @@ Where the paper proposed project tasks in line with the success factor these wer
 | "Systems view"   | Take a systems view                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | "Additional characterisation"   | "Characterise NDPs"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | "Fund regulation change"        | "If additional fund- ing to deal with these changes is not readily available, the overall NDP performance might be affected"                                                                                                                                                                                                                                                                                                                                                                                                              |
-| "Find specialized resource"     | specific resources needed for a specialized piece of work, such as resources specialized in high-voltage welding and trained to work on nuclear sites."                                                                                                                                                                                                                                                     |
+| "Find specialized resource"     | specific resources needed for a specialized piece of work, such as resources specialized in                                              high-voltage welding and trained to work on nuclear sites."                                                                                                                                                                                                                                                     |
 | "Knowledge mgt"                 | "best practices in knowledge and information management"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | "Clarify waste routes"          | "clarity regarding the waste routes and about the availability of storage and dis- posal facilities"                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ...         | ***full list in appendix***                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -146,6 +152,23 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 | Decommissioning ns-tast-gd-026.pdf.txt                                       |
 | Design Safety Assurance ns-tast-gd-057.pdf.txt                               |
 | *full list in appendix*                                |
+
++++
+# Business challenge
+- Project structure is often copied from project to project
+	- sometimes not fit for purpose
+	- sometimes more heavy-weight than needed
+- Project plans, strategies and controls are often created separately
+# Business motivation
+- ensure project characteristics make their way into project controls
+- track only the project features that are important
+- standardise early consultation across multiple stakeholders and standards
+- consistently apply research-findings to improve project performance
+# Use Cases
+ 1. Set-up project in new business area
+ 2. Set-up project where there are diverse stakeholders and business languages
+ 3. Refresh organisation's project-model if track-record is poor
+ 4. up-skill project teams in flexible data-models and machine-learning.
 +++
 # Methods
 ## Automated Keyword extraction
@@ -184,8 +207,6 @@ The outputs are generated by querying the knowledge graph for specific labels. F
 
 > (requirements)-->(success_factor)-->(project_service)-->(site or stakeholder) 
 
-## Method and guide for use
-The method, along with a guide sufficient for using this on other libraries and projects, is [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) *July 2020 note: its all there, but working on making it easier to read*
 # Technology applied
 All technology is free to use, without subscription. The code is written up in Jupyter notebooks, which allows guidance to sit alongside the code, so limited coding experience is needed. 
 1. Gensim is OpenSource
@@ -196,7 +217,6 @@ All technology is free to use, without subscription. The code is written up in J
 
 <image src="Jupyter-notebooks/images/gensim.png" width="70" height="50"/> <image src="Jupyter-notebooks/images/NetworkX.svg" width="70" height="50"/> <image src="Jupyter-notebooks/images/neo4j.png" width="70" height="50"/> <image src="Jupyter-notebooks/images/jupyter_icon.png" width="70" height="50"/><image src="Jupyter-notebooks/images/python-logo.png" width="70" height="50"/><image src="Jupyter-notebooks/images/Yfiles.svg" width="70" height="50"/>
 +++
-
 # Infographic
 
 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <image src="Jupyter-notebooks/images/2020-locatelli-cover.png" width="100" height="50"/> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <image src="Jupyter-notebooks/images/ONR_documents_as_library.png" width="100" height="50"/>
@@ -205,58 +225,87 @@ All technology is free to use, without subscription. The code is written up in J
 <img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="120"> &nbsp; &nbsp; <img src="Jupyter-notebooks/images/short_list_of_docs.png" width="120">   &nbsp; &nbsp; <img src="Jupyter-notebooks/images/trimmed_Project_data_model.png" width="120"> &nbsp; &nbsp; </div>
 <img src="Jupyter-notebooks/images/Strategy_TOC.png" width="70">
  <br />  
-# Business challenge
-1. Projects have success-factor
-# Motivation
-# Use Cases
- 
-# Directions
-1. Ongoing project management within graph database
-2. Graph neural networks hosted on graph database
+# Application to a project
+1. clone repository. Apply Jupyter notebooks to your documents
+2. use 'human-in-the-loop' filtering of keywords and topics
+3. work with project experts during the knowledge-graph stage.
+
+*optional* 
+
+4. use many more documents and keywords where required
+5. add stakeholder criteria just as the success paper was added
+6. add the team's preferred project framework in the same way.
+
++++
+# Our contribution
+
+> context >> patterns >> form
+
+We apply business *context* to a project. This provides an agreed *form* or structure. We do this by seeking *patterns* and reinforcing those which stakeholders recognise.
+
+Another way of saying the same thing:
+
+> bundle >> unbundle >> deploy
+
+1. *bundle up* the entire business context of the project
+2. *unbundle* just enough to structure the project
+3. *deploy* the project against this project structure. 
 # Limitations
-The purpose has been to give a working example that is easy to follow. 
-1. I have chosen a business sector where I have limited experience. That has allowed me to work through the logic of the example, rather than to use my sector experience.
-2. The results should not be used without scrutiny and amendment by nuclear project managers.
-3. A limited number of keywords were selected
-4. A limited number of documents were used (16)
-5. regulations were not read. 
-6. there are other regulations which apply, beyond ONR. 
+This has been a simple working-example.The results should not be used without scrutiny and amendment by nuclear project managers.
+- I have limited experience of the nuclear sector  
+- a limited number of keywords were used
+- a limited number of documents were used
+- I did not review the regulations. 
+- there are other regulations which apply. 
+# Future directions
+1. *better strategic alignment* via simultaneous multiple strategic views at any one time. Each view reflects a different stakeholder perspective of what matters. 
+2. *manage business dependencies* by managing project within graph database
+3. *project success prediction* via graph neural networks hosted on graph database
+# Appendices
+Full inputs and outputs are [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Full-Outputs-and-Inputs.md)
 
-For use on a real project, I recommend:
-1. working with project experts during the knowledge-graph stage
-2. 'human-in-the-loop' filtering of keywords and topics
-3. adding the organisation's selected project framework as one of the input knowledge graphs
-4. adding the high-level views of key stakeholders as one of the inputs into the knowledge graph
+Intermediate results and knowledge graphs are [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Intermediate-results-and-knowledge-graphs.md)
 
-# Further information
-Clustering also indicates four types of documentation:
-1. high level definitions
-2. site specific 
-3. design and system descriptions
-4. stakeholder and controls documents. 
-(see [online method](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries))
-# Viewing knowledge graph 
-1. Go to [sandbox](https://sandbox.neo4j.com/)
-2. log in: lgrowla@gmail.com 
-3. 
-# Other ways of saying
-Context >> Patterns >> Form
-Establish context, seek patterns, and use them to define the form of the project.
-Bundle together the entire business context of the project, then unbundle enough of this to define the project, and deploy the project. 
+Code to build Knowledge graph in Neo4j [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Known_success_factors_output_graph.cypher)
 
-# Appendix
-Full inputs and outputs are [here](xxx)
+Visualisation of Knowledge graph for viewing on YEd live [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Known_success_factors_output_graph.graphml)
+
+repository with method and guidance. This should be sufficient for applying this to other projects and sectors. [here](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) *July 2020 note: its all there, but working on making it easier to read*
 
 # Acknowledgements
+Diletta Colette Invernizzi, Giorgio Locatelli & Naomi J. Brookes (2020): Characterising nuclear decommissioning projects: an investigation of the project characteristics that affect the project performance, Construction Management and Economics, DOI: 10.1080/01446193.2020.1775859 [here](https://doi.org/10.1080/01446193.2020.1775859)
 
-/Jupyter-notebooks/images/neo4j.png 
- [](www.neo4j.com)
+The UK Office of Nuclear Regulation [technical guidance](http://www.onr.org.uk/operational/tech_asst_guides/index.htm)
 
-/Jupyter-notebooks/images/gensim.png
-[](
+This project relies extensively on the Gensim[^@inproceedings{rehurek_lrec,
+      title = {{Software Framework for Topic Modelling with Large Corpora}},
+      author = {Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka},
+      booktitle = {{Proceedings of the LREC 2010 Workshop on New
+           Challenges for NLP Frameworks}},
+      pages = {45--50},
+      year = 2010,
+      month = May,
+      day = 22,
+      publisher = {ELRA},
+      address = {Valletta, Malta},
+      note={\url{http://is.muni.cz/publication/884893/en}},
+      language={English}
+}] library, and the [examples](https://radimrehurek.com/gensim/auto_examples/index.html) provided by its creator Radim Hurek. I have done nothing more than apply a little of this to Portfolio management. The examples cited above would be the best way to get a full introduction to the capabilities of Gensim.
 
-[Jupyter lab notebooks](https://jupyter.org)
+[NetworkX] used to create knowledge graph from keywords
 
-made with rawgraphs.io
+[Neo4j](www.neo4j.com) Desktop is a graph database used here to create the knowledge graph. 
+
+[Jupyter Notebooks](www.jupyter.org) is an accessible way to provide both guidance and images alongside code in a notebook format.
+
+[Python](www.python.org)
+
+Yfiles Neo4j Explorer is free
+
+Infographic made with [Raw Graphs](rawgraphs.io)
+
+
+
+
 
 
