@@ -42,7 +42,9 @@ project management, project controls, project set-up, project strategy, project 
 <img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="95%">
 
 > Blue(Success factors)
+> 
 > Orange(Project services)
+> 
 > Purple (Requirement-related )
 
 +++
@@ -59,6 +61,8 @@ Here the project-tasks have been grouped by  success-factor.
 ## List of Documents AND Relationships between documents
 
 <img src="Jupyter-notebooks/images/Project_document_list.png" width="25%"> &nbsp; &nbsp; &nbsp;<img src="Jupyter-notebooks/images/documents_organic_view.png" width="70%">
+
+> Green (Site and stakeholder related)
 
 More central documents have more connections to other documents.
 e.g. Waste itemisation database, Facilities Description and regulation.
@@ -155,10 +159,11 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 
 +++
 # Business challenge
-- Project structure is often copied from project to project
-	- sometimes not fit for purpose
-	- sometimes more heavy-weight than needed
-- Project plans, strategies and controls are often created separately
+- Project structure is sometimes copied from project to project
+	- sometimes structure does not adequately define or control the project
+	- sometimes there is too much structure, which is expensive
+- Project plans, strategies and controls are sometimes created separately
+	- project controls can be opaque and inconsistent with each other
 # Business motivation
 - ensure project characteristics make their way into project controls
 - track only the project features that are important
@@ -172,7 +177,7 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 +++
 # Methods
 ## Automated Keyword extraction
-Keywords are extracted from the regulations library by scoring each word by how linked that word is to other well-linked words. This provides not just a list of keywords, but also the strength of relationships between keywords. This is done by using the TextRank algorithm, which is like the Google PageRank algorithm for web-pages.
+Keywords are extracted from the regulations library by scoring each word by how linked that word is to other well-linked words. This provides not just a list of keywords, but also the strength of relationships between keywords. This is done by using the TextRank algorithm, which is like Larry Page's PageRank algorithm for web-pages.
 ## Automated Topic Modelling
 The strongest topics across the regulation library are identified by a topic model method called Latent Direchlet Allocation, or LDA. Murdock (2019)[^[@misc{murdock2019topic,
     title={Topic Modeling the Reading and Writing Behavior of Information Foragers},
