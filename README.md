@@ -27,9 +27,11 @@ Crucially, by creating your own framework, it can be started small and with only
 
 # Quick-start
 There is more guidance below. However, if you want to get started quickly, and want to apply methods directly to a particular portfolio, then it may be best to start either with:
-[Text-mining with Orange](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-in-Orange-Datamining) if you want to break down your business domain straight-away
+[*Text-mining with Orange*](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-in-Orange-Datamining) if you want to break down your business domain straight-away.
 
-[Modular Portfolio framework](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/P3M-content-first-framework) if you want to start selecting some modules straight away that are relevant to your portfolio. 
+If you want a more thorough solution, that requires a some basic Python, then [*Python NLP folder*](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries)
+
+[*Modular Portfolio framework*](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/P3M-content-first-framework) if you want to start selecting some modules straight away that are relevant to your portfolio. 
 
 
 # Usage
@@ -42,7 +44,7 @@ This repository is structured as a series of independent frameworks and tool opt
 
 1. **Orange NLP** folder allows the construction of topic models for your business domain, based upon your own documents, working in No Code environment. The business benefit of this is described in a section immediately below
 
-1. ![**Python NLP folder**](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) does the same as Orange NLP, but does it by providing a low code environment using Jupyter notebooks.
+1. [**Python NLP folder**](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries) does the same as Orange NLP, but does it by providing a low code environment using Jupyter notebooks. 
 
 3. ***Project Frameworks from Example*** folder shows how to take a Portfolio best practice structure, in this case from hundreds of Wikipedia project pages, and generate an initial portfolio framework hierarchy. This is useful if you have a favourite portfolio management text and you wish to use that to create a portfolio practice framework from it
 
@@ -51,7 +53,9 @@ This repository is structured as a series of independent frameworks and tool opt
 
 ## Orange data-mining demonstration: natural language processing
 
-We will use it to analyse some project documents. These documents could be client documents at the start of an assignment, or successful proposals that we have written. For client documents the purpose would be to understand what topics and project types are covered within the client, and to start to categorise each document for later use. For our proposals, the purpose would be to understand some of the characteristics of successful proposals and identify documents which are good for answering certain proposal questions. This demonstrates one way of getting started with what is called “natural language processing”. ![](/images/image1.png)
+We will use it to analyse some project documents. These documents could be client documents at the start of an assignment, or successful proposals that we have written. For client documents the purpose would be to understand what topics and project types are covered within the client, and to start to categorise each document for later use. For our proposals, the purpose would be to understand some of the characteristics of successful proposals and identify documents which are good for answering certain proposal questions. This demonstrates one way of getting started with what is called “natural language processing”. 
+
+/Project-frameworks-by-using-NLP-in-Orange-Datamining/images/clusters-from-distance-names.png
 
 We look at which words are used within your documents, and how you can select a word that you are interested in from a word cloud, and then how you can find a list of every way that word is used in your documents, including context. You can then select the best wording you find and save it for later use.
 
@@ -75,8 +79,7 @@ There are plenty of examples and documentation at their website, as well as exam
 
 ## Example: Setting up a project management framework in a nuclear context
 
-
-<img src="https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project%20frameworks%20by%20using%20NLP%20in%20Orange%20Datamining/Screenshot%202020-03-01%20at%2018.26.00.png" title="Topic modelling a particular business domain"></a>
+/images/Project-frameworks-by-using-NLP-in-Orange-Datamining/NLP-for-ONR-with-Orange.png
 
 ### Document clustering and Topic modelling for a project library
 
@@ -91,12 +94,12 @@ By asking a machine to understand the details of what is in this SharePoint, we 
 
 ### Data:
 
-We took 16 project-management related guidance documents from the Office of Nuclear regulation. 
+We took 17 project-management related guidance documents from the Office of Nuclear regulation. 
 
 This can also be applied to Excel, text and PowerPoint files, but it takes more pre-processing. 
 
 ### Outcome:  
-
+(**Status July 2020** *These results have been re-run and I have not yet updated the results below.*)
 - We found xx large main document clusters.
 
 - We found several document outliers that look different to all the other documents and would be worth special review. 
@@ -150,6 +153,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* The spirit of the thing is well captured at https://doriantaylor.com/skeleton-organs-circulation-sinew-skin
+* The spirit of the thing is well captured by [Dorian Taylor](https://doriantaylor.com/skeleton-organs-circulation-sinew-skin)
 
 
