@@ -8,19 +8,19 @@
 -apply notebooks 6-8,15
 ## Extract highest scoring words from ONR library
 - scored with TextRank algorithm
-/images/Keywords-for-whole-library.png
+/Jupyter-notebooks/images/Keywords-for-whole-library.png
 ## Extract relationships between keywords
 - start a few top-scoring words
 - remove unhelpful words like 'include'
 - algorithm also shows relationships between keywords
 - show these relationships
-/images/Knowledge-graph-from-keywords-1.png
+/Jupyter-notebooks/images/Knowledge-graph-from-keywords-1.png
 ## View the graph for useful patterns
 - reinforce patterns by changing nodes and edges and labels.
 - here,keywords were grouped into three meaningful clusters
-/images/knowledge-graph-2.png
+/Jupyter-notebooks/images/knowledge-graph-2.png
 - this is the schema view of the same
-/images/graph-schema-2.png
+/Jupyter-notebooks/images/graph-schema-2.png
 - it shows that we have added three labels for these clusters
 	- e.g. we have used the orange label 'requirement' to cluster:
 		- safety
@@ -42,15 +42,15 @@
 ## Use 'human-in-the-loop' filtering of keywords and topics
 - e.g. here, we select 'plan' as concept, but discard 'level'
 - we add the new concepts into the Knowledge Graph
-/images/Keyword-graph-3.png
+/Jupyter-notebooks/images/Keyword-graph-3.png
 - we reinforce patterns: here deciding that
 	- several concepts are part of the OpModel
 	- two concepts are requirements
 	- one concept is site/stakeholder related
 - this time have decided to retain the same labels
 - so the schema view is the same
-/images/graph-schema-2.png
-+++
+/Jupyter-notebooks/images/graph-schema-2.png
+<!--BREAK-->
 # 2. Automated Topic Modelling
 -Applying to ONR library
 -apply notebooks 9,12,13
@@ -66,21 +66,22 @@
 ## Inspect topic results
 *Topic 0 words*
 - This topic is focussed around supply chain, security and operations
-/images/topic0.png
+/Jupyter-notebooks/images/topic0.png
 
 *Topic 1 words*
 - This topic is focussed around technology, change and safety
-/images/topic 1.png
+
+/Jupyter-notebooks/images/topic1.png
 
 -In this case, documents partition strongly between topics
 
-<img src="images/spread-of-topic-by-document.png" width="150">
+<img src="Jupyter-notebooks/images/spread-of-topic-by-document.png" width="150">
 
 ## Reinforce topic patterns by adding edges
  - each topic was sketched on paper in a way that made sense at the time
  - obvious links were made between the topic words
-/images/topic-graph.png
-+++
+/Jupyter-notebooks/images/topic-graph.png
+<!--BREAK-->
 # 3. Knowledge graph creation.
 -install Neo4j Desktop or set up a Neo4j sandbox
 -apply notebooks 14,16
@@ -94,24 +95,24 @@ where there are:
 -  relationships between success factors
 -  between project services
 -  between a success factor and a project task
-/images/Step-14-KG-comparator.png
+/Jupyter-notebooks/images/Step-14-KG-comparator.png
 - nodes are labelled accordingly
 - this is the schema for the above graph
-/images/schema-for-Success-paper.png
-+++
+/Jupyter-notebooks/images/schema-for-Success-paper.png
+<!--BREAK-->
 ## Combine the graphs
 - for the ONR library, two graphs have already been created
 	- one from keywords
 	- one from topic model
 - These are added, so there are three separate graphs
 - these are three similar but different representations of projects in the sector
-/images/3-graphs-together-1.png
+/Jupyter-notebooks/images/3-graphs-together-1.png
 - this is the schema for the above graph
 - the labels are the same as from the input graphs
 
-<img src="images/Combined_graph_schema.png" width="250">
+<img src="Jupyter-notebooks/images/Combined_graph_schema.png" width="250">
 
-+++
+<!--BREAK-->
 ## View the graph for useful patterns
 - seek acceptable interpretations of the knowledge graph
 - reinforce these patterns by changing nodes, edges and labels.
@@ -120,30 +121,33 @@ where there are:
 	 - combine duplicate concepts
 	 - relabel concepts 
 	 - lose direct relationships where there already is an indirect relationship.
+
+> Clusters can be a cue to create a label. Also, by moving around nodes into natural places, one will sometimes find a natural hierarchy emerging across some of the nodes. Sometimes this can then be the cue to create a label for the topmost node in this natural hierarchy, which can then be applied to this sub-set of nodes. 
+
 In this case, for example, we remove topics as a label, and decide that stakeholders would understand the graph best as a hierarchy in this order:
 
 > (requirements)-->(success_factor)-->(project_service)-->(site or stakeholder) 
 
 We arrived at that by moving nodes around until it looked like this: 
-/images/strategic-view.png
-+++
+/Jupyter-notebooks/images/strategic-view.png
+<!--BREAK-->
 ## Reaching Output 1: Project plan
 A project-management view focusses on tasks needed. Each node was reviewed, and given a boolean property as to whether the node was a task(or implied a task). For those which are tasks - another property was added, which described that task. Displaying this sub-graph looks like this:
-/images/combined_graph_WBS_linear_view.png
+/Jupyter-notebooks/images/combined_graph_WBS_linear_view.png
 -this view has been organised by success-factor.
 When a Cypher query is run to find only these tasks- then this becomes a work breakdown structure
-+++
+<!--BREAK-->
 ## Reaching Output 2: Project documentation list
 In just the same way, we identify which nodes are also associated with a project document. We add a boolean property flagging this, and we also add a node property for these nodes which is a document description.
 The image below shows all the documents. It is the result of running a query for all nodes where the boolean property is 1. 
-/images/project_data_items-4way-view.png
+/Jupyter-notebooks/images/project_data_items-4way-view.png
 The way the documents are spread out below shows how the user interacts with query results, moving nodes around, looking for project-like patterns. 
 In this particular case, the user has identified a meaningful pattern by pulling apart the documents into four clusters:
 1. high level definitions
 2. site specific 
 3. design and system descriptions
 4. stakeholder and controls documents. 
-+++
+<!--BREAK-->
 ## Reaching Output 3: Feature list for project work-packages
 This exercise has highlighted a number of features relevant to successful DeCom projects within an ONR environment. These can be identified by running a query asking for all nodes which are neighbours to project_service nodes. 
 
@@ -178,11 +182,11 @@ Some of these features will appear in reports and dashboards.
 
 *Why?* 
 These features are a key element of the data model for the project, to represent the special characteristics of projects in this business domain. 
-+++
+<!--BREAK-->
 ## Reaching Output 4: Table of Contents for the Project Strategy
 Many different slices of the project strategy can be proposed. For instance, if we are interested in 'Waste route' strategy, then we can run a query that asks for all nodes that are one or two 'hops' away from that node. That provides a starting point:
 
-<img src="images/2-hop-view-partial-for-waste-routes.png" width="250">
+<img src="Jupyter-notebooks/images/2-hop-view-partial-for-waste-routes.png" width="250">
 
 As noted above, we have already decided the simplest overall strategy which all stakeholders will understand in this case will be one which asserts this hierarchy:
  1. requirements
@@ -192,7 +196,7 @@ As noted above, we have already decided the simplest overall strategy which all 
 
 We run a Cypher query for this hierarchy and it looks like this.
 
- <img src="images/Strategy_TOC.png" width="120">
+ <img src="Jupyter-notebooks/images/Strategy_TOC.png" width="120">
  
  Alternative strategy structures could have been:
 1. one for finance with the business/financial'requirement' nodes at top level

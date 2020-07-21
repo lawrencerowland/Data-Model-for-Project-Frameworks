@@ -26,7 +26,9 @@ For simplicity, this one starts from documents as text files and internet pages.
 - proposes a data-model for the portfolio, based upon these findings 
 
 # Example-results
-These results are short extracts from the [Interim-results folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results) which shows the results applied to the nuclear example. 
+For a full worked example, based on setting up project controls for a nuclear Decommissioning project, go [here](Full_worked_example.md)
+
+In addition, immediately below are a few early results that only require running 1 or 2 of the early steps. These results are short extracts from the [Interim-results folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results) which shows the results applied to the nuclear example. 
 
 ## Automatic summary of each document
 
@@ -38,6 +40,8 @@ These results are short extracts from the [Interim-results folder](https://githu
 
 ***For the Commissioning of security systems and infrastructure document***
 
+|     |Top results     |    |
+|:--|:--|:--|
 |security     |secure      |securely     |
 |regulates    |regulations |regulation   |
 |commissioning|commissioned|             | 
@@ -45,7 +49,7 @@ These results are short extracts from the [Interim-results folder](https://githu
 |document     | documents  |documentation|
 |nuclear      |            |             |
 |onr          |            |             |    
-| refer       |refers      |             |       
+| refer       |refers      |             |      
 
 ## Keywords for the whole library
 This is the top few, but you can set how many you require. 
@@ -76,7 +80,7 @@ For example, if one chooses to do it in Conda:
 
 Or if one is using the Python Venv module
 
-1. Create module (eg. ‘ensim_Env’)
+1. Create module (eg. ‘Gensim_Env’)
 
 1. Activate using source Gensim_Env/bin/activate in terminal
 
@@ -92,6 +96,8 @@ The user can go straight to the [notebook folder](https://github.com/lawrencerow
 
 Otherwise it is suggested to move straight down to **[How-to-use](#How-to-use)**| to get started.There is a list of steps, which also shows which are optional. Each step has its own notebook, which explains the step and provides the code,and shows an example. 
 
+Or one can go through a full worked example[here](Full_worked_example.md)
+
 Attributes and adjustments are included immediately below for ease of reference, but best consulted after using the notebook.
 To see which steps you want to use first, you can look at the [Interim-results folder](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/tree/master/Project-frameworks-by-using-NLP-with-Python-libraries/Interim-results) which shows the results applied to the nuclear example. 
 
@@ -103,13 +109,10 @@ To see which steps you want to use first, you can look at the [Interim-results f
 - for Topic model, starts from Bag of Words model, as an interim step only
 - It uses TFIDF model only as an interim step to LSI only
 - for similarity-search, it uses cosine similarity, based upon TFIDF model
-
 # Attributes you can find in the other notebooks
 - Using other libraries than Gensim
 - creates corpus at paragraph level or sentence level
 - similarity from LSI rather than just TFIDF
-
-
 # How-to-use 
 
 ## Sequence of steps
@@ -120,29 +123,26 @@ However the optional early steps, such as 3 and 4, are very useful in getting an
 
 One route through has been shown by the steps marked bold below. These steps focus on the topic modelling. 
 
-| #  | Step                                       | Link                                                                                                     |
-| ----- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1     | Handle pdfs                                   | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      |
-| 2     | Handle internet pages                         | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |
-| 3     | Discover keywords for each document           |  [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-3-Summaries-for-each-document.ipynb)                                                                                                 |
-| 4     | Prepare automatic summaries for each document | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-4-Keywords-for-each-document.ipynb)                                                                                               |
-| 5     | **Create one library**                        |      [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-5-Create-one-library.ipynb)                                                                                                  |
-| 6     |Discover keywords across whole library         |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-6-Discover-keywords-whole-library.ipynb)|
-| 7     | Create knowledge graph from keywords          |                                                                                                    [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-7-knowledge-graph-from-keywords.ipynb)
-|
-| 8     | **Outline the business domain**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-8-Outline-the-business-domain.ipynb)|
-| 9     | **Create TFIDF model**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-9-Create_TFIDF_model.ipynb)|
-| 10     | How similar are these documents?                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-How-similar-are-these-documents.ipynb)|
-| 11     | Similarity for a fresh text                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Similarity_for_a_fresh_text.ipynb)|
-| 12     | **Create topic model**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Create_topic_model.ipynb)|
-|
-| 13     | **Create Knowledge Graph from topic models**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-13-Create-KG-from_topic-models.ipynb)|
-|
-| 14     | Create any new_Knowledge Graphs for comparisons                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-14-Create_any_new_KGs_for_comparison.ipynb)|
-|
-| 15     | Extend KG with more keywords                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-15-Extend-KG-with-more-keywords.ipynb)|
-|
-| 16     | **Combine Knowledge Graphs**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-16-Combine_KGs.ipynb)|
+The table also indicates which steps are required to run  the working example: of Success Factors and ONR applied to a Decommissioning project. The example is written up [here](Full_worked_example.md)
+
+| #  | Step                                       | Link                                                                                                     | Success factor example |
+| ----- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |-----------|
+| 1     | Handle pdfs                                   | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-1-handle-pdfs.ipynb)      | Yes|
+| 2     | Handle internet pages                         | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-2-collect-internet.ipynb) |No|
+| 3     | Discover keywords for each document           |  [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-3-Summaries-for-each-document.ipynb)                                                                                                 |No|
+| 4     | Prepare automatic summaries for each document | [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-4-Keywords-for-each-document.ipynb)                                                                                               |No|
+| 5     | **Create one library**                        |      [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-5-Create-one-library.ipynb)  |Yes|                                                                                             
+| 6     |Discover keywords across whole library         |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-6-Discover-keywords-whole-library.ipynb)|Yes|
+| 7     | Create knowledge graph from keywords          |                                                                                                    [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-7-knowledge-graph-from-keywords.ipynb)|Yes|
+| 8     | **Outline the business domain**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-8-Outline-the-business-domain.ipynb)|Yes|
+| 9     | **Create TFIDF model**                   |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-9-Create_TFIDF_model.ipynb)|Yes|
+| 10     | How similar are these documents?                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-How-similar-are-these-documents.ipynb)|No|
+| 11     | Similarity for a fresh text                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Similarity_for_a_fresh_text.ipynb)|No|
+| 12     | **Create topic model**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-10-Create_topic_model.ipynb)|Yes|
+| 13     | **Create Knowledge Graph from topic models**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-13-Create-KG-from_topic-models.ipynb)|Yes|
+| 14     | Create any new_Knowledge Graphs for comparisons                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-14-Create_any_new_KGs_for_comparison.ipynb)|Yes|
+| 15     | Extend KG with more keywords                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-15-Extend-KG-with-more-keywords.ipynb)|Yes|
+| 16     | **Combine Knowledge Graphs**                |                                                                                                        [notebook](https://github.com/lawrencerowland/Data-Model-for-Project-Frameworks/blob/master/Project-frameworks-by-using-NLP-with-Python-libraries/Jupyter-notebooks/Step-16-Combine_KGs.ipynb)|Yes|
 
 # Future directions
 1. *better strategic alignment* via simultaneous multiple strategic views at any one time. Each view reflects a different stakeholder perspective of what matters. 
