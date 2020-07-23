@@ -17,9 +17,7 @@
 3. Feature list for project work-packages
 4. Table of Contents for the Project Strategy
 
-## Inputs
-1. A paper identifying success factors for this type of project
-2. A library of relevant guidance / regulations
+
 
 # Abstract
 Projects are often controlled with plans, documentation lists, feature lists and strategies. We demonstrate how to create these artefacts from document libraries and a list of project success-characteristics. These sources are specific to the sector and organisation in question. In this way, we generate slim project-management artefacts that are both consistent and applicable to the project context. This is done by using natural language processing to generate a knowledge graph which generates the four artefacts. This worked-example looks at the project characteristics for a UK nuclear decommissioning project. 
@@ -27,6 +25,10 @@ Projects are often controlled with plans, documentation lists, feature lists and
 1. Automated Keyword extraction
 2. Automated Topic Modelling
 3. Knowledge graph creation. 
+
+## Inputs
+1. A paper identifying success factors for this type of project
+2. A library of relevant guidance / regulations
 
 ## Keywords
 project management, project controls, project set-up, project strategy, project innovation, project characterisation, project data models, machine learning, topic models, natural language processing, graph database, design thinking, knowledge graphs.
@@ -94,12 +96,15 @@ The project strategy assists:
 - stakeholder groups to understand the business justification
 - the team to understand the method of execution. 
 
-> The output is a Table of Contents for the strategy.
+*The output is a Table of Contents for the strategy.*
 
-<img src="Jupyter-notebooks/images/Strategy_TOC.png" height="40%" width="50%">
+<img src="Jupyter-notebooks/images/Strategy_TOC.png" width="500"/>
+
+<!--BREAK-->
 
 The structure should reflect the characteristics of project success in the business domain as well as the language and interests of the strategy consumers. 
-## Table of Contents as file
+
+*Table of Contents as file*
 
 | Level 1 REQUIREMENT                    | Level 2 SUCCESS FACTOR          | Level 3 PROJECT SERVICE               | Level 4 SITE FEATURE         |
 | ------------------------------ | ----------------------- | ----------------------------- | -------------------- |
@@ -148,7 +153,7 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 
 # Infographic
 
-&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <image src="Jupyter-notebooks/images/2020-locatelli-cover.png" width="80" height="50"/> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <image src="Jupyter-notebooks/images/ONR_documents_as_library.png" width="100" height="50"/>
+&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <image src="Jupyter-notebooks/images/ONR_documents_as_library.png" width="100" height="50"/> &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <image src="Jupyter-notebooks/images/2020-locatelli-cover.png" width="80" height="50"/>
 
 <br/>
 
@@ -156,7 +161,7 @@ The UK Office of Nuclear Regulation  publishes a set of [technical guidance](htt
 
 <br/>
 
-<img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="120"> &nbsp; &nbsp; <img src="Jupyter-notebooks/images/short_list_of_docs.png" width="120">  &nbsp; <img src="Jupyter-notebooks/images/trimmed_Project_data_model.png" width="110"> &nbsp; &nbsp; <img src="Jupyter-notebooks/images/Strategy_TOC.png" width="90">
+<img src="Jupyter-notebooks/images/WBS_items_w_relationships.png" width="120"> &nbsp; &nbsp; <img src="Jupyter-notebooks/images/short_list_of_docs.png" width="120"> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <img src="Jupyter-notebooks/images/trimmed_Project_data_model.png" width="110"> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  <img src="Jupyter-notebooks/images/Strategy_TOC.png" width="90">
 
 ## Business challenge
 - Project structure is sometimes copied from project to project
