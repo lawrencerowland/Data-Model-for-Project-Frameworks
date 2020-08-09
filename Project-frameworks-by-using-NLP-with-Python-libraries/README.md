@@ -69,7 +69,7 @@ For example, if one chooses to do it in Conda:
 
 1. Install Miniconda
 
-1. Create GENSIM_ENV environment with an appropriate Python version
+1. Create GENSIM_ENV environment with an appropriate Python version 
 
 1. Install Gensim dependencies. Currently these are NumPy then SciPy and then Gensim 
 
@@ -80,9 +80,9 @@ For example, if one chooses to do it in Conda:
 
 Or if one is using the Python Venv module
 
-1. Create module (eg. ‘Gensim_Env’)
+1. Create module (eg. ‘Gensim_Env’) by **python3 -m venv Gensim_Env**
 
-1. Activate using source Gensim_Env/bin/activate in terminal
+1. Activate using **source Gensim_Env/bin/activate** in terminal
 
 1. start jupyter lab 
 (one may need to also activate the Env again once in Jupyter lab)
