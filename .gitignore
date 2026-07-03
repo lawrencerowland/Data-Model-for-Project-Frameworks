@@ -1,34 +1,14 @@
+.DS_Store
+**/.DS_Store
 
-.DS_Store
-.DS_Store
-images/.DS_Store
-P3M-content-first-framework/.DS_Store
-Project-frameworks-by-using-NLP-with-Python-libraries/.DS_Store
-Project-frameworks-by-using-NLP-with-Python-libraries/.DS_Store
-.DS_Store
-P3M-content-first-framework/.DS_Store
-P3M-content-first-framework/Deploying-a-framework/.DS_Store
-Project-frameworks-by-using-NLP-with-Python-libraries/.DS_Store
-P3M-content-first-framework/.DS_Store
-P3M-content-first-framework/01 Governance services/.DS_Store
-P3M-content-first-framework/Deploying-a-framework/.DS_Store
-Project-frameworks-by-using-NLP-with-Python-libraries/.DS_Store
-.DS_Store
-P3M-content-first-framework/.DS_Store
-P3M-content-first-framework/02 Reporting & Control measures/.DS_Store
-P3M-content-first-framework/03 Assurance and Project support/.DS_Store
-P3M-content-first-framework/Deploying-a-framework/.DS_Store
-P3M-content-first-framework/More-about-this-framework/.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-images/.DS_Store
-P3M-content-first-framework/.DS_Store
-P3M-content-first-framework/01 Governance services/.DS_Store
-P3M-content-first-framework/01 Governance services/01 Strat alignment/.DS_Store
-P3M-content-first-framework/01 Governance services/04 Pipe Mgt/.DS_Store
-P3M-content-first-framework/01 Governance services/04 Pipe Mgt/4 Semi frequent tasks/.DS_Store
-P3M-content-first-framework/02 Reporting & Control measures/.DS_Store
-Project-frameworks-by-using-NLP-in-Orange-Datamining/.DS_Store
-Project-frameworks-by-using-NLP-with-Python-libraries/.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+.env
+
+private/
+working/
+local/
